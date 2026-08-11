@@ -1,0 +1,24 @@
+B3 Admission-only Preliminary Calibration
+
+Workload: 100 UEs at 50 ms inter-arrival
+AMF replicas: 1
+Admission rate: 15 registrations/second
+Token bucket capacity: 5
+Autoscaling: Disabled
+
+Unique UEs started: 100
+Unique UEs completed: 100
+Unique success ratio: 100.00%
+Registration Accept events: 103
+Registration Reject events: 0
+
+P50 AMF-visible latency: 4231.501 ms
+P95 AMF-visible latency: 6447.581 ms
+P99 AMF-visible latency: 7456.824 ms
+Maximum latency: 7908.354 ms
+
+Interpretation:
+Admission-only protected the registration path and achieved full
+unique completion without reject events, but increased registration
+latency because requests were deliberately paced before reaching AMF.
+This is preliminary calibration evidence, not a final repeated result.
