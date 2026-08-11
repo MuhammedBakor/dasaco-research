@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: open5glos
+  namespace: free5gc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      nf: open5glos
+  template:
+    metadata:
+      labels:
+        nf: open5glos
+    spec:
+      serviceAccountName: open5glos
+      containers:
+        - name: open5glos
+          image: open5glos:34ac66c
+          imagePullPolicy: IfNotPresent
+          args:
+            - /etc/5glos/config.yaml
+          ports:
+            - name: ngap
+              containerPort: 38412
+              protocol: SCTP
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
+          volumeMounts:
+            - name: config
+              mountPath: /etc/5glos
+              readOnly: true
+      volumes:
+        - name: config
+          configMap:
+            name: 5glos-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: open5glos
+  namespace: free5gc
+spec:
+  type: NodePort
+  selector:
+    nf: open5glos
+  ports:
+    - name: ngap
+      port: 38412
+      targetPort: 38412
+      nodePort: 30412
+      protocol: SCTP

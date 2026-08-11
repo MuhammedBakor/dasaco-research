@@ -1,0 +1,22 @@
+B2 Open5GLoS Preliminary Calibration
+
+Started UEs: 100
+Registration Accept events: 100
+Registration Reject events: 1
+Fatal errors: 0
+
+Initial UE distribution:
+AMF 6rn4c: 56
+AMF nm24j: 22
+AMF pf7kf: 22
+
+AMF processing:
+6rn4c: 56 Start Authentication, 57 Registration Accept events
+nm24j: 22 Start Authentication, 22 Registration Accept events
+pf7kf: 22 Start Authentication, 21 Registration Accept events
+
+Interpretation:
+Open5GLoS distributed registration processing across all three AMF replicas.
+The distribution was functional but uneven.
+One transient reject event was followed by a successful registration event.
+This is calibration evidence, not a final repeated comparative result.
