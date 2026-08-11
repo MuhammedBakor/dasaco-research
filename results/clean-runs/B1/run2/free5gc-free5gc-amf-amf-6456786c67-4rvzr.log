@@ -1,0 +1,25 @@
+2026-08-11T12:21:02.238143915Z[36m [INFO][AMF][Main] [0mAMF version:  
+	free5GC version: v4.2.3
+	build time:      2026-06-30T05:42:57Z
+	commit hash:     2962b9fd
+	commit time:     2026-06-24T09:25:45Z
+	go version:      go1.26.2 linux/amd64
+2026-08-11T12:21:02.239061395Z[36m [INFO][AMF][CFG] [0mRead config from [./config/amfcfg.yaml]
+2026-08-11T12:21:02.245545960Z[36m [INFO][AMF][Main] [0mLog enable is set to [true]
+2026-08-11T12:21:02.245601444Z[36m [INFO][AMF][Main] [0mLog level is set to [info]
+2026-08-11T12:21:02.245615190Z[36m [INFO][AMF][Main] [0mReport Caller is set to [false]
+2026-08-11T12:21:02.246383771Z[36m [INFO][AMF][SBI] [0mBinding addr: [0.0.0.0:8080]
+2026-08-11T12:21:02.246507924Z[36m [INFO][AMF][Util] [0mamfconfig Info: Version[1.0.9]
+2026-08-11T12:21:02.246615205Z[36m [INFO][AMF][Init] [0mInitializing NGAP worker pool with 0 workers (buffer size: 1000)
+2026-08-11T12:21:02.246682671Z[36m [INFO][AMF][Ngap] [0mInitializing UE Scheduler with 6 workers
+2026-08-11T12:21:02.246811633Z[36m [INFO][AMF][Ngap] [0mGlobal UE Scheduler initialized with 6 workers, buffer size 1000
+2026-08-11T12:21:02.246892304Z[36m [INFO][AMF][Init] [0mServer started
+2026-08-11T12:21:02.262256959Z[36m [INFO][AMF][Ngap] [0mWorker 0 started
+2026-08-11T12:21:02.262324416Z[36m [INFO][AMF][Ngap] [0mWorker 1 started
+2026-08-11T12:21:02.262342590Z[36m [INFO][AMF][Ngap] [0mWorker 2 started
+2026-08-11T12:21:02.262352218Z[36m [INFO][AMF][Ngap] [0mWorker 3 started
+2026-08-11T12:21:02.262361986Z[36m [INFO][AMF][Ngap] [0mWorker 4 started
+2026-08-11T12:21:02.262374289Z[36m [INFO][AMF][Ngap] [0mWorker 5 started
+2026-08-11T12:21:02.264222474Z[36m [INFO][AMF][Ngap] [0mListen on 127.0.0.1/[::1%lo]/10.244.0.59/[fe80::a85e:daff:fee3:59a6%eth0]:38412
+2026-08-11T12:21:02.314879861Z[36m [INFO][AMF][Main] [0mOAuth2 setting receive from NRF: false
+2026-08-11T12:21:02.314982343Z[36m [INFO][AMF][SBI] [0mStart SBI server (listen on 0.0.0.0:8080)

@@ -1,0 +1,944 @@
+===== 2026-08-11T20:06:15+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         1          3m9s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          15Mi            
+===== 2026-08-11T20:06:18+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         1          3m12s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          15Mi            
+===== 2026-08-11T20:06:20+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         1          3m14s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          15Mi            
+===== 2026-08-11T20:06:23+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 44%/50%   1         5         1          3m17s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          15Mi            
+===== 2026-08-11T20:06:25+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 44%/50%   1         5         1          3m19s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          15Mi            
+===== 2026-08-11T20:06:28+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 44%/50%   1         5         1          3m22s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          15Mi            
+===== 2026-08-11T20:06:30+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 44%/50%   1         5         1          3m25s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          15Mi            
+===== 2026-08-11T20:06:33+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 44%/50%   1         5         1          3m27s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:36+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 44%/50%   1         5         1          3m30s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:38+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         1          3m32s
+NAME                                       READY   STATUS     RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   0/1     Init:0/1   0          1s    10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running    0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   0/1     Init:0/1   0          1s    10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:41+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         1          3m35s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   0/1     Running   0          4s    10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   0/1     Running   0          4s    10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:43+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         1          3m37s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   0/1     Running   0          6s    10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   0/1     Running   0          6s    10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:45+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         1          3m40s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   0/1     Running   0          9s    10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   0/1     Running   0          9s    10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:48+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         1          3m42s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   0/1     Running   0          11s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   0/1     Running   0          11s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:50+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         1          3m44s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          14s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          14s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:53+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         3          3m47s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          16s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          16s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:55+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         3          3m49s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          19s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          19s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:06:58+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         3          3m52s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          21s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          34m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          21s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:07:00+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         3          3m54s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          23s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          23s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc              139m         47Mi            
+===== 2026-08-11T20:07:03+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         3          3m57s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          26s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          26s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              24m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              110m         42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              25m          7Mi             
+===== 2026-08-11T20:07:05+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 139%/50%   1         5         3          3m59s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          28s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          28s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              24m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              110m         42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              25m          7Mi             
+===== 2026-08-11T20:07:07+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 110%/50%   1         5         3          4m2s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          31s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          31s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              24m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              110m         42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              25m          7Mi             
+===== 2026-08-11T20:07:10+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 110%/50%   1         5         3          4m4s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          33s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          33s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              24m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              110m         42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              25m          7Mi             
+===== 2026-08-11T20:07:12+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 110%/50%   1         5         3          4m6s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          36s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          36s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              24m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              110m         42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              25m          7Mi             
+===== 2026-08-11T20:07:15+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 110%/50%   1         5         3          4m9s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          38s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          38s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              24m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              110m         42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              25m          7Mi             
+===== 2026-08-11T20:07:17+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 110%/50%   1         5         3          4m11s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          40s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          40s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              36m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              45m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:07:20+08:00 =====
+NAME      REFERENCE                            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 110%/50%   1         5         3          4m14s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          43s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          43s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              36m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              45m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:07:22+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          4m16s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          45s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          45s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              36m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              45m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:07:24+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          4m19s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          48s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          48s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              36m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              45m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:07:27+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          4m21s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          50s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          50s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              36m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              45m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:07:29+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          4m23s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          53s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          53s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              36m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              45m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:07:32+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          4m26s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          55s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          55s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              36m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              45m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:07:34+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          4m28s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          57s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          57s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:37+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          4m31s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          60s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          60s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:39+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          4m33s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          62s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          62s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:41+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          4m35s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          65s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          65s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:44+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          4m38s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          67s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          67s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:46+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          4m40s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          69s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          69s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              44m          42Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:49+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          4m43s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          72s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          72s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:51+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          4m45s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          74s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          74s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:53+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 36%/50%   1         5         3          4m48s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          77s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          77s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:56+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 36%/50%   1         5         3          4m50s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          79s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          79s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:07:58+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 36%/50%   1         5         3          4m52s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          82s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          35m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          82s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:08:01+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 36%/50%   1         5         3          4m55s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          84s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          84s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              35m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              34m          7Mi             
+===== 2026-08-11T20:08:03+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 36%/50%   1         5         3          4m57s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          86s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          86s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          7Mi             
+===== 2026-08-11T20:08:06+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 36%/50%   1         5         3          5m
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          89s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          89s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          7Mi             
+===== 2026-08-11T20:08:08+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m2s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          91s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          91s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          7Mi             
+===== 2026-08-11T20:08:10+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m5s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          94s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          94s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          7Mi             
+===== 2026-08-11T20:08:13+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m7s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          96s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          96s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          7Mi             
+===== 2026-08-11T20:08:15+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m9s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          99s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          99s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          7Mi             
+===== 2026-08-11T20:08:18+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m12s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          101s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          101s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              40m          7Mi             
+===== 2026-08-11T20:08:20+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m14s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          103s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          103s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              40m          7Mi             
+===== 2026-08-11T20:08:23+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m17s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          106s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          106s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              40m          7Mi             
+===== 2026-08-11T20:08:25+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m19s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          108s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          108s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              40m          7Mi             
+===== 2026-08-11T20:08:27+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m22s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          111s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          111s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              40m          7Mi             
+===== 2026-08-11T20:08:30+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m24s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          113s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          113s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              40m          7Mi             
+===== 2026-08-11T20:08:32+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m26s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          116s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          116s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:35+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          5m29s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          118s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          118s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:37+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m31s
+NAME                                       READY   STATUS    RESTARTS   AGE   IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m    10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m   10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m    10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:40+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m34s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m3s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m3s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:42+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m36s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m5s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m5s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:44+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m39s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m8s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m8s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:47+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m41s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m10s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m10s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          24Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:49+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m43s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m13s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m13s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:52+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m46s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m15s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m15s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:54+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m48s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m17s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m17s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:57+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m51s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m20s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m20s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:08:59+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m53s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m22s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          36m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m22s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:09:01+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m56s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m25s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m25s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              39m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:09:04+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          5m58s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m27s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m27s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:09:06+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m1s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m30s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m30s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:09:09+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m3s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m32s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m32s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:09:11+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m5s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m35s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m35s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:09:14+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m8s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m37s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m37s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:09:16+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m10s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m39s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m39s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              37m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              39m          7Mi             
+===== 2026-08-11T20:09:19+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m13s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m42s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m42s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              38m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              36m          7Mi             
+===== 2026-08-11T20:09:21+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m15s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m44s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m44s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              38m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              36m          7Mi             
+===== 2026-08-11T20:09:23+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m17s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m47s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m47s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              38m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              36m          7Mi             
+===== 2026-08-11T20:09:26+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m20s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m49s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m49s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              38m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              36m          7Mi             
+===== 2026-08-11T20:09:28+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m22s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m51s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m51s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              38m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              36m          7Mi             
+===== 2026-08-11T20:09:31+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m25s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m54s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m54s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              38m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              36m          7Mi             
+===== 2026-08-11T20:09:33+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m27s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m56s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m56s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              40m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:09:35+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 37%/50%   1         5         3          6m30s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          2m59s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          2m59s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              40m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:09:38+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m32s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m1s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m1s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              40m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:09:40+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m34s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m4s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m4s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              40m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:09:43+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m37s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m6s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m6s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              40m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:09:45+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m39s
+NAME                                       READY   STATUS    RESTARTS   AGE    IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m8s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m    10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m8s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              40m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              37m          7Mi             
+===== 2026-08-11T20:09:48+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m42s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m11s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m11s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              42m          7Mi             
+===== 2026-08-11T20:09:50+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m44s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m13s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m13s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              42m          7Mi             
+===== 2026-08-11T20:09:52+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m47s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m16s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m16s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              42m          7Mi             
+===== 2026-08-11T20:09:55+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m49s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m18s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m18s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              42m          7Mi             
+===== 2026-08-11T20:09:57+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m51s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m21s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          37m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m21s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              42m          7Mi             
+===== 2026-08-11T20:10:00+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m54s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m23s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          38m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m23s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              40m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              37m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              42m          7Mi             
+===== 2026-08-11T20:10:02+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m56s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m25s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          38m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m25s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          11Mi            
+===== 2026-08-11T20:10:05+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 39%/50%   1         5         3          6m59s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m28s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          38m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m28s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          11Mi            
+===== 2026-08-11T20:10:07+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          7m1s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m30s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          38m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m30s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          11Mi            
+===== 2026-08-11T20:10:10+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          7m4s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m33s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          38m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m33s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          11Mi            
+===== 2026-08-11T20:10:12+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          7m6s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m35s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          38m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m35s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          11Mi            
+===== 2026-08-11T20:10:14+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          7m9s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m38s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          38m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m38s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          11Mi            
+===== 2026-08-11T20:10:17+08:00 =====
+NAME      REFERENCE                            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+amf-hpa   Deployment/free5gc-free5gc-amf-amf   cpu: 38%/50%   1         5         3          7m11s
+NAME                                       READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+free5gc-free5gc-amf-amf-6456786c67-4z4w6   1/1     Running   0          3m40s   10.244.0.56   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-h27bc   1/1     Running   0          38m     10.244.0.55   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-z6qp7   1/1     Running   0          3m40s   10.244.0.57   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-6456786c67-4z4w6              39m          7Mi             
+free5gc-free5gc-amf-amf-6456786c67-h27bc              38m          22Mi            
+free5gc-free5gc-amf-amf-6456786c67-z6qp7              38m          11Mi            

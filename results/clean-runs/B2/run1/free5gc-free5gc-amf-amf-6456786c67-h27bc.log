@@ -1,0 +1,1076 @@
+2026-08-11T12:43:39.677792273Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:39.678064553Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:3][AmfUeNgapID:401]
+2026-08-11T12:43:39.678108065Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013004", err: <nil>]
+2026-08-11T12:43:39.678529135Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000191]
+2026-08-11T12:43:39.678579088Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:39.678598204Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:39.678612341Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:39.678629453Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013004]
+2026-08-11T12:43:39.678653728Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:39.678666452Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:39.757594067Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:39.758009055Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:39.761034197Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:39.761093378Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:4][AmfUeNgapID:402]
+2026-08-11T12:43:39.761123745Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013005", err: <nil>]
+2026-08-11T12:43:39.768817952Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:39.768985156Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000192]
+2026-08-11T12:43:39.769053634Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:39.769159082Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:39.769209576Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:39.769243590Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013005]
+2026-08-11T12:43:39.769308231Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:39.769339129Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:39.860416226Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:39.860479364Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:39.861120446Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:39.865127660Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:39.865155452Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 3)
+2026-08-11T12:43:39.865197992Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:39.865204514Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:39.865210646Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:39.955012932Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:39.955070751Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mSend Security Mode Command
+2026-08-11T12:43:39.955117578Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:39.955307334Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mStart T3560 timer
+2026-08-11T12:43:39.956758024Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:39.956787729Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 4)
+2026-08-11T12:43:39.956841150Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:39.956849565Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:39.956858562Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:40.061328831Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:40.061443846Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mSend Security Mode Command
+2026-08-11T12:43:40.061470707Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:40.061594519Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mStart T3560 timer
+2026-08-11T12:43:40.068637935Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:40.068798817Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 3)
+2026-08-11T12:43:40.068858739Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:40.068868628Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mHandle Security Mode Complete
+2026-08-11T12:43:40.068879849Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mStop T3560 timer
+2026-08-11T12:43:40.068904295Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:40.068912931Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mHandle InitialRegistration
+2026-08-11T12:43:40.267580980Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:40.267634270Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 4)
+2026-08-11T12:43:40.267712597Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:40.267723057Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mHandle Security Mode Complete
+2026-08-11T12:43:40.267731152Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mStop T3560 timer
+2026-08-11T12:43:40.267763923Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:40.267771397Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mHandle InitialRegistration
+2026-08-11T12:43:40.474644028Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:40.474757310Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:14][AmfUeNgapID:403]
+2026-08-11T12:43:40.474798257Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013015", err: <nil>]
+2026-08-11T12:43:40.475110893Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000193]
+2026-08-11T12:43:40.475208787Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:40.475224376Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:40.475265273Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:40.475277065Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013015]
+2026-08-11T12:43:40.475295369Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:40.475340394Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:40.683984144Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:40.684096886Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:21][AmfUeNgapID:404]
+2026-08-11T12:43:40.684132453Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013022", err: <nil>]
+2026-08-11T12:43:40.684404092Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000194]
+2026-08-11T12:43:40.684491115Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:40.684505302Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:40.684515140Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:40.684533545Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013022]
+2026-08-11T12:43:40.684552019Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:40.684570033Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:40.892168836Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:40.892290574Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:22][AmfUeNgapID:405]
+2026-08-11T12:43:40.892350737Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013023", err: <nil>]
+2026-08-11T12:43:40.892614742Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000195]
+2026-08-11T12:43:40.892662903Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:40.892673262Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:40.892687950Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:40.892698870Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013023]
+2026-08-11T12:43:40.892716994Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:40.892725811Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:40.900077665Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:40.900251782Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:25][AmfUeNgapID:406]
+2026-08-11T12:43:40.900309210Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013026", err: <nil>]
+2026-08-11T12:43:40.900656331Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000196]
+2026-08-11T12:43:40.900871494Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:40.900897012Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:40.900925595Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:40.900940954Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013026]
+2026-08-11T12:43:40.900972473Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:40.901310738Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:40.986476209Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:40.991595368Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.008204931Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:41.015638078Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.015710294Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:27][AmfUeNgapID:407]
+2026-08-11T12:43:41.015740531Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013028", err: <nil>]
+2026-08-11T12:43:41.015979669Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000197]
+2026-08-11T12:43:41.016030835Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.016046464Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.016057815Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.016073024Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013028]
+2026-08-11T12:43:41.016097330Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.016107268Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:41.062136391Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:41.062206202Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.062598778Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:41.062687485Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.062724454Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:20][AmfUeNgapID:408]
+2026-08-11T12:43:41.062749691Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013021", err: <nil>]
+2026-08-11T12:43:41.063008236Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000198]
+2026-08-11T12:43:41.063051717Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.063061476Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.063071204Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.063080772Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013021]
+2026-08-11T12:43:41.063096351Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.063104096Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:41.345737526Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:41.345841871Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.346090958Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:41.346200163Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:41.346217015Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 14)
+2026-08-11T12:43:41.346280113Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:41.346290803Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:41.346299449Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:41.346538021Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mSend Registration Accept
+2026-08-11T12:43:41.348095312Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:41.348303292Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mStart T3550 timer
+2026-08-11T12:43:41.349870430Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.352661203Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:24][AmfUeNgapID:409]
+2026-08-11T12:43:41.352930138Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013025", err: <nil>]
+2026-08-11T12:43:41.353082714Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000199]
+2026-08-11T12:43:41.353106659Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.353114343Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.353122438Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.353130102Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013025]
+2026-08-11T12:43:41.353140241Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.353146263Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:41.591176802Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:41.591270989Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mSend Security Mode Command
+2026-08-11T12:43:41.591480221Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.591806442Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mStart T3560 timer
+2026-08-11T12:43:41.591950062Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.591994906Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:31,AU:410(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:31][AmfUeNgapID:410]
+2026-08-11T12:43:41.592035241Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013032", err: <nil>]
+2026-08-11T12:43:41.593192612Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe000000019a]
+2026-08-11T12:43:41.593293591Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.593311214Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.593328036Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.593344236Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013032]
+2026-08-11T12:43:41.593372539Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.593385393Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:41.601126944Z[33m [WARN][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mNausf_UEAU Authenticate Request Failed: &{Type: Title:System failure Status:500 Detail:Post "http://free5gc-free5gc-ausf-service:8080/nausf-auth/v1/ue-authentications": http2: client conn could not be established Instance: Cause:SYSTEM_FAILURE InvalidParams:[] SupportedFeatures: AccessTokenError:<nil> AccessTokenRequest:<nil> NrfId:}
+2026-08-11T12:43:41.601190503Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mSend Registration Reject
+2026-08-11T12:43:41.601207104Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:31,AU:410(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.601681704Z[33m [WARN][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mAuthentication procedure failed
+2026-08-11T12:43:41.601726979Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Error], transition from [Authentication] to [Deregistered]
+2026-08-11T12:43:41.601741096Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mHandle Authentication Error
+2026-08-11T12:43:41.601750143Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:31,AU:410(3GPP)][supi:SUPI:] [0mSend Registration Reject
+2026-08-11T12:43:41.601763568Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:31,AU:410(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.601943465Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.601984192Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:37][AmfUeNgapID:411]
+2026-08-11T12:43:41.602018907Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013038", err: <nil>]
+2026-08-11T12:43:41.602244309Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe000000019b]
+2026-08-11T12:43:41.602274837Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.602292139Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.602666746Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.602691954Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013038]
+2026-08-11T12:43:41.602713774Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.602730596Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:41.664019888Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:41.664098205Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.664385033Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:41.664470393Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.664500640Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:26][AmfUeNgapID:412]
+2026-08-11T12:43:41.664528071Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013027", err: <nil>]
+2026-08-11T12:43:41.664784813Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe000000019c]
+2026-08-11T12:43:41.670913123Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.670931748Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.670946005Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.670962105Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013027]
+2026-08-11T12:43:41.670990468Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.671006829Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:41.756811509Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:41.757344478Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.757635935Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:41.759949633Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.783992756Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:34][AmfUeNgapID:413]
+2026-08-11T12:43:41.784335248Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013035", err: <nil>]
+2026-08-11T12:43:41.784943208Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe000000019d]
+2026-08-11T12:43:41.785072951Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.785099722Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.785120040Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.785143674Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013035]
+2026-08-11T12:43:41.785167749Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.785181625Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:41.796167470Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:41.796374799Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.796790017Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:41.805059698Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.805139578Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:33][AmfUeNgapID:414]
+2026-08-11T12:43:41.805172930Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013034", err: <nil>]
+2026-08-11T12:43:41.806509276Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe000000019e]
+2026-08-11T12:43:41.810405992Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.810454203Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.810480272Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.810497213Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013034]
+2026-08-11T12:43:41.810525246Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.810535746Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:41.892406549Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:41.892543737Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:41.893587464Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:41.894204160Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:41.894606565Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:36][AmfUeNgapID:415]
+2026-08-11T12:43:41.895359476Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013037", err: <nil>]
+2026-08-11T12:43:41.895921831Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe000000019f]
+2026-08-11T12:43:41.896075659Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:41.896129871Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:41.896172741Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:41.896391331Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013037]
+2026-08-11T12:43:41.896444521Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:41.896477112Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:42.074248626Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:42.074379281Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:42.074652112Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:42.076384901Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:42.076463819Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 14)
+2026-08-11T12:43:42.076572663Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:42.076593402Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mHandle Security Mode Complete
+2026-08-11T12:43:42.076605675Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mStop T3560 timer
+2026-08-11T12:43:42.076662251Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:42.076675887Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mHandle InitialRegistration
+2026-08-11T12:43:42.103845252Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:42.108821722Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:42.109030634Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:42.109113439Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:42.109131493Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 21)
+2026-08-11T12:43:42.109183801Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:42.109192508Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:42.109207225Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:42.199207533Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:42.199292662Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mSend Security Mode Command
+2026-08-11T12:43:42.199325073Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:42.202527128Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mStart T3560 timer
+2026-08-11T12:43:42.202585307Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:42.202611325Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:32][AmfUeNgapID:416]
+2026-08-11T12:43:42.202632786Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013033", err: <nil>]
+2026-08-11T12:43:42.203683957Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a0]
+2026-08-11T12:43:42.203738800Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:42.203748368Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:42.203758767Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:42.203772733Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013033]
+2026-08-11T12:43:42.203790777Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:42.203802599Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:42.332632365Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:42.332717174Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:42.333878943Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:42.333956218Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:42.333970535Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 25)
+2026-08-11T12:43:42.334009828Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:42.334016170Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:42.334022492Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:42.338033993Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:42.338086632Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:42.338145262Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:42.338186389Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:42.338206878Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:39][AmfUeNgapID:417]
+2026-08-11T12:43:42.338223218Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013040", err: <nil>]
+2026-08-11T12:43:42.338349896Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a1]
+2026-08-11T12:43:42.338426960Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:42.338437660Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:42.338447188Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:42.338454802Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013040]
+2026-08-11T12:43:42.338467316Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:42.338474089Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:42.631118081Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:42.632464075Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mSend Security Mode Command
+2026-08-11T12:43:42.633909331Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:42.634183745Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mStart T3560 timer
+2026-08-11T12:43:42.634306876Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:42.634377849Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:40][AmfUeNgapID:418]
+2026-08-11T12:43:42.634414227Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013041", err: <nil>]
+2026-08-11T12:43:42.637102889Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a2]
+2026-08-11T12:43:42.638520026Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:42.638653055Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:42.640180209Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:42.640254469Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013041]
+2026-08-11T12:43:42.640309572Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:42.640349467Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:42.734874377Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:42.734964807Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:42.737563695Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:42.737715049Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:42.737761245Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:38][AmfUeNgapID:419]
+2026-08-11T12:43:42.737795951Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013039", err: <nil>]
+2026-08-11T12:43:42.738806235Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a3]
+2026-08-11T12:43:42.738940416Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:42.738985270Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:42.739029814Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:42.739069739Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013039]
+2026-08-11T12:43:42.739126916Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:42.739448990Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:43.052591790Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mSend Registration Accept
+2026-08-11T12:43:43.052651782Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:43.052824877Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mStart T3550 timer
+2026-08-11T12:43:43.053807529Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:43.054085531Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:23][AmfUeNgapID:420]
+2026-08-11T12:43:43.054113753Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013024", err: <nil>]
+2026-08-11T12:43:43.054249578Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a4]
+2026-08-11T12:43:43.054270247Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:43.054276338Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:43.054282941Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:43.054293581Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013024]
+2026-08-11T12:43:43.054303499Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:43.054309280Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:43.173189577Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:43.173257625Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:43.182874587Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:43.183053433Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:43.183094389Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:29][AmfUeNgapID:421]
+2026-08-11T12:43:43.183122192Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013030", err: <nil>]
+2026-08-11T12:43:43.187412215Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a5]
+2026-08-11T12:43:43.187572285Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:43.187593525Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:43.187612331Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:43.187626988Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013030]
+2026-08-11T12:43:43.187692000Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:43.187903096Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:43.592939178Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:43.593032764Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:43.593220766Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:43.593363544Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:43.593406925Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:35][AmfUeNgapID:422]
+2026-08-11T12:43:43.593465936Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013036", err: <nil>]
+2026-08-11T12:43:43.593691338Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a6]
+2026-08-11T12:43:43.593725933Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:43.593736743Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:43.593746171Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:43.593756320Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013036]
+2026-08-11T12:43:43.593785335Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:43.593793820Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:43.791169763Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:43.792477385Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:43.791800256Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:43.796143059Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:43.798290926Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:43.801154195Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:43.801175515Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 22)
+2026-08-11T12:43:43.801232141Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:43.801247379Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:43.801257488Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:43.803185333Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:43.803595592Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:43.803639455Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:41][AmfUeNgapID:423]
+2026-08-11T12:43:43.803663069Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013042", err: <nil>]
+2026-08-11T12:43:43.803825904Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a7]
+2026-08-11T12:43:43.803846483Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:43.803854217Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:43.803860880Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:43.803868695Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013042]
+2026-08-11T12:43:43.803879224Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:43.803884915Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:43.856828422Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:43.857338338Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mSend Security Mode Command
+2026-08-11T12:43:43.857546729Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:43.858096930Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mStart T3560 timer
+2026-08-11T12:43:43.859202939Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:43.859592961Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 37)
+2026-08-11T12:43:43.859653053Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:43.859661289Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:43.859667711Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:43.970396786Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:43.970489039Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mSend Security Mode Command
+2026-08-11T12:43:43.970513154Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:43.970743285Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mStart T3560 timer
+2026-08-11T12:43:43.971619478Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:43.971685713Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 39)
+2026-08-11T12:43:43.971755323Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:43.971764721Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:43.971773988Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:44.155234882Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:44.155803558Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mSend Security Mode Command
+2026-08-11T12:43:44.155887235Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.157181512Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mStart T3560 timer
+2026-08-11T12:43:44.157256342Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.157268635Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 22)
+2026-08-11T12:43:44.157312187Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:44.157318519Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mHandle Security Mode Complete
+2026-08-11T12:43:44.157328007Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mStop T3560 timer
+2026-08-11T12:43:44.157349327Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:44.157355719Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mHandle InitialRegistration
+2026-08-11T12:43:44.193226558Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:44.193451329Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.194533959Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:44.196856855Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.199884903Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 27)
+2026-08-11T12:43:44.199983989Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:44.199993396Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:44.200000770Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:44.207730924Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:44.207841151Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.207975342Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:44.208228056Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.208839994Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 26)
+2026-08-11T12:43:44.208896930Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:44.208905286Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:44.208911899Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:44.341990589Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:44.343055817Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.346887918Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:44.347676326Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.347719958Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 21)
+2026-08-11T12:43:44.347800880Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:44.347817060Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mHandle Security Mode Complete
+2026-08-11T12:43:44.347881010Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mStop T3560 timer
+2026-08-11T12:43:44.347922929Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:44.347933669Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mHandle InitialRegistration
+2026-08-11T12:43:44.432809462Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:44.432853785Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mSend Security Mode Command
+2026-08-11T12:43:44.433103253Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.433355391Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mStart T3560 timer
+2026-08-11T12:43:44.433423458Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.433434679Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 34)
+2026-08-11T12:43:44.433479714Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:44.433493950Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:44.433502807Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:44.470996014Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mSend Registration Accept
+2026-08-11T12:43:44.471086604Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:44.472444811Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mStart T3550 timer
+2026-08-11T12:43:44.474512307Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.474653512Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 24)
+2026-08-11T12:43:44.475080974Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:44.475463300Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:44.475492495Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:44.493084953Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:44.493223523Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mSend Security Mode Command
+2026-08-11T12:43:44.493255322Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.494105256Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mStart T3560 timer
+2026-08-11T12:43:44.494215673Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.494287818Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 25)
+2026-08-11T12:43:44.494538909Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:44.500791092Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mHandle Security Mode Complete
+2026-08-11T12:43:44.506193171Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mStop T3560 timer
+2026-08-11T12:43:44.506393337Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:44.506413645Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mHandle InitialRegistration
+2026-08-11T12:43:44.691190505Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:44.691229207Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mSend Security Mode Command
+2026-08-11T12:43:44.691265015Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.693671427Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mStart T3560 timer
+2026-08-11T12:43:44.693756045Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:44.693776584Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 3)
+2026-08-11T12:43:44.693812972Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.693822109Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 3)
+2026-08-11T12:43:44.694544905Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:44.694631767Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mHandle Registration Complete
+2026-08-11T12:43:44.694642467Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mStop T3550 timer
+2026-08-11T12:43:44.694685859Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mSend Configuration Update Command
+2026-08-11T12:43:44.694694134Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.695680674Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:44.695751507Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.695773649Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 38)
+2026-08-11T12:43:44.695818473Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:44.695834333Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:44.695843640Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:44.698079488Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:44.698455392Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mSend Security Mode Command
+2026-08-11T12:43:44.699230115Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.700829274Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mStart T3560 timer
+2026-08-11T12:43:44.701156848Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.701211310Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 29)
+2026-08-11T12:43:44.701359909Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:44.701378854Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:44.701388883Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:44.750739644Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:44.750956481Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mSend Security Mode Command
+2026-08-11T12:43:44.751157117Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.753711517Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mStart T3560 timer
+2026-08-11T12:43:44.753994708Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:44.754076942Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 14)
+2026-08-11T12:43:44.755064694Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.755960835Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 14)
+2026-08-11T12:43:44.760960720Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:44.761003229Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mHandle Registration Complete
+2026-08-11T12:43:44.761016464Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mStop T3550 timer
+2026-08-11T12:43:44.761127202Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mSend Configuration Update Command
+2026-08-11T12:43:44.761172637Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.761359177Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:44.767084993Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:44.767143392Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mSend Security Mode Command
+2026-08-11T12:43:44.767171044Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:44.767875856Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mStart T3560 timer
+2026-08-11T12:43:44.768355706Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.768420738Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 27)
+2026-08-11T12:43:44.768524252Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:44.768556482Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mHandle Security Mode Complete
+2026-08-11T12:43:44.768587440Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mStop T3560 timer
+2026-08-11T12:43:44.768637835Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:44.768874909Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mHandle InitialRegistration
+2026-08-11T12:43:44.769643886Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:44.770020973Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 24)
+2026-08-11T12:43:44.770557049Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:44.772065417Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mHandle Security Mode Complete
+2026-08-11T12:43:44.773446256Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mStop T3560 timer
+2026-08-11T12:43:44.774058043Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:44.774898610Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mHandle InitialRegistration
+2026-08-11T12:43:45.293391339Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mSend Registration Accept
+2026-08-11T12:43:45.293535599Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:45.293977257Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mStart T3550 timer
+2026-08-11T12:43:45.294065262Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.294080591Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 37)
+2026-08-11T12:43:45.294151694Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:45.294186760Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mHandle Security Mode Complete
+2026-08-11T12:43:45.294197200Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mStop T3560 timer
+2026-08-11T12:43:45.294293080Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:45.294333565Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mHandle InitialRegistration
+2026-08-11T12:43:45.371789221Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mSend Registration Accept
+2026-08-11T12:43:45.371861035Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:45.378090585Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mStart T3550 timer
+2026-08-11T12:43:45.378853476Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.378896376Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 40)
+2026-08-11T12:43:45.378966167Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:45.378977919Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:45.378995672Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:45.388944778Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mSend Registration Accept
+2026-08-11T12:43:45.395788791Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:45.398993260Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mStart T3550 timer
+2026-08-11T12:43:45.399203825Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.399266963Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 32)
+2026-08-11T12:43:45.399351802Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:45.399392408Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:45.399424028Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:45.480152463Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mSend Registration Accept
+2026-08-11T12:43:45.483495416Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:45.485439982Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mStart T3550 timer
+2026-08-11T12:43:45.485557492Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.485596656Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 29)
+2026-08-11T12:43:45.485667488Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:45.485706231Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mHandle Security Mode Complete
+2026-08-11T12:43:45.485735326Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mStop T3560 timer
+2026-08-11T12:43:45.486013607Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:45.486130807Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mHandle InitialRegistration
+2026-08-11T12:43:45.593461736Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:45.593557365Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mSend Security Mode Command
+2026-08-11T12:43:45.593593563Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:45.594325045Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mStart T3560 timer
+2026-08-11T12:43:45.594582678Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.594650665Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 35)
+2026-08-11T12:43:45.594714805Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:45.594753769Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:45.594782563Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:45.594096376Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:45.595192121Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mSend Security Mode Command
+2026-08-11T12:43:45.595221786Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:45.595461045Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mStart T3560 timer
+2026-08-11T12:43:45.595512541Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.595521699Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 26)
+2026-08-11T12:43:45.595558728Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:45.595564910Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mHandle Security Mode Complete
+2026-08-11T12:43:45.595572213Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mStop T3560 timer
+2026-08-11T12:43:45.595590317Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:45.595596860Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mHandle InitialRegistration
+2026-08-11T12:43:45.628870426Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mSend Registration Accept
+2026-08-11T12:43:45.629366767Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:45.630010894Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mStart T3550 timer
+2026-08-11T12:43:45.630223403Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.631042759Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 34)
+2026-08-11T12:43:45.631171090Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:45.631213129Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mHandle Security Mode Complete
+2026-08-11T12:43:45.631937692Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mStop T3560 timer
+2026-08-11T12:43:45.632125414Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:45.632267220Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mHandle InitialRegistration
+2026-08-11T12:43:45.772648511Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:45.772701340Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mSend Security Mode Command
+2026-08-11T12:43:45.772730194Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:45.773104606Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mStart T3560 timer
+2026-08-11T12:43:45.773174607Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.773188203Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 21)
+2026-08-11T12:43:45.773232756Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:45.773241082Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mHandle Registration Complete
+2026-08-11T12:43:45.773253796Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mStop T3550 timer
+2026-08-11T12:43:45.773286798Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mSend Configuration Update Command
+2026-08-11T12:43:45.773299421Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:45.773415579Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:45.779352872Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:45.779371407Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 21)
+2026-08-11T12:43:45.779406573Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:45.779414247Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 32)
+2026-08-11T12:43:45.779463249Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:45.779472326Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mHandle Security Mode Complete
+2026-08-11T12:43:45.779481464Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mStop T3560 timer
+2026-08-11T12:43:45.779506010Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:45.779512722Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mHandle InitialRegistration
+2026-08-11T12:43:46.250239744Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mSend Registration Accept
+2026-08-11T12:43:46.250357725Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:46.250674780Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mStart T3550 timer
+2026-08-11T12:43:46.251896475Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:46.251916172Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 39)
+2026-08-11T12:43:46.251992145Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:46.252010118Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mHandle Security Mode Complete
+2026-08-11T12:43:46.252688851Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mStop T3560 timer
+2026-08-11T12:43:46.252744966Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:46.252756468Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mHandle InitialRegistration
+2026-08-11T12:43:46.471711606Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mSend Registration Accept
+2026-08-11T12:43:46.471968738Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:46.472243493Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mStart T3550 timer
+2026-08-11T12:43:46.472362206Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:46.472378346Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:3,AU:401(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 3)
+2026-08-11T12:43:46.472529059Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:46.472542244Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:3,AU:401(3GPP)][supi:SUPI:imsi-208930000013004] [0mHandle Configuration Update Complete
+2026-08-11T12:43:46.472568152Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:46.472576097Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 38)
+2026-08-11T12:43:46.472604270Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:46.472610942Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mHandle Security Mode Complete
+2026-08-11T12:43:46.472617455Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mStop T3560 timer
+2026-08-11T12:43:46.472638865Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:46.472651829Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mHandle InitialRegistration
+2026-08-11T12:43:46.658208631Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mSend Registration Accept
+2026-08-11T12:43:46.658266820Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:46.659660384Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mStart T3550 timer
+2026-08-11T12:43:46.659782773Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:46.659806327Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 25)
+2026-08-11T12:43:46.659853907Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:46.659869045Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 25)
+2026-08-11T12:43:46.659924228Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:46.659934959Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mHandle Registration Complete
+2026-08-11T12:43:46.659943535Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mStop T3550 timer
+2026-08-11T12:43:46.659976126Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mSend Configuration Update Command
+2026-08-11T12:43:46.660005511Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:46.673539508Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:46.673648713Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:46.673664162Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 40)
+2026-08-11T12:43:46.673713344Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:46.673727190Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mHandle Security Mode Complete
+2026-08-11T12:43:46.673734804Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mStop T3560 timer
+2026-08-11T12:43:46.674759846Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:46.674792297Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mHandle InitialRegistration
+2026-08-11T12:43:46.697541945Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:46.700831793Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:46.706159363Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:46.713315311Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:46.713396303Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 4)
+2026-08-11T12:43:46.713444163Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:46.713453961Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 4)
+2026-08-11T12:43:46.713514455Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:46.713528661Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mHandle Registration Complete
+2026-08-11T12:43:46.713538780Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mStop T3550 timer
+2026-08-11T12:43:46.713572443Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mSend Configuration Update Command
+2026-08-11T12:43:46.713583003Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:46.717028373Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:46.718251677Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialUEMessage
+2026-08-11T12:43:46.718316829Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mNew RanUe [RanUeNgapID:42][AmfUeNgapID:424]
+2026-08-11T12:43:46.718349380Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0000-0-0-0000013043", err: <nil>]
+2026-08-11T12:43:46.719380203Z[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe00000001a8]
+2026-08-11T12:43:46.719587592Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2026-08-11T12:43:46.719609313Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2026-08-11T12:43:46.719618680Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2026-08-11T12:43:46.719627968Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0000-0-0-0000013043]
+2026-08-11T12:43:46.719639840Z[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2026-08-11T12:43:46.719646212Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2026-08-11T12:43:46.756314839Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mSend Registration Accept
+2026-08-11T12:43:46.756378428Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:46.756601076Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mStart T3550 timer
+2026-08-11T12:43:46.756658834Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:46.756671818Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:21,AU:404(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 21)
+2026-08-11T12:43:46.756722253Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:46.757486145Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:21,AU:404(3GPP)][supi:SUPI:imsi-208930000013022] [0mHandle Configuration Update Complete
+2026-08-11T12:43:46.757565715Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:46.759029820Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 35)
+2026-08-11T12:43:46.759093289Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:46.759104871Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mHandle Security Mode Complete
+2026-08-11T12:43:46.759111614Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mStop T3560 timer
+2026-08-11T12:43:46.759132623Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:46.759138174Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mHandle InitialRegistration
+2026-08-11T12:43:47.256418152Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mSend Registration Accept
+2026-08-11T12:43:47.256932416Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:47.257113235Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mStart T3550 timer
+2026-08-11T12:43:47.257171755Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.257185561Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 41)
+2026-08-11T12:43:47.257234312Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:47.257248198Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:47.257258978Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:47.346303823Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mSend Registration Accept
+2026-08-11T12:43:47.346363475Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:47.348929796Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mStart T3550 timer
+2026-08-11T12:43:47.349006971Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.349018543Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 27)
+2026-08-11T12:43:47.349062245Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:47.349070320Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mHandle Registration Complete
+2026-08-11T12:43:47.349076421Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mStop T3550 timer
+2026-08-11T12:43:47.349097701Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mSend Configuration Update Command
+2026-08-11T12:43:47.351041827Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.353684853Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:47.353754643Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:47.353766245Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 27)
+2026-08-11T12:43:47.353783347Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:47.353790601Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 34)
+2026-08-11T12:43:47.353817161Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.353823112Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 34)
+2026-08-11T12:43:47.353863387Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:47.353868988Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mHandle Registration Complete
+2026-08-11T12:43:47.353875059Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mStop T3550 timer
+2026-08-11T12:43:47.353898724Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mSend Configuration Update Command
+2026-08-11T12:43:47.353906228Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.353953637Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:47.350982816Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mSend Registration Accept
+2026-08-11T12:43:47.356521021Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:47.356691070Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mStart T3550 timer
+2026-08-11T12:43:47.356741224Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.356757464Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:14,AU:403(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 14)
+2026-08-11T12:43:47.356798601Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:47.356841772Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:14,AU:403(3GPP)][supi:SUPI:imsi-208930000013015] [0mHandle Configuration Update Complete
+2026-08-11T12:43:47.356868392Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:47.356876788Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 24)
+2026-08-11T12:43:47.356895613Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.356901234Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 24)
+2026-08-11T12:43:47.356926561Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:47.356962829Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mHandle Registration Complete
+2026-08-11T12:43:47.356974722Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mStop T3550 timer
+2026-08-11T12:43:47.361491080Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:47.362267336Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 38)
+2026-08-11T12:43:47.362079393Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mSend Configuration Update Command
+2026-08-11T12:43:47.364316829Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.365775223Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:47.366277585Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.366731356Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 36)
+2026-08-11T12:43:47.366798011Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:47.366808831Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:47.366821154Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:47.375253356Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.392189242Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 38)
+2026-08-11T12:43:47.395362532Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:47.395380606Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mHandle Registration Complete
+2026-08-11T12:43:47.395392007Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mStop T3550 timer
+2026-08-11T12:43:47.395423145Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mSend Configuration Update Command
+2026-08-11T12:43:47.395436841Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.398965548Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:47.399136749Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.399154732Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:27,AU:407(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 27)
+2026-08-11T12:43:47.399200348Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:47.399210587Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:27,AU:407(3GPP)][supi:SUPI:imsi-208930000013028] [0mHandle Configuration Update Complete
+2026-08-11T12:43:47.399231356Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.399240253Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:34,AU:413(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 34)
+2026-08-11T12:43:47.399258587Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:47.399264188Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:34,AU:413(3GPP)][supi:SUPI:imsi-208930000013035] [0mHandle Configuration Update Complete
+2026-08-11T12:43:47.434735809Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:47.434837189Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mSend Security Mode Command
+2026-08-11T12:43:47.434864079Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.439729723Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mStart T3560 timer
+2026-08-11T12:43:47.439895654Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.439914680Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:24,AU:409(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 24)
+2026-08-11T12:43:47.439975744Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:47.439989961Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:24,AU:409(3GPP)][supi:SUPI:imsi-208930000013025] [0mHandle Configuration Update Complete
+2026-08-11T12:43:47.440017983Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:47.440096871Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 29)
+2026-08-11T12:43:47.440153357Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.440169948Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 29)
+2026-08-11T12:43:47.440222176Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:47.440241523Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mHandle Registration Complete
+2026-08-11T12:43:47.440260588Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mStop T3550 timer
+2026-08-11T12:43:47.440295794Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mSend Configuration Update Command
+2026-08-11T12:43:47.440313648Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.440460263Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:47.452135444Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.452233879Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:38,AU:419(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 38)
+2026-08-11T12:43:47.452346650Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:47.452362690Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:38,AU:419(3GPP)][supi:SUPI:imsi-208930000013039] [0mHandle Configuration Update Complete
+2026-08-11T12:43:47.460252394Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:47.460609514Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mSend Security Mode Command
+2026-08-11T12:43:47.460659557Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.461030032Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mStart T3560 timer
+2026-08-11T12:43:47.461145068Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:47.461168311Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 22)
+2026-08-11T12:43:47.461223605Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.461239094Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 22)
+2026-08-11T12:43:47.461640732Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:47.461663545Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mHandle Registration Complete
+2026-08-11T12:43:47.461677551Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mStop T3550 timer
+2026-08-11T12:43:47.461711906Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mSend Configuration Update Command
+2026-08-11T12:43:47.461723197Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.461845406Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:47.461876454Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:47.461887004Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 37)
+2026-08-11T12:43:47.461918353Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.461924775Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 37)
+2026-08-11T12:43:47.461959620Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:47.461967285Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mHandle Registration Complete
+2026-08-11T12:43:47.461974949Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mStop T3550 timer
+2026-08-11T12:43:47.461992622Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mSend Configuration Update Command
+2026-08-11T12:43:47.462000487Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.462036685Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:47.462051042Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:47.462059878Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 39)
+2026-08-11T12:43:47.462079646Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.462088071Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 39)
+2026-08-11T12:43:47.462116324Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:47.462128026Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mHandle Registration Complete
+2026-08-11T12:43:47.462135791Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mStop T3550 timer
+2026-08-11T12:43:47.462153855Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mSend Configuration Update Command
+2026-08-11T12:43:47.462161499Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.462190183Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:47.464637862Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.464680442Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 36)
+2026-08-11T12:43:47.464736417Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:47.464744482Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mHandle Security Mode Complete
+2026-08-11T12:43:47.464752317Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mStop T3560 timer
+2026-08-11T12:43:47.464778816Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:47.464788234Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mHandle InitialRegistration
+2026-08-11T12:43:47.472038764Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.473632483Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 41)
+2026-08-11T12:43:47.473888773Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:47.473935260Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mHandle Security Mode Complete
+2026-08-11T12:43:47.473970807Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mStop T3560 timer
+2026-08-11T12:43:47.474032974Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:47.474126439Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mHandle InitialRegistration
+2026-08-11T12:43:47.595466120Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2026-08-11T12:43:47.595786901Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.596340710Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2026-08-11T12:43:47.599065003Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.599129815Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 20)
+2026-08-11T12:43:47.599189917Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:47.599198033Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:47.599205326Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:47.831537631Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:47.831592734Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mSend Security Mode Command
+2026-08-11T12:43:47.831620486Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.832327923Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mStart T3560 timer
+2026-08-11T12:43:47.833664238Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.833693253Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 33)
+2026-08-11T12:43:47.833735061Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:47.833743367Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:47.834257711Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:47.931342102Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:47.931382267Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mSend Security Mode Command
+2026-08-11T12:43:47.932955758Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:47.933090651Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mStart T3560 timer
+2026-08-11T12:43:47.933144952Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:47.933155783Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 23)
+2026-08-11T12:43:47.933191470Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:47.933199094Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:47.933206878Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:48.084297936Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mSend Registration Accept
+2026-08-11T12:43:48.084431065Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:48.084657189Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mStart T3550 timer
+2026-08-11T12:43:48.084712633Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:48.084724075Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 32)
+2026-08-11T12:43:48.084753871Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.084766634Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 32)
+2026-08-11T12:43:48.085064914Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:48.085138983Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mHandle Registration Complete
+2026-08-11T12:43:48.085154281Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mStop T3550 timer
+2026-08-11T12:43:48.085207531Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mSend Configuration Update Command
+2026-08-11T12:43:48.085227859Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:48.085308420Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:48.088226332Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mSend Registration Accept
+2026-08-11T12:43:48.088378858Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:48.088942114Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mStart T3550 timer
+2026-08-11T12:43:48.089027734Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:48.089046620Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 26)
+2026-08-11T12:43:48.089160734Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.089701137Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 26)
+2026-08-11T12:43:48.090295882Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:48.090419454Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mHandle Registration Complete
+2026-08-11T12:43:48.090542345Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mStop T3550 timer
+2026-08-11T12:43:48.090680433Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mSend Configuration Update Command
+2026-08-11T12:43:48.090805889Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:48.091772401Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:48.091885863Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.091945485Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:25,AU:406(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 25)
+2026-08-11T12:43:48.092356536Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.092453979Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:25,AU:406(3GPP)][supi:SUPI:imsi-208930000013026] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.092543106Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.092608088Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 42)
+2026-08-11T12:43:48.092634617Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2026-08-11T12:43:48.092641009Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2026-08-11T12:43:48.092646900Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2026-08-11T12:43:48.101755600Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:48.101961987Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 35)
+2026-08-11T12:43:48.102043289Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.102070981Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 35)
+2026-08-11T12:43:48.102203960Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:48.102259595Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mHandle Registration Complete
+2026-08-11T12:43:48.102275835Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mStop T3550 timer
+2026-08-11T12:43:48.102326079Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mSend Configuration Update Command
+2026-08-11T12:43:48.105607472Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:48.105709013Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:48.113959193Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:48.114072505Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mSend Security Mode Command
+2026-08-11T12:43:48.114135383Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:48.116358817Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mStart T3560 timer
+2026-08-11T12:43:48.118259751Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.118336635Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:4,AU:402(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 4)
+2026-08-11T12:43:48.118409662Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.118420192Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:4,AU:402(3GPP)][supi:SUPI:imsi-208930000013005] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.118465036Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.118475536Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 20)
+2026-08-11T12:43:48.118514319Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:48.118523406Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mHandle Security Mode Complete
+2026-08-11T12:43:48.118531922Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mStop T3560 timer
+2026-08-11T12:43:48.118558021Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:48.118566587Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mHandle InitialRegistration
+2026-08-11T12:43:48.132503725Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.132595818Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:32,AU:416(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 32)
+2026-08-11T12:43:48.132660048Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.132670768Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:32,AU:416(3GPP)][supi:SUPI:imsi-208930000013033] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.188442985Z[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2026-08-11T12:43:48.196789255Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mSend Security Mode Command
+2026-08-11T12:43:48.196902879Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:48.206835954Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mStart T3560 timer
+2026-08-11T12:43:48.206930221Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:48.206944548Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 40)
+2026-08-11T12:43:48.208397953Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.208429011Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 40)
+2026-08-11T12:43:48.208495426Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:48.208514722Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mHandle Registration Complete
+2026-08-11T12:43:48.208530802Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mStop T3550 timer
+2026-08-11T12:43:48.208571889Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mSend Configuration Update Command
+2026-08-11T12:43:48.208586306Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:48.209380645Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:48.209450597Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.209470514Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:26,AU:412(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 26)
+2026-08-11T12:43:48.209511871Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.209520868Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:26,AU:412(3GPP)][supi:SUPI:imsi-208930000013027] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.209554592Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.209561645Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:35,AU:422(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 35)
+2026-08-11T12:43:48.209579929Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.209733016Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:35,AU:422(3GPP)][supi:SUPI:imsi-208930000013036] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.211902554Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.211936057Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 42)
+2026-08-11T12:43:48.211984869Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:48.211995188Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mHandle Security Mode Complete
+2026-08-11T12:43:48.212010888Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mStop T3560 timer
+2026-08-11T12:43:48.212047226Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:48.212064107Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mHandle InitialRegistration
+2026-08-11T12:43:48.483087245Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mSend Registration Accept
+2026-08-11T12:43:48.484270133Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:48.484757817Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mStart T3550 timer
+2026-08-11T12:43:48.484917647Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.485041239Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:22,AU:405(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 22)
+2026-08-11T12:43:48.485278914Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.485299663Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:22,AU:405(3GPP)][supi:SUPI:imsi-208930000013023] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.485359786Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.485379583Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:39,AU:417(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 39)
+2026-08-11T12:43:48.485425980Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.485437191Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:39,AU:417(3GPP)][supi:SUPI:imsi-208930000013040] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.485480362Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.485493747Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:37,AU:411(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 37)
+2026-08-11T12:43:48.485526008Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.485533392Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:37,AU:411(3GPP)][supi:SUPI:imsi-208930000013038] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.488836155Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:48.488913409Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 41)
+2026-08-11T12:43:48.577200205Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mSend Registration Accept
+2026-08-11T12:43:48.577301335Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:48.579310066Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mStart T3550 timer
+2026-08-11T12:43:48.579452824Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.579472411Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:29,AU:421(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 29)
+2026-08-11T12:43:48.579530069Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.580304150Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:29,AU:421(3GPP)][supi:SUPI:imsi-208930000013030] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.583725210Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.583834445Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 41)
+2026-08-11T12:43:48.584226580Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:48.584312742Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mHandle Registration Complete
+2026-08-11T12:43:48.584420173Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mStop T3550 timer
+2026-08-11T12:43:48.584646718Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mSend Configuration Update Command
+2026-08-11T12:43:48.584815144Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:48.585210645Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:48.587900068Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:48.588067702Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 36)
+2026-08-11T12:43:48.794603190Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.794692738Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 36)
+2026-08-11T12:43:48.794766246Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:48.794776365Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mHandle Registration Complete
+2026-08-11T12:43:48.794786624Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mStop T3550 timer
+2026-08-11T12:43:48.794815989Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mSend Configuration Update Command
+2026-08-11T12:43:48.794827421Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:48.794970619Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:48.795544956Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.796015368Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:41,AU:423(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 41)
+2026-08-11T12:43:48.796121978Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.796140673Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:41,AU:423(3GPP)][supi:SUPI:imsi-208930000013042] [0mHandle Configuration Update Complete
+2026-08-11T12:43:48.836821654Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:48.836856399Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:36,AU:415(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 36)
+2026-08-11T12:43:48.836908046Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:48.836915119Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:36,AU:415(3GPP)][supi:SUPI:imsi-208930000013037] [0mHandle Configuration Update Complete
+2026-08-11T12:43:49.077476771Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mSend Registration Accept
+2026-08-11T12:43:49.084711045Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:49.088343807Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mStart T3550 timer
+2026-08-11T12:43:49.088573358Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:49.088590860Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:40,AU:418(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 40)
+2026-08-11T12:43:49.089546512Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:49.089568844Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:40,AU:418(3GPP)][supi:SUPI:imsi-208930000013041] [0mHandle Configuration Update Complete
+2026-08-11T12:43:49.102656124Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:49.102721126Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 42)
+2026-08-11T12:43:49.306207628Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:49.306284552Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 42)
+2026-08-11T12:43:49.306353952Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:49.306364272Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mHandle Registration Complete
+2026-08-11T12:43:49.306373148Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mStop T3550 timer
+2026-08-11T12:43:49.306396021Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mSend Configuration Update Command
+2026-08-11T12:43:49.306407182Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:49.306567974Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:49.347245022Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:49.347327266Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:42,AU:424(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 42)
+2026-08-11T12:43:49.347548351Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:49.347563699Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:42,AU:424(3GPP)][supi:SUPI:imsi-208930000013043] [0mHandle Configuration Update Complete
+2026-08-11T12:43:50.352625721Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mSend Registration Accept
+2026-08-11T12:43:50.352700802Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:50.352919162Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mStart T3550 timer
+2026-08-11T12:43:50.353002718Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:50.353016634Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 33)
+2026-08-11T12:43:50.353072699Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:50.353082117Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mHandle Security Mode Complete
+2026-08-11T12:43:50.353090543Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mStop T3560 timer
+2026-08-11T12:43:50.353121371Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:50.353136850Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mHandle InitialRegistration
+2026-08-11T12:43:50.965976995Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mSend Registration Accept
+2026-08-11T12:43:50.966321240Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:50.966580907Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mStart T3550 timer
+2026-08-11T12:43:50.969716145Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:50.969747574Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 23)
+2026-08-11T12:43:50.969840218Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2026-08-11T12:43:50.969859134Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mHandle Security Mode Complete
+2026-08-11T12:43:50.969872579Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mStop T3560 timer
+2026-08-11T12:43:50.969959211Z[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2026-08-11T12:43:50.969981413Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mHandle InitialRegistration
+2026-08-11T12:43:51.843322021Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mSend Registration Accept
+2026-08-11T12:43:51.843654004Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Initial Context Setup Request
+2026-08-11T12:43:51.844450738Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mStart T3550 timer
+2026-08-11T12:43:51.845086891Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:51.848205187Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 20)
+2026-08-11T12:43:51.848309252Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:51.848322808Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 20)
+2026-08-11T12:43:51.848371309Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:51.848385806Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mHandle Registration Complete
+2026-08-11T12:43:51.848392569Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mStop T3550 timer
+2026-08-11T12:43:51.848611319Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mSend Configuration Update Command
+2026-08-11T12:43:51.848622420Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:51.848675299Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:51.848961726Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:51.848984990Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 33)
+2026-08-11T12:43:51.849022330Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:51.849028702Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 33)
+2026-08-11T12:43:51.849062104Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:51.849068306Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mHandle Registration Complete
+2026-08-11T12:43:51.849075850Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mStop T3550 timer
+2026-08-11T12:43:51.849102991Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mSend Configuration Update Command
+2026-08-11T12:43:51.849111096Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:51.849155780Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:51.875741575Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse
+2026-08-11T12:43:51.875777061Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 23)
+2026-08-11T12:43:51.888688536Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:51.889936175Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 23)
+2026-08-11T12:43:51.891385703Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2026-08-11T12:43:51.891873398Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mHandle Registration Complete
+2026-08-11T12:43:51.892119228Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mStop T3550 timer
+2026-08-11T12:43:51.892555206Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mSend Configuration Update Command
+2026-08-11T12:43:51.892766652Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mSend Downlink Nas Transport
+2026-08-11T12:43:51.895015569Z[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2026-08-11T12:43:51.895121568Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:51.895166763Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:20,AU:408(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 20)
+2026-08-11T12:43:51.895238618Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:51.895514605Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:20,AU:408(3GPP)][supi:SUPI:imsi-208930000013021] [0mHandle Configuration Update Complete
+2026-08-11T12:43:51.895675106Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:51.895781456Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:33,AU:414(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 33)
+2026-08-11T12:43:51.895826911Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:51.895835647Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:33,AU:414(3GPP)][supi:SUPI:imsi-208930000013034] [0mHandle Configuration Update Complete
+2026-08-11T12:43:52.099687004Z[36m [INFO][AMF][Ngap][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport
+2026-08-11T12:43:52.099749341Z[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:23,AU:420(3GPP)][ran_addr:10.244.0.66:40179] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 23)
+2026-08-11T12:43:52.099827497Z[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2026-08-11T12:43:52.099846022Z[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:23,AU:420(3GPP)][supi:SUPI:imsi-208930000013024] [0mHandle Configuration Update Complete

@@ -1,0 +1,13 @@
+Unique UEs started: 100
+Unique UEs completed: 99
+Unique success ratio: 99.00%
+UEs requiring retry: 0
+Estimated retry events: 0
+P50 latency: 3065.122 ms
+P95 latency: 5477.046 ms
+P99 latency: 6035.071 ms
+Minimum latency: 357.025 ms
+Maximum latency: 6048.637 ms
+
+Completed UEs by AMF Pod:
+free5gc-free5gc-amf-amf-6456786c67-h27bc: 99

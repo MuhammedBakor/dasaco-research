@@ -1,0 +1,19 @@
+B3 Admission-only Run 3
+
+Planned UEs: 100
+Unique UEs observed: 100
+Unique UEs completed: 99
+Planned-workload success ratio: 99.00%
+
+Registration Accept events: 99
+Registration Reject events: 1
+
+P50 AMF-visible latency: 3065.122 ms
+P95 AMF-visible latency: 5477.046 ms
+P99 AMF-visible latency: 6035.071 ms
+Maximum latency: 6048.637 ms
+
+AMF replicas: 1
+Autoscaling: Disabled
+Admission rate: 15 registrations/second
+Token bucket capacity: 5

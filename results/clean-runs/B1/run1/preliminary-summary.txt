@@ -1,0 +1,16 @@
+B1 AMF-HPA Run 1
+
+Planned UEs: 100
+Unique completed UEs: 99
+Planned-workload success ratio: 99.00%
+Registration Accept events: 102
+Registration Reject events: 0
+Maximum AMF replicas: 5
+
+P50 latency: 2723.850 ms
+P95 latency: 4622.091 ms
+P99 latency: 10402.048 ms
+Maximum latency: 10585.401 ms
+
+All completed registrations were processed by the original AMF Pod.
+The additional AMF replicas processed zero registrations.
