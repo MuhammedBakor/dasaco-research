@@ -1,0 +1,17 @@
+NAME                                                  READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+dbpython-free5gc-dbpython-dbpython-7fb488c7fc-8vt7q   1/1     Running   0          137m    10.244.0.28   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-b475fd8cb-2rmss               1/1     Running   0          5m34s   10.244.0.38   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-b475fd8cb-jz452               1/1     Running   0          5m34s   10.244.0.39   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-b475fd8cb-kdggn               1/1     Running   0          5m49s   10.244.0.37   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-b475fd8cb-pf7kf               1/1     Running   0          12m     10.244.0.36   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-ausf-ausf-789bbfb4df-zxmhg            1/1     Running   0          167m    10.244.0.6    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-chf-chf-6f777c7ff8-8mxhq              1/1     Running   0          167m    10.244.0.9    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nef-nef-759f694c89-jh7pd              1/1     Running   0          167m    10.244.0.12   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nrf-nrf-5766464855-bm2nv              1/1     Running   0          167m    10.244.0.8    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nssf-nssf-7f7767dd45-tvbcj            1/1     Running   0          167m    10.244.0.19   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-pcf-pcf-769b57775d-crzp7              1/1     Running   0          167m    10.244.0.20   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-smf-smf-7d94c978bf-bzj5s              1/1     Running   0          167m    10.244.0.18   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-udm-udm-7fbb989b5c-96rtv              1/1     Running   0          128m    10.244.0.34   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-udr-udr-788647bbb4-jbz5f              1/1     Running   0          167m    10.244.0.13   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-webui-webui-6785478d49-lwtrb          1/1     Running   0          167m    10.244.0.7    dasaco-control-plane   <none>           <none>
+mongodb-0                                             1/1     Running   0          167m    10.244.0.21   dasaco-control-plane   <none>           <none>

@@ -1,0 +1,49 @@
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  creationTimestamp: "2026-08-11T09:09:14Z"
+  name: amf-hpa
+  namespace: free5gc
+  resourceVersion: "13738"
+  uid: a5029e76-d0ad-433f-af63-702535f19fed
+spec:
+  maxReplicas: 5
+  metrics:
+  - resource:
+      name: cpu
+      target:
+        averageUtilization: 50
+        type: Utilization
+    type: Resource
+  minReplicas: 1
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: free5gc-free5gc-amf-amf
+status:
+  conditions:
+  - lastTransitionTime: "2026-08-11T09:09:29Z"
+    message: recommended size matches current size
+    reason: ReadyForNewScale
+    status: "True"
+    type: AbleToScale
+  - lastTransitionTime: "2026-08-11T09:09:59Z"
+    message: the HPA was able to successfully calculate a replica count from cpu resource
+      utilization (percentage of request)
+    reason: ValidMetricFound
+    status: "True"
+    type: ScalingActive
+  - lastTransitionTime: "2026-08-11T09:09:59Z"
+    message: the desired count is within the acceptable range
+    reason: DesiredWithinRange
+    status: "False"
+    type: ScalingLimited
+  currentMetrics:
+  - resource:
+      current:
+        averageUtilization: 41
+        averageValue: 41m
+      name: cpu
+    type: Resource
+  currentReplicas: 1
+  desiredReplicas: 1
