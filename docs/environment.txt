@@ -1,0 +1,12 @@
+DA-SACO Experimental Environment
+
+Operating System: Ubuntu 22.04.5 LTS
+Kernel: 6.8.0-136-generic
+Virtualization Platform: VMware
+Architecture: x86_64
+Virtual CPU: 6 vCPU
+Memory: 10 GiB
+Swap: 2 GiB
+Disk: 100 GB
+Network Mode: NAT
+Initial VM Address: 192.168.245.128
