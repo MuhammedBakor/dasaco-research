@@ -1,0 +1,73 @@
+===== DATE =====
+2026-08-11T13:11:09+08:00
+
+===== DOCKER =====
+Docker version 29.7.2, build a7dcaa6
+Docker Compose version v5.4.0
+
+===== CONTAINERD HOST =====
+containerd containerd v2.3.3 aad11006b869517fcd3009450b6f82da282e1a9b
+
+===== KUBECTL =====
+clientVersion:
+  buildDate: "2026-04-22T13:54:45Z"
+  compiler: gc
+  gitCommit: ecf6decece6a6de25a57aad9ba90b6ce580f6f78
+  gitTreeState: clean
+  gitVersion: v1.36.0
+  goVersion: go1.26.2
+  major: "1"
+  minor: "36"
+  platform: linux/amd64
+kustomizeVersion: v5.8.1
+
+
+===== KIND =====
+kind v0.32.0 go1.26.3 linux/amd64
+
+===== KUBERNETES SERVER =====
+clientVersion:
+  buildDate: "2026-04-22T13:54:45Z"
+  compiler: gc
+  gitCommit: ecf6decece6a6de25a57aad9ba90b6ce580f6f78
+  gitTreeState: clean
+  gitVersion: v1.36.0
+  goVersion: go1.26.2
+  major: "1"
+  minor: "36"
+  platform: linux/amd64
+kustomizeVersion: v5.8.1
+serverVersion:
+  buildDate: "2026-05-12T09:51:34Z"
+  compiler: gc
+  emulationMajor: "1"
+  emulationMinor: "36"
+  gitCommit: 756939600b9a7180fc2df6550a4585b638875e67
+  gitTreeState: clean
+  gitVersion: v1.36.1
+  goVersion: go1.26.2
+  major: "1"
+  minCompatibilityMajor: "1"
+  minCompatibilityMinor: "35"
+  minor: "36"
+  platform: linux/amd64
+
+
+===== NODES =====
+NAME                   STATUS   ROLES           AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION              CONTAINER-RUNTIME
+dasaco-control-plane   Ready    control-plane   48s   v1.36.1   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   6.8.0-136-generic (amd64)   containerd://2.3.1
+
+===== SYSTEM PODS =====
+NAMESPACE            NAME                                           READY   STATUS    RESTARTS   AGE   IP           NODE                   NOMINATED NODE   READINESS GATES
+kube-system          coredns-589f44dc88-4pk5v                       1/1     Running   0          39s   10.244.0.3   dasaco-control-plane   <none>           <none>
+kube-system          coredns-589f44dc88-mqhv7                       1/1     Running   0          39s   10.244.0.2   dasaco-control-plane   <none>           <none>
+kube-system          etcd-dasaco-control-plane                      1/1     Running   0          45s   172.18.0.2   dasaco-control-plane   <none>           <none>
+kube-system          kindnet-cpz2n                                  1/1     Running   0          39s   172.18.0.2   dasaco-control-plane   <none>           <none>
+kube-system          kube-apiserver-dasaco-control-plane            1/1     Running   0          45s   172.18.0.2   dasaco-control-plane   <none>           <none>
+kube-system          kube-controller-manager-dasaco-control-plane   1/1     Running   0          45s   172.18.0.2   dasaco-control-plane   <none>           <none>
+kube-system          kube-proxy-qtljm                               1/1     Running   0          39s   172.18.0.2   dasaco-control-plane   <none>           <none>
+kube-system          kube-scheduler-dasaco-control-plane            1/1     Running   0          45s   172.18.0.2   dasaco-control-plane   <none>           <none>
+local-path-storage   local-path-provisioner-855c7b7774-9nz7z        1/1     Running   0          39s   10.244.0.4   dasaco-control-plane   <none>           <none>
+
+===== KIND IMAGE =====
+kindest/node:v1.36.1@sha256:3489c7674813ba5d8b1a9977baea8a6e553784dab7b84759d1014dbd78f7ebd5
