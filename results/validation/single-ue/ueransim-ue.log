@@ -1,0 +1,57 @@
+UERANSIM v3.2.7
+[2026-08-11 07:14:00.097] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2026-08-11 07:14:00.100] [rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+[2026-08-11 07:14:00.102] [nas] [info] Selected plmn[208/93]
+[2026-08-11 07:14:00.102] [rrc] [info] Selected cell plmn[208/93] tac[1] category[SUITABLE]
+[2026-08-11 07:14:00.102] [nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+[2026-08-11 07:14:00.102] [nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+[2026-08-11 07:14:00.102] [nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+[2026-08-11 07:14:00.103] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:14:00.103] [nas] [debug] Sending Initial Registration
+[2026-08-11 07:14:00.103] [nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+[2026-08-11 07:14:00.103] [rrc] [debug] Sending RRC Setup Request
+[2026-08-11 07:14:00.107] [rrc] [info] RRC connection established
+[2026-08-11 07:14:00.107] [rrc] [info] UE switches to state [RRC-CONNECTED]
+[2026-08-11 07:14:00.108] [nas] [info] UE switches to state [CM-CONNECTED]
+[2026-08-11 07:14:00.161] [nas] [debug] Authentication Request received
+[2026-08-11 07:14:00.161] [nas] [debug] Received SQN [16F3B3F70FC2]
+[2026-08-11 07:14:00.161] [nas] [debug] SQN-MS [000000000000]
+[2026-08-11 07:14:00.161] [nas] [debug] Sending Authentication Failure due to SQN out of range
+[2026-08-11 07:14:00.208] [nas] [debug] Authentication Request received
+[2026-08-11 07:14:00.208] [nas] [debug] Received SQN [000000000021]
+[2026-08-11 07:14:00.208] [nas] [debug] SQN-MS [000000000000]
+[2026-08-11 07:14:00.244] [nas] [debug] Security Mode Command received
+[2026-08-11 07:14:00.244] [nas] [debug] Selected integrity[2] ciphering[0]
+[2026-08-11 07:14:00.445] [nas] [debug] Registration accept received
+[2026-08-11 07:14:00.445] [nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+[2026-08-11 07:14:00.445] [nas] [debug] Sending Registration Complete
+[2026-08-11 07:14:00.445] [nas] [info] Initial Registration is successful
+[2026-08-11 07:14:00.445] [nas] [debug] Sending PDU Session Establishment Request
+[2026-08-11 07:14:00.445] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:14:00.651] [nas] [debug] Configuration Update Command received
+[2026-08-11 07:14:17.113] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:14:17.113] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:14:33.131] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:14:33.132] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:14:49.147] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:14:49.150] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:15:05.163] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:15:05.163] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:15:21.179] [nas] [error] PDU Session Establishment procedure failure, no response from the network after 5 attempts
+[2026-08-11 07:15:21.179] [nas] [debug] Aborting SM procedure for PTI[1], PSI[1]
+[2026-08-11 07:15:21.573] [nas] [debug] Sending PDU Session Establishment Request
+[2026-08-11 07:15:21.573] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:15:38.196] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:15:38.196] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:15:54.217] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:15:54.217] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:16:10.233] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:16:10.233] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:16:26.249] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:16:26.249] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:16:42.266] [nas] [error] PDU Session Establishment procedure failure, no response from the network after 5 attempts
+[2026-08-11 07:16:42.266] [nas] [debug] Aborting SM procedure for PTI[1], PSI[1]
+[2026-08-11 07:16:43.055] [nas] [debug] Sending PDU Session Establishment Request
+[2026-08-11 07:16:43.055] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+[2026-08-11 07:16:59.286] [nas] [warning] Retransmitting PDU Session Establishment Request due to T3580 expiry
+[2026-08-11 07:16:59.286] [nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]

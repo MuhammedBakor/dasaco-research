@@ -1,0 +1,16 @@
+NAME                                                  READY   STATUS    RESTARTS   AGE     IP            NODE                   NOMINATED NODE   READINESS GATES
+dbpython-free5gc-dbpython-dbpython-7fb488c7fc-8vt7q   1/1     Running   0          13m     10.244.0.28   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-58c4d7b8b8-b75xd              1/1     Running   0          42m     10.244.0.10   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-ausf-ausf-789bbfb4df-zxmhg            1/1     Running   0          42m     10.244.0.6    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-chf-chf-6f777c7ff8-8mxhq              1/1     Running   0          42m     10.244.0.9    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nef-nef-759f694c89-jh7pd              1/1     Running   0          42m     10.244.0.12   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nrf-nrf-5766464855-bm2nv              1/1     Running   0          42m     10.244.0.8    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nssf-nssf-7f7767dd45-tvbcj            1/1     Running   0          42m     10.244.0.19   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-pcf-pcf-769b57775d-crzp7              1/1     Running   0          42m     10.244.0.20   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-smf-smf-7d94c978bf-bzj5s              1/1     Running   0          42m     10.244.0.18   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-udm-udm-7fbb989b5c-96rtv              1/1     Running   0          3m18s   10.244.0.34   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-udr-udr-788647bbb4-jbz5f              1/1     Running   0          42m     10.244.0.13   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-webui-webui-6785478d49-lwtrb          1/1     Running   0          42m     10.244.0.7    dasaco-control-plane   <none>           <none>
+mongodb-0                                             1/1     Running   0          42m     10.244.0.21   dasaco-control-plane   <none>           <none>
+ueransim-gnb-59568df887-g56pp                         1/1     Running   0          18m     10.244.0.26   dasaco-control-plane   <none>           <none>
+ueransim-ue-7d96998469-9hxcf                          1/1     Running   0          3m5s    10.244.0.35   dasaco-control-plane   <none>           <none>

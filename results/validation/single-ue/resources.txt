@@ -1,0 +1,16 @@
+NAME                                                  CPU(cores)   MEMORY(bytes)   
+dbpython-free5gc-dbpython-dbpython-7fb488c7fc-8vt7q   31m          0Mi             
+free5gc-free5gc-amf-amf-58c4d7b8b8-b75xd              42m          12Mi            
+free5gc-free5gc-ausf-ausf-789bbfb4df-zxmhg            41m          15Mi            
+free5gc-free5gc-chf-chf-6f777c7ff8-8mxhq              42m          12Mi            
+free5gc-free5gc-nef-nef-759f694c89-jh7pd              42m          7Mi             
+free5gc-free5gc-nrf-nrf-5766464855-bm2nv              4m           11Mi            
+free5gc-free5gc-nssf-nssf-7f7767dd45-tvbcj            41m          7Mi             
+free5gc-free5gc-pcf-pcf-769b57775d-crzp7              44m          8Mi             
+free5gc-free5gc-smf-smf-7d94c978bf-bzj5s              47m          10Mi            
+free5gc-free5gc-udm-udm-7fbb989b5c-96rtv              43m          9Mi             
+free5gc-free5gc-udr-udr-788647bbb4-jbz5f              42m          9Mi             
+free5gc-free5gc-webui-webui-6785478d49-lwtrb          3m           12Mi            
+mongodb-0                                             125m         79Mi            
+ueransim-gnb-59568df887-g56pp                         2m           1Mi             
+ueransim-ue-7d96998469-9hxcf                          2m           1Mi             
