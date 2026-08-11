@@ -1,0 +1,15 @@
+2026-08-11T13:17:08+08:00
+registry.k8s.io/metrics-server/metrics-server:v0.9.0
+NAME                   CPU(cores)   CPU(%)   MEMORY(bytes)   MEMORY(%)   
+dasaco-control-plane   357m         5%       596Mi           5%          
+NAMESPACE            NAME                                           CPU(cores)   MEMORY(bytes)   
+kube-system          coredns-589f44dc88-4pk5v                       6m           13Mi            
+kube-system          coredns-589f44dc88-mqhv7                       4m           12Mi            
+kube-system          etcd-dasaco-control-plane                      57m          33Mi            
+kube-system          kindnet-cpz2n                                  2m           7Mi             
+kube-system          kube-apiserver-dasaco-control-plane            91m          212Mi           
+kube-system          kube-controller-manager-dasaco-control-plane   57m          48Mi            
+kube-system          kube-proxy-qtljm                               1m           13Mi            
+kube-system          kube-scheduler-dasaco-control-plane            14m          21Mi            
+kube-system          metrics-server-5b58578978-89n8h                7m           19Mi            
+local-path-storage   local-path-provisioner-855c7b7774-9nz7z        1m           8Mi             
