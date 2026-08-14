@@ -446,7 +446,16 @@ def main():
             result = set_admission_mode(
                 "STRONG_PROTECTION"
             )
+            state = {
+                **default_state(),
+                "phase": "PROTECTION_ACTIVE",
+                "action": "PROTECT_WITH_ADMISSION",
+                "started_at": datetime.now(timezone.utc).isoformat(),
+            }
+            write_state(state)
+
             plan["executed"] = True
+            plan["controller_phase"] = "PROTECTION_ACTIVE"
             plan["reason"] = (
                 "Strong admission protection activated "
                 "for persistent downstream pressure"

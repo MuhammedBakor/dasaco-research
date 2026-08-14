@@ -22,7 +22,7 @@ HIGH_THRESHOLD = {
 }
 
 
-def load_recent(count=3):
+def load_recent(count=2):
     if not LOG_FILE.exists():
         raise SystemExit("Monitoring log does not exist")
 
@@ -142,7 +142,7 @@ def validate_persistence(snapshots):
         return {
             "state": "EVIDENCE_PENDING",
             "reason": (
-                "Pressure was not present in three "
+                "Pressure was not present in two "
                 "consecutive snapshots"
             ),
             "observed_states": states,
@@ -156,13 +156,13 @@ def validate_persistence(snapshots):
     return latest
 
 def main():
-    snapshots = load_recent(3)
+    snapshots = load_recent(2)
     decision = validate_persistence(snapshots)
 
     output = {
         "timestamp": snapshots[-1]["timestamp"],
         "mode": "READ_ONLY",
-        "evidence_window": 3,
+        "evidence_window": 2,
         "decision": decision,
     }
 
