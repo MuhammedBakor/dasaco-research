@@ -10,7 +10,7 @@ CPU_REQUESTS = {
     "ausf": 100,
     "udm": 100,
     "udr": 100,
-    "mongodb": 100,
+    "mongodb": 500,
 }
 
 HIGH_THRESHOLD = {
@@ -18,7 +18,7 @@ HIGH_THRESHOLD = {
     "ausf": 75,
     "udm": 75,
     "udr": 75,
-    "mongodb": 160,
+    "mongodb": 75,
 }
 
 
