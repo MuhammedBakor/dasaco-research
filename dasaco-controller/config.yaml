@@ -1,0 +1,38 @@
+namespace: free5gc
+observation_interval_seconds: 5
+metrics_freshness_seconds: 30
+
+open5glos:
+  control_url: http://127.0.0.1:19091
+  deployment: open5glos
+
+functions:
+  amf:
+    workload_kind: deployment
+    workload_name: free5gc-free5gc-amf-amf
+    label_selector: nf=amf
+    cpu_request_millicores: 100
+
+  ausf:
+    workload_kind: deployment
+    workload_name: free5gc-free5gc-ausf-ausf
+    label_selector: nf=ausf
+    cpu_request_millicores: 100
+
+  udm:
+    workload_kind: deployment
+    workload_name: free5gc-free5gc-udm-udm
+    label_selector: nf=udm
+    cpu_request_millicores: 100
+
+  udr:
+    workload_kind: deployment
+    workload_name: free5gc-free5gc-udr-udr
+    label_selector: nf=udr
+    cpu_request_millicores: 100
+
+  mongodb:
+    workload_kind: statefulset
+    workload_name: mongodb
+    label_selector: app.kubernetes.io/name=mongodb
+    cpu_request_millicores: 100
