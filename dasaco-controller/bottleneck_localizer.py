@@ -49,6 +49,15 @@ def cpu_percent(name, data):
 
 
 def classify(snapshot):
+    admission = snapshot.get("admission", {})
+    if admission.get("mode") == "UNAVAILABLE":
+        return {
+            "state": "UNSAFE_OR_UNCERTAIN",
+            "reason": "Admission control evidence is unavailable",
+            "functions": ["open5glos"],
+            "recommended_action": "HOLD",
+        }
+
     functions = snapshot["functions"]
     unhealthy = []
     pressured = []
@@ -128,9 +137,6 @@ def validate_persistence(snapshots):
     latest = decisions[-1]
 
     persistent = len(set(states)) == 1
-
-    if latest["state"] == "NORMAL":
-        persistent = True
 
     if not persistent:
         return {
