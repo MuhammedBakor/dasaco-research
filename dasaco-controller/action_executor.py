@@ -207,6 +207,103 @@ def append_action_event(event):
         file.write(json.dumps(event) + "\n")
 
 
+def execute_scale_plan(plan):
+    original = plan["current_amf_replicas"]
+    target = plan["proposed_amf_replicas"]
+    started = datetime.now(timezone.utc).isoformat()
+
+    state = {
+        **default_state(),
+        "phase": "CAPACITY_PENDING",
+        "action": "SCALE_AMF",
+        "target_replicas": target,
+        "started_at": started,
+    }
+    write_state(state)
+    append_action_event({
+        "timestamp": started,
+        "phase": "CAPACITY_PENDING",
+        "original_replicas": original,
+        "target_replicas": target,
+    })
+
+    try:
+        scale_amf(target)
+
+        if not wait_for_amf_ready(target):
+            raise RuntimeError("AMF readiness timeout")
+
+        state["phase"] = "DISCOVERY_PENDING"
+        write_state(state)
+
+        running = running_amf_pods()
+
+        if len(running) != target:
+            raise RuntimeError(
+                f"Expected {target} Running AMFs, found {len(running)}"
+            )
+
+        if not wait_for_open5glos_discovery(running):
+            raise RuntimeError("Open5GLoS discovery timeout")
+
+        state["phase"] = "CAPACITY_VERIFIED"
+        write_state(state)
+
+        plan["executed"] = True
+        plan["controller_phase"] = "CAPACITY_VERIFIED"
+        plan["reason"] = (
+            "AMF scale-out completed; readiness and "
+            "Open5GLoS discovery verified"
+        )
+
+        append_action_event({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "phase": "CAPACITY_VERIFIED",
+            "target_replicas": target,
+            "running_amfs": sorted(running),
+        })
+
+        return plan
+
+    except Exception as error:
+        state["phase"] = "ROLLBACK"
+        state["last_error"] = str(error)
+        write_state(state)
+
+        append_action_event({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "phase": "ROLLBACK",
+            "error": str(error),
+            "rollback_target": original,
+        })
+
+        try:
+            scale_amf(original)
+            rollback_ready = wait_for_amf_ready(original)
+        except Exception as rollback_error:
+            state["phase"] = "FAILED"
+            state["last_error"] = (
+                f"{error}; rollback failed: {rollback_error}"
+            )
+            write_state(state)
+            raise
+
+        if not rollback_ready:
+            state["phase"] = "FAILED"
+            state["last_error"] = (
+                f"{error}; rollback readiness timeout"
+            )
+            write_state(state)
+            raise RuntimeError(state["last_error"])
+
+        write_state(default_state())
+
+        plan["executed"] = False
+        plan["controller_phase"] = "IDLE"
+        plan["reason"] = f"Scale failed and rolled back: {error}"
+        return plan
+
+
 def create_plan(record):
     decision = record["decision"]
     state = read_state()
@@ -250,6 +347,14 @@ def create_plan(record):
 
 def main():
     plan = create_plan(read_latest_decision())
+
+    if (
+        not DRY_RUN
+        and plan["action"] == "SCALE_AMF"
+        and not plan["executed"]
+    ):
+        plan = execute_scale_plan(plan)
+
     ACTION_LOG.parent.mkdir(exist_ok=True)
     with ACTION_LOG.open("a") as file:
         file.write(json.dumps(plan) + "\n")
