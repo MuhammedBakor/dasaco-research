@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 import json
+import os
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
 DECISION_LOG = Path("logs/localizer-decisions.jsonl")
 ACTION_LOG = Path("logs/action-plans.jsonl")
+STATE_FILE = Path("logs/controller-state.json")
+ACTION_STATE_LOG = Path("logs/controller-actions.jsonl")
 NAMESPACE = "free5gc"
 AMF_DEPLOYMENT = "free5gc-free5gc-amf-amf"
 AMF_MAX_REPLICAS = 5
-DRY_RUN = True
+DRY_RUN = os.getenv("DASACO_ACTIVE", "0") != "1"
 
 def run_command(args):
     result = subprocess.run(args, text=True, capture_output=True)
@@ -32,8 +35,52 @@ def current_amf_replicas():
     ])
     return int(value)
 
+def default_state():
+    return {
+        "phase": "IDLE",
+        "action": None,
+        "target_replicas": None,
+        "started_at": None,
+        "cooldown_until": None,
+        "last_error": None,
+    }
+
+
+def read_state():
+    if not STATE_FILE.exists():
+        return default_state()
+
+    try:
+        state = json.loads(STATE_FILE.read_text())
+    except (json.JSONDecodeError, OSError):
+        return {
+            **default_state(),
+            "phase": "FAILED",
+            "last_error": "Controller state file is unreadable",
+        }
+
+    return {
+        **default_state(),
+        **state,
+    }
+
+
+def write_state(state):
+    STATE_FILE.parent.mkdir(exist_ok=True)
+    temporary = STATE_FILE.with_suffix(".tmp")
+    temporary.write_text(json.dumps(state, indent=2) + "\n")
+    temporary.replace(STATE_FILE)
+
+
+def append_action_event(event):
+    ACTION_STATE_LOG.parent.mkdir(exist_ok=True)
+    with ACTION_STATE_LOG.open("a") as file:
+        file.write(json.dumps(event) + "\n")
+
+
 def create_plan(record):
     decision = record["decision"]
+    state = read_state()
     current = current_amf_replicas()
     plan = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
@@ -42,12 +89,20 @@ def create_plan(record):
         "source_state": decision["state"],
         "source_action": decision["recommended_action"],
         "persistent": decision.get("persistent", False),
+        "controller_phase": state["phase"],
         "current_amf_replicas": current,
         "proposed_amf_replicas": current,
         "action": "HOLD",
         "executed": False,
         "reason": "No safe action candidate",
     }
+    if state["phase"] != "IDLE":
+        plan["reason"] = (
+            "Controller action is already pending: "
+            + state["phase"]
+        )
+        return plan
+
     candidate = (
         decision["state"] == "AMF_PRESSURE"
         and decision["recommended_action"] == "SCALE_AMF_CANDIDATE"
