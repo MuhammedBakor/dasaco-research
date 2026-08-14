@@ -244,6 +244,9 @@ def main():
             with log_file.open("a") as file:
                 file.write(json.dumps(snapshot) + "\n")
 
+            if args.once:
+                break
+
             time.sleep(INTERVAL)
 
         except KeyboardInterrupt:
