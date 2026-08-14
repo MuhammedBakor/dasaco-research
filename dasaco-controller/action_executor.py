@@ -207,6 +207,64 @@ def append_action_event(event):
         file.write(json.dumps(event) + "\n")
 
 
+def set_admission_mode(mode):
+    if mode not in {"OPEN", "STRONG_PROTECTION"}:
+        raise RuntimeError(
+            f"Unsupported admission mode: {mode}"
+        )
+
+    pod = "dasaco-admission-action"
+
+    run_command([
+        "kubectl", "delete", "pod", pod,
+        "-n", NAMESPACE,
+        "--ignore-not-found",
+    ])
+
+    try:
+        run_command([
+            "kubectl", "run", pod,
+            "-n", NAMESPACE,
+            "--restart=Never",
+            "--image=curlimages/curl:8.7.1",
+            "--",
+            "curl", "-sf", "-X", "PUT",
+            "-H", "Content-Type: application/json",
+            "-d", json.dumps({"mode": mode}),
+            "http://open5glos-control:9091/admission",
+        ])
+
+        run_command([
+            "kubectl", "wait",
+            "-n", NAMESPACE,
+            "--for=jsonpath={.status.phase}=Succeeded",
+            f"pod/{pod}",
+            "--timeout=30s",
+        ])
+
+        response = run_command([
+            "kubectl", "logs",
+            "-n", NAMESPACE,
+            f"pod/{pod}",
+        ])
+
+        result = json.loads(response)
+
+        if result.get("mode") != mode:
+            raise RuntimeError(
+                f"Admission verification failed: {result}"
+            )
+
+        return result
+
+    finally:
+        run_command([
+            "kubectl", "delete", "pod", pod,
+            "-n", NAMESPACE,
+            "--ignore-not-found",
+        ])
+
+
 def execute_scale_plan(plan):
     original = plan["current_amf_replicas"]
     target = plan["proposed_amf_replicas"]
@@ -228,6 +286,16 @@ def execute_scale_plan(plan):
     })
 
     try:
+        protection = set_admission_mode(
+            "STRONG_PROTECTION"
+        )
+
+        append_action_event({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "phase": "PROTECTION_ACTIVE",
+            "admission": protection,
+        })
+
         scale_amf(target)
 
         if not wait_for_amf_ready(target):
@@ -295,6 +363,15 @@ def execute_scale_plan(plan):
             )
             write_state(state)
             raise RuntimeError(state["last_error"])
+
+        try:
+            set_admission_mode("OPEN")
+        except Exception as admission_error:
+            append_action_event({
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+                "phase": "ADMISSION_RESET_FAILED",
+                "error": str(admission_error),
+            })
 
         write_state(default_state())
 
