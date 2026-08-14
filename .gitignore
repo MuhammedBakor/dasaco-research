@@ -6,3 +6,4 @@ dasaco-controller/logs/
 free5gc/
 packetrusher/
 *.tar.gz
+dasaco-controller/*.before-*

@@ -22,7 +22,7 @@ HIGH_THRESHOLD = {
 }
 
 
-def load_latest():
+def load_recent(count=3):
     if not LOG_FILE.exists():
         raise SystemExit("Monitoring log does not exist")
 
@@ -32,10 +32,15 @@ def load_latest():
         if line.strip()
     ]
 
-    if not lines:
-        raise SystemExit("Monitoring log is empty")
+    if len(lines) < count:
+        raise SystemExit(
+            f"Need {count} snapshots, found {len(lines)}"
+        )
 
-    return json.loads(lines[-1])
+    return [
+        json.loads(line)
+        for line in lines[-count:]
+    ]
 
 
 def cpu_percent(name, data):
@@ -108,13 +113,50 @@ def classify(snapshot):
     }
 
 
+
+def validate_persistence(snapshots):
+    decisions = [
+        classify(snapshot)
+        for snapshot in snapshots
+    ]
+
+    states = [
+        decision["state"]
+        for decision in decisions
+    ]
+
+    latest = decisions[-1]
+
+    persistent = len(set(states)) == 1
+
+    if latest["state"] == "NORMAL":
+        persistent = True
+
+    if not persistent:
+        return {
+            "state": "EVIDENCE_PENDING",
+            "reason": (
+                "Pressure was not present in three "
+                "consecutive snapshots"
+            ),
+            "observed_states": states,
+            "functions": [],
+            "recommended_action": "HOLD",
+            "persistent": False,
+        }
+
+    latest["observed_states"] = states
+    latest["persistent"] = True
+    return latest
+
 def main():
-    snapshot = load_latest()
-    decision = classify(snapshot)
+    snapshots = load_recent(3)
+    decision = validate_persistence(snapshots)
 
     output = {
-        "timestamp": snapshot["timestamp"],
+        "timestamp": snapshots[-1]["timestamp"],
         "mode": "READ_ONLY",
+        "evidence_window": 3,
         "decision": decision,
     }
 
