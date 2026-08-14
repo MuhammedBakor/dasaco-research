@@ -35,4 +35,4 @@ functions:
     workload_kind: statefulset
     workload_name: mongodb
     label_selector: app.kubernetes.io/name=mongodb
-    cpu_request_millicores: 100
+    cpu_request_millicores: 500
