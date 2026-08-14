@@ -52,5 +52,5 @@ A clean run requires:
 Strong Protection completed 300 of 300 planned UE registrations across
 three clean runs. No InitialUEMessage send failure or broken-pipe event
 was observed. Admission protected the registration path but did not add
-processing capacity. The result is the final B3 baseline and must not be
-presented as the complete DA-SACO result.
+processing capacity. These results form the final B3 baseline and must
+not be presented as complete DA-SACO results.
