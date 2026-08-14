@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import json
 import subprocess
 import time
@@ -229,6 +230,9 @@ def display(snapshot):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--once", action="store_true")
+    args = parser.parse_args()
     log_dir = Path("logs")
     log_dir.mkdir(exist_ok=True)
     log_file = log_dir / "monitoring.jsonl"
