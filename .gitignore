@@ -1,0 +1,8 @@
+
+# Local research dependencies and generated evidence
+backups/
+dasaco-controller/__pycache__/
+dasaco-controller/logs/
+free5gc/
+packetrusher/
+*.tar.gz
