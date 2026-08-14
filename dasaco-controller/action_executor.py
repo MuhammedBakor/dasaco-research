@@ -406,6 +406,19 @@ def create_plan(record):
         )
         return plan
 
+    protection_candidate = (
+        decision["state"] == "DOWNSTREAM_PRESSURE"
+        and decision.get("persistent") is True
+    )
+
+    if protection_candidate:
+        plan["action"] = "PROTECT_WITH_ADMISSION"
+        plan["reason"] = (
+            "Persistent downstream pressure requires "
+            "temporary admission protection"
+        )
+        return plan
+
     candidate = (
         decision["state"] == "AMF_PRESSURE"
         and decision["recommended_action"] == "SCALE_AMF_CANDIDATE"
@@ -425,12 +438,25 @@ def create_plan(record):
 def main():
     plan = create_plan(read_latest_decision())
 
-    if (
-        not DRY_RUN
-        and plan["action"] == "SCALE_AMF"
-        and not plan["executed"]
-    ):
-        plan = execute_scale_plan(plan)
+    if not DRY_RUN and not plan["executed"]:
+        if plan["action"] == "SCALE_AMF":
+            plan = execute_scale_plan(plan)
+
+        elif plan["action"] == "PROTECT_WITH_ADMISSION":
+            result = set_admission_mode(
+                "STRONG_PROTECTION"
+            )
+            plan["executed"] = True
+            plan["reason"] = (
+                "Strong admission protection activated "
+                "for persistent downstream pressure"
+            )
+            append_action_event({
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+                "phase": "PROTECTION_ACTIVE",
+                "trigger": "DOWNSTREAM_PRESSURE",
+                "admission": result,
+            })
 
     ACTION_LOG.parent.mkdir(exist_ok=True)
     with ACTION_LOG.open("a") as file:
