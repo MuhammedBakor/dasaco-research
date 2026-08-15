@@ -1,0 +1,16 @@
+DA-SACO UDR Scaling Eligibility
+
+Result: PASS
+
+Validation:
+- UDR scaled from 1 to 2 replicas
+- Both replicas became Kubernetes Ready
+- Registration was tested with 10 UEs
+- Registration Accepts: 10
+- Configuration Update Completes: 10
+- Registration Rejects: 0
+- UDR returned successfully from 2 replicas to 1
+
+Conclusion:
+UDR is eligible for guarded automatic scaling with Kubernetes readiness
+and NRF registration verification.

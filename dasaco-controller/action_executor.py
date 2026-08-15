@@ -48,7 +48,9 @@ NF_CONFIG = {
         "deployment": "free5gc-free5gc-udr-udr",
         "label": "nf=udr",
         "max_replicas": 3,
-        "eligible": False,
+        "eligible": True,
+        "nrf_type": "UDR",
+        "requester_type": "UDM",
     },
     "pcf": {
         "deployment": "free5gc-free5gc-pcf-pcf",
