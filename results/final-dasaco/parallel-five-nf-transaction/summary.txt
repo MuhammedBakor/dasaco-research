@@ -1,0 +1,37 @@
+DA-SACO Parallel Five-NF Controlled Transaction
+
+Result: PASS
+
+Parallel scale-out:
+- AMF scaled from 1 to 2
+- AUSF scaled from 1 to 2
+- UDM scaled from 1 to 2
+- UDR scaled from 1 to 2
+- PCF scaled from 1 to 2
+
+Verification:
+- All Deployments reached 2/2 Ready
+- AMF discovery was verified through Open5GLoS
+- AUSF registration was verified through NRF
+- UDM registration was verified through NRF
+- UDR registration was verified through NRF
+- PCF registration was verified through NRF
+- Each function was verified independently
+
+Parallel recovery:
+- AMF recovered from 2 to 1
+- AUSF recovered from 2 to 1
+- UDM recovered from 2 to 1
+- UDR recovered from 2 to 1
+- PCF recovered from 2 to 1
+
+Final state:
+- All five NFs are 1/1 Ready
+- Admission mode is OPEN
+- Controller phase is IDLE
+- Disconnected AMF was removed from Open5GLoS
+- No stale-AMF broken pipes occurred
+
+Conclusion:
+DA-SACO supports selective concurrent scale-out and parallel recovery
+for all five eligible registration-path network functions.
