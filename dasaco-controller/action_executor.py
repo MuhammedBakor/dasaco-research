@@ -19,6 +19,41 @@ POLL_INTERVAL_SECONDS = 3
 OPEN5GLOS_LABEL = "nf=open5glos"
 DRY_RUN = os.getenv("DASACO_ACTIVE", "0") != "1"
 
+NF_CONFIG = {
+    "amf": {
+        "deployment": "free5gc-free5gc-amf-amf",
+        "label": "nf=amf",
+        "max_replicas": 5,
+        "eligible": True,
+    },
+    "ausf": {
+        "deployment": "free5gc-free5gc-ausf-ausf",
+        "label": "nf=ausf",
+        "max_replicas": 3,
+        "eligible": True,
+    },
+    "udm": {
+        "deployment": "free5gc-free5gc-udm-udm",
+        "label": "nf=udm",
+        "max_replicas": 3,
+        "eligible": True,
+    },
+    "udr": {
+        "deployment": "free5gc-free5gc-udr-udr",
+        "label": "nf=udr",
+        "max_replicas": 3,
+        "eligible": False,
+    },
+    "pcf": {
+        "deployment": "free5gc-free5gc-pcf-pcf",
+        "label": "nf=pcf",
+        "max_replicas": 3,
+        "eligible": False,
+    },
+}
+
+NF_READY_TIMEOUT_SECONDS = 120
+
 def run_command(args):
     result = subprocess.run(args, text=True, capture_output=True)
     if result.returncode != 0:
@@ -31,6 +66,74 @@ def read_latest_decision():
     if not lines:
         raise RuntimeError("Decision log is empty")
     return json.loads(lines[-1])
+
+def nf_settings(name):
+    if name not in NF_CONFIG:
+        raise RuntimeError(f"Unsupported NF: {name}")
+    return NF_CONFIG[name]
+
+
+def current_nf_replicas(name):
+    settings = nf_settings(name)
+
+    value = run_command([
+        "kubectl", "get", "deployment",
+        settings["deployment"],
+        "-n", NAMESPACE,
+        "-o", "jsonpath={.spec.replicas}",
+    ])
+
+    return int(value)
+
+
+def ready_nf_replicas(name):
+    settings = nf_settings(name)
+
+    value = run_command([
+        "kubectl", "get", "deployment",
+        settings["deployment"],
+        "-n", NAMESPACE,
+        "-o", "jsonpath={.status.readyReplicas}",
+    ])
+
+    return int(value or "0")
+
+
+def scale_nf(name, target):
+    settings = nf_settings(name)
+
+    if not settings["eligible"]:
+        raise RuntimeError(
+            f"{name.upper()} scaling eligibility is not verified"
+        )
+
+    if target < 1 or target > settings["max_replicas"]:
+        raise RuntimeError(
+            f"{name.upper()} target {target} is outside safe range"
+        )
+
+    run_command([
+        "kubectl", "scale",
+        f"deployment/{settings['deployment']}",
+        "-n", NAMESPACE,
+        f"--replicas={target}",
+    ])
+
+
+def wait_for_nf_ready(name, target):
+    deadline = time.monotonic() + NF_READY_TIMEOUT_SECONDS
+
+    while time.monotonic() < deadline:
+        desired = current_nf_replicas(name)
+        ready = ready_nf_replicas(name)
+
+        if desired == target and ready == target:
+            return True
+
+        time.sleep(POLL_INTERVAL_SECONDS)
+
+    return False
+
 
 def current_amf_replicas():
     value = run_command([
@@ -265,6 +368,108 @@ def set_admission_mode(mode):
         ])
 
 
+def execute_generic_nf_scale_plan(plan):
+    name = plan["target_function"]
+    original = plan["current_nf_replicas"]
+    target = plan["proposed_nf_replicas"]
+    started = datetime.now(timezone.utc).isoformat()
+
+    state = {
+        **default_state(),
+        "phase": "CAPACITY_PENDING",
+        "action": f"SCALE_{name.upper()}",
+        "target_function": name,
+        "target_replicas": target,
+        "started_at": started,
+    }
+    write_state(state)
+
+    append_action_event({
+        "timestamp": started,
+        "phase": "CAPACITY_PENDING",
+        "target_function": name,
+        "original_replicas": original,
+        "target_replicas": target,
+    })
+
+    try:
+        protection = set_admission_mode("STRONG_PROTECTION")
+
+        append_action_event({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "phase": "PROTECTION_ACTIVE",
+            "target_function": name,
+            "admission": protection,
+        })
+
+        scale_nf(name, target)
+
+        if not wait_for_nf_ready(name, target):
+            raise RuntimeError(
+                f"{name.upper()} readiness timeout"
+            )
+
+        state["phase"] = "CAPACITY_VERIFIED"
+        write_state(state)
+
+        plan["executed"] = True
+        plan["controller_phase"] = "CAPACITY_VERIFIED"
+        plan["reason"] = (
+            f"{name.upper()} scale-out completed and "
+            "Kubernetes readiness verified"
+        )
+
+        append_action_event({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "phase": "CAPACITY_VERIFIED",
+            "target_function": name,
+            "target_replicas": target,
+            "ready_replicas": ready_nf_replicas(name),
+        })
+
+        return plan
+
+    except Exception as error:
+        state["phase"] = "ROLLBACK"
+        state["last_error"] = str(error)
+        write_state(state)
+
+        append_action_event({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "phase": "ROLLBACK",
+            "target_function": name,
+            "rollback_target": original,
+            "error": str(error),
+        })
+
+        try:
+            scale_nf(name, original)
+
+            if not wait_for_nf_ready(name, original):
+                raise RuntimeError(
+                    f"{name.upper()} rollback readiness timeout"
+                )
+
+            set_admission_mode("OPEN")
+            write_state(default_state())
+
+        except Exception as rollback_error:
+            state["phase"] = "FAILED"
+            state["last_error"] = (
+                f"{error}; rollback failed: {rollback_error}"
+            )
+            write_state(state)
+            raise
+
+        plan["executed"] = False
+        plan["controller_phase"] = "IDLE"
+        plan["reason"] = (
+            f"{name.upper()} scaling failed and rolled back: {error}"
+        )
+
+        return plan
+
+
 def execute_scale_plan(plan):
     original = plan["current_amf_replicas"]
     target = plan["proposed_amf_replicas"]
@@ -406,6 +611,53 @@ def create_plan(record):
         )
         return plan
 
+    scale_states = {
+        "AUSF_PRESSURE": "ausf",
+        "UDM_PRESSURE": "udm",
+        "UDR_PRESSURE": "udr",
+        "PCF_PRESSURE": "pcf",
+    }
+
+    target_function = scale_states.get(decision["state"])
+
+    if (
+        target_function
+        and decision.get("persistent") is True
+    ):
+        settings = nf_settings(target_function)
+
+        if not settings["eligible"]:
+            plan["action"] = "PROTECT_WITH_ADMISSION"
+            plan["target_function"] = target_function
+            plan["reason"] = (
+                f"{target_function.upper()} pressure detected, "
+                "but automatic scaling eligibility is not verified"
+            )
+            return plan
+
+        current_nf = current_nf_replicas(target_function)
+
+        if current_nf >= settings["max_replicas"]:
+            plan["reason"] = (
+                f"{target_function.upper()} maximum replica "
+                "limit reached"
+            )
+            return plan
+
+        plan["action"] = "SCALE_NF"
+        plan["target_function"] = target_function
+        plan["current_nf_replicas"] = current_nf
+        plan["proposed_nf_replicas"] = current_nf + 1
+        plan["reason"] = (
+            f"Persistent {target_function.upper()} pressure "
+            "passed scaling eligibility and safety guards"
+        )
+
+        if DRY_RUN:
+            plan["reason"] += "; execution blocked by DRY_RUN"
+
+        return plan
+
     protection_candidate = (
         decision["state"] == "DOWNSTREAM_PRESSURE"
         and decision.get("persistent") is True
@@ -441,6 +693,9 @@ def main():
     if not DRY_RUN and not plan["executed"]:
         if plan["action"] == "SCALE_AMF":
             plan = execute_scale_plan(plan)
+
+        elif plan["action"] == "SCALE_NF":
+            plan = execute_generic_nf_scale_plan(plan)
 
         elif plan["action"] == "PROTECT_WITH_ADMISSION":
             result = set_admission_mode(
