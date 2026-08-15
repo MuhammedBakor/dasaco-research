@@ -863,14 +863,14 @@ def create_plan(record):
         return plan
 
     protection_candidate = (
-        decision["state"] == "DOWNSTREAM_PRESSURE"
+        decision["state"] == "MONGODB_PRESSURE"
         and decision.get("persistent") is True
     )
 
     if protection_candidate:
         plan["action"] = "PROTECT_WITH_ADMISSION"
         plan["reason"] = (
-            "Persistent downstream pressure requires "
+            "Persistent MongoDB pressure requires "
             "temporary admission protection"
         )
         return plan
@@ -885,6 +885,7 @@ def create_plan(record):
             plan["reason"] = "AMF maximum replica limit reached"
         else:
             plan["action"] = "SCALE_AMF"
+            plan["target_function"] = "amf"
             plan["proposed_amf_replicas"] = current + 1
             plan["reason"] = "Persistent AMF pressure passed safety guards"
             if DRY_RUN:
