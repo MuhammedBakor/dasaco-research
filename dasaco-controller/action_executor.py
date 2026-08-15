@@ -25,18 +25,24 @@ NF_CONFIG = {
         "label": "nf=amf",
         "max_replicas": 5,
         "eligible": True,
+        "nrf_type": "AMF",
+        "requester_type": "AMF",
     },
     "ausf": {
         "deployment": "free5gc-free5gc-ausf-ausf",
         "label": "nf=ausf",
         "max_replicas": 3,
         "eligible": True,
+        "nrf_type": "AUSF",
+        "requester_type": "AMF",
     },
     "udm": {
         "deployment": "free5gc-free5gc-udm-udm",
         "label": "nf=udm",
         "max_replicas": 3,
         "eligible": True,
+        "nrf_type": "UDM",
+        "requester_type": "AUSF",
     },
     "udr": {
         "deployment": "free5gc-free5gc-udr-udr",
@@ -128,6 +134,81 @@ def wait_for_nf_ready(name, target):
         ready = ready_nf_replicas(name)
 
         if desired == target and ready == target:
+            return True
+
+        time.sleep(POLL_INTERVAL_SECONDS)
+
+    return False
+
+
+def nrf_registered_count(name):
+    settings = nf_settings(name)
+    target_type = settings.get("nrf_type")
+    requester_type = settings.get("requester_type")
+
+    if not target_type or not requester_type:
+        return current_nf_replicas(name)
+
+    pod = f"dasaco-nrf-check-{name}"
+
+    run_command([
+        "kubectl", "delete", "pod", pod,
+        "-n", NAMESPACE,
+        "--ignore-not-found",
+    ])
+
+    url = (
+        "http://nrf-nnrf:8000/nnrf-disc/v1/nf-instances"
+        f"?requester-nf-type={requester_type}"
+        f"&target-nf-type={target_type}"
+    )
+
+    try:
+        run_command([
+            "kubectl", "run", pod,
+            "-n", NAMESPACE,
+            "--restart=Never",
+            "--image=curlimages/curl:8.7.1",
+            "--",
+            "curl", "-sf", url,
+        ])
+
+        run_command([
+            "kubectl", "wait",
+            "-n", NAMESPACE,
+            "--for=jsonpath={.status.phase}=Succeeded",
+            f"pod/{pod}",
+            "--timeout=30s",
+        ])
+
+        response = run_command([
+            "kubectl", "logs",
+            "-n", NAMESPACE,
+            f"pod/{pod}",
+        ])
+
+        document = json.loads(response)
+        instances = document.get("nfInstances", [])
+
+        return sum(
+            1
+            for instance in instances
+            if instance.get("nfStatus") == "REGISTERED"
+        )
+
+    finally:
+        run_command([
+            "kubectl", "delete", "pod", pod,
+            "-n", NAMESPACE,
+            "--ignore-not-found",
+        ])
+
+
+def wait_for_nrf_registration(name, target):
+    deadline = time.monotonic() + NF_READY_TIMEOUT_SECONDS
+
+    while time.monotonic() < deadline:
+        if nrf_registered_count(name) >= target:
             return True
 
         time.sleep(POLL_INTERVAL_SECONDS)
@@ -407,6 +488,14 @@ def execute_generic_nf_scale_plan(plan):
         if not wait_for_nf_ready(name, target):
             raise RuntimeError(
                 f"{name.upper()} readiness timeout"
+            )
+
+        state["phase"] = "DISCOVERY_PENDING"
+        write_state(state)
+
+        if not wait_for_nrf_registration(name, target):
+            raise RuntimeError(
+                f"{name.upper()} NRF registration timeout"
             )
 
         state["phase"] = "CAPACITY_VERIFIED"
