@@ -352,6 +352,8 @@ def default_state():
     return {
         "phase": "IDLE",
         "action": None,
+        "target_function": None,
+        "original_replicas": None,
         "target_replicas": None,
         "started_at": None,
         "cooldown_until": None,
@@ -460,6 +462,7 @@ def execute_generic_nf_scale_plan(plan):
         "phase": "CAPACITY_PENDING",
         "action": f"SCALE_{name.upper()}",
         "target_function": name,
+        "original_replicas": original,
         "target_replicas": target,
         "started_at": started,
     }
@@ -568,6 +571,8 @@ def execute_scale_plan(plan):
         **default_state(),
         "phase": "CAPACITY_PENDING",
         "action": "SCALE_AMF",
+        "target_function": "amf",
+        "original_replicas": original,
         "target_replicas": target,
         "started_at": started,
     }
@@ -675,6 +680,97 @@ def execute_scale_plan(plan):
         return plan
 
 
+def execute_recovery_plan(plan):
+    state = read_state()
+    name = state.get("target_function")
+    original = state.get("original_replicas")
+
+    started = datetime.now(timezone.utc).isoformat()
+
+    effect_event = {
+        "timestamp": started,
+        "phase": "EFFECT_VERIFIED",
+        "trigger": plan["source_state"],
+        "previous_action": state.get("action"),
+        "target_function": name,
+        "reason": (
+            "Persistent NORMAL evidence confirmed after action"
+        ),
+    }
+    append_action_event(effect_event)
+
+    state["phase"] = "RECOVERY_PENDING"
+    write_state(state)
+
+    append_action_event({
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "phase": "RECOVERY_PENDING",
+        "target_function": name,
+        "recovery_target": original,
+    })
+
+    try:
+        if name and original is not None:
+            if name == "amf":
+                scale_amf(original)
+
+                if not wait_for_amf_ready(original):
+                    raise RuntimeError(
+                        "AMF recovery readiness timeout"
+                    )
+            else:
+                scale_nf(name, original)
+
+                if not wait_for_nf_ready(name, original):
+                    raise RuntimeError(
+                        f"{name.upper()} recovery readiness timeout"
+                    )
+
+                if not wait_for_nrf_registration(name, original):
+                    raise RuntimeError(
+                        f"{name.upper()} recovery NRF timeout"
+                    )
+
+        admission = set_admission_mode("OPEN")
+        write_state(default_state())
+
+        plan["executed"] = True
+        plan["controller_phase"] = "IDLE"
+        plan["reason"] = (
+            "Effect verified; capacity and admission recovered"
+        )
+
+        append_action_event({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "phase": "RECOVERY_VERIFIED",
+            "target_function": name,
+            "replicas": original,
+            "admission": admission,
+        })
+
+        return plan
+
+    except Exception as error:
+        failed = {
+            **state,
+            "phase": "FAILED",
+            "last_error": str(error),
+        }
+        write_state(failed)
+
+        append_action_event({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "phase": "RECOVERY_FAILED",
+            "target_function": name,
+            "error": str(error),
+        })
+
+        plan["executed"] = False
+        plan["controller_phase"] = "FAILED"
+        plan["reason"] = f"Recovery failed: {error}"
+        return plan
+
+
 def create_plan(record):
     decision = record["decision"]
     state = read_state()
@@ -693,6 +789,25 @@ def create_plan(record):
         "executed": False,
         "reason": "No safe action candidate",
     }
+    recoverable_phases = {
+        "CAPACITY_VERIFIED",
+        "PROTECTION_ACTIVE",
+    }
+
+    recovery_candidate = (
+        state["phase"] in recoverable_phases
+        and decision["state"] == "NORMAL"
+        and decision.get("persistent") is True
+    )
+
+    if recovery_candidate:
+        plan["action"] = "RECOVER"
+        plan["reason"] = (
+            "Persistent NORMAL evidence verifies the action effect "
+            "and permits guarded recovery"
+        )
+        return plan
+
     if state["phase"] != "IDLE":
         plan["reason"] = (
             "Controller action is already pending: "
@@ -786,6 +901,9 @@ def main():
         elif plan["action"] == "SCALE_NF":
             plan = execute_generic_nf_scale_plan(plan)
 
+        elif plan["action"] == "RECOVER":
+            plan = execute_recovery_plan(plan)
+
         elif plan["action"] == "PROTECT_WITH_ADMISSION":
             result = set_admission_mode(
                 "STRONG_PROTECTION"
@@ -794,6 +912,8 @@ def main():
                 **default_state(),
                 "phase": "PROTECTION_ACTIVE",
                 "action": "PROTECT_WITH_ADMISSION",
+                "target_function": plan.get("target_function"),
+                "original_replicas": None,
                 "started_at": datetime.now(timezone.utc).isoformat(),
             }
             write_state(state)
