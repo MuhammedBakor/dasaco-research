@@ -1,0 +1,55 @@
+DA-SACO Real Parallel Multi-NF Active100 Run
+
+Result: PASS
+
+Real pressure localization:
+- Persistent concurrent pressure was detected on AMF, AUSF, UDM, and UDR
+- PCF was not scaled because persistent PCF pressure was not observed
+- Scaling remained selective and evidence-driven
+
+Parallel scale-out:
+- AMF scaled from 1 to 2
+- AUSF scaled from 1 to 2
+- UDM scaled from 1 to 2
+- UDR scaled from 1 to 2
+
+Independent verification:
+- AMF reached 2/2 Ready and was discovered by Open5GLoS
+- AUSF reached 2/2 Ready and two instances were verified through NRF
+- UDM reached 2/2 Ready and two instances were verified through NRF
+- UDR reached 2/2 Ready and two instances were verified through NRF
+- No scaling action failed
+
+Parallel recovery:
+- AMF recovered from 2 to 1
+- AUSF recovered from 2 to 1
+- UDM recovered from 2 to 1
+- UDR recovered from 2 to 1
+- Admission returned to OPEN
+- Controller returned to IDLE
+
+Workload:
+- Unique workload size: 100 UEs
+- Configuration Update Completes: 100
+- Registration Rejects: 0
+- Registration Accept log events: 117
+- The Accept count includes repeated Registration Accept messages
+- Broken-pipe lines: 0
+- Disconnected gNB removals: 1
+- Disconnected AMF removals: 1
+
+Final state:
+- AMF: 1/1 Ready
+- AUSF: 1/1 Ready
+- UDM: 1/1 Ready
+- UDR: 1/1 Ready
+- PCF: 1/1 Ready
+- Admission: OPEN
+- Controller: IDLE
+- Last error: null
+
+Conclusion:
+This run validates monitoring-driven concurrent pressure localization,
+selective parallel scale-out, independent per-NF verification, parallel
+recovery, AMF lifecycle cleanup, gNB lifecycle cleanup, and successful
+completion of 100 UE registrations without rejects or broken pipes.

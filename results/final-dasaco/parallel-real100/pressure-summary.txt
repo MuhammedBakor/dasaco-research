@@ -1,0 +1,12 @@
+DA-SACO Real Parallel Pressure Summary
+
+States:
+NORMAL=73
+EVIDENCE_PENDING=2
+MULTI_NF_PRESSURE=1
+
+Persistent pressure functions:
+amf=1
+ausf=1
+udm=1
+udr=1

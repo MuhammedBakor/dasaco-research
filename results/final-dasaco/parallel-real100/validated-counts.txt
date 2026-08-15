@@ -1,0 +1,6 @@
+RegistrationAcceptEvents=117
+ConfigurationUpdates=100
+RegistrationRejects=0
+BrokenPipes=0
+RemovedGnBs=1
+RemovedAMFs=1
