@@ -10,6 +10,7 @@ CPU_REQUESTS = {
     "ausf": 100,
     "udm": 100,
     "udr": 100,
+    "pcf": 100,
     "mongodb": 500,
 }
 
@@ -18,6 +19,7 @@ HIGH_THRESHOLD = {
     "ausf": 75,
     "udm": 75,
     "udr": 75,
+    "pcf": 75,
     "mongodb": 75,
 }
 
@@ -95,7 +97,7 @@ def classify(snapshot):
     downstream = [
         name
         for name in pressured
-        if name in {"ausf", "udm", "udr"}
+        if name in {"ausf", "udm", "udr", "pcf"}
     ]
 
     if downstream:

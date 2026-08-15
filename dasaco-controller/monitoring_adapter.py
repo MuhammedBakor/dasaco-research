@@ -17,6 +17,7 @@ FUNCTIONS = {
     "ausf": ("deployment", "free5gc-free5gc-ausf-ausf", "nf=ausf"),
     "udm": ("deployment", "free5gc-free5gc-udm-udm", "nf=udm"),
     "udr": ("deployment", "free5gc-free5gc-udr-udr", "nf=udr"),
+    "pcf": ("deployment", "free5gc-free5gc-pcf-pcf", "nf=pcf"),
     "mongodb": ("statefulset", "mongodb", "app.kubernetes.io/name=mongodb"),
 }
 
