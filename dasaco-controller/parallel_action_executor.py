@@ -8,6 +8,25 @@ import action_executor as base
 
 MAX_PARALLEL_ACTIONS = 5
 
+PARALLEL_DECISION_LOG = base.Path(
+    "logs/parallel-localizer-decisions.jsonl"
+)
+
+
+def read_latest_parallel_decision():
+    lines = [
+        line
+        for line in PARALLEL_DECISION_LOG.read_text().splitlines()
+        if line.strip()
+    ]
+
+    if not lines:
+        raise RuntimeError("Parallel decision log is empty")
+
+    return json.loads(lines[-1])
+
+
+
 
 def timestamp():
     return datetime.now(timezone.utc).isoformat()
@@ -298,12 +317,186 @@ def execute_parallel_plan(plan):
     return plan
 
 
+
+def recover_one(name, action):
+    original = action["original_replicas"]
+
+    try:
+        if name == "amf":
+            base.scale_amf(original)
+
+            if not base.wait_for_amf_ready(original):
+                raise RuntimeError(
+                    "AMF recovery readiness timeout"
+                )
+        else:
+            base.scale_nf(name, original)
+
+            if not base.wait_for_nf_ready(name, original):
+                raise RuntimeError(
+                    name.upper() + " recovery readiness timeout"
+                )
+
+            if not base.wait_for_nrf_registration(
+                name,
+                original,
+            ):
+                raise RuntimeError(
+                    name.upper() + " recovery NRF timeout"
+                )
+
+        return {
+            "function": name,
+            "success": True,
+            "replicas": original,
+            "error": None,
+        }
+
+    except Exception as error:
+        return {
+            "function": name,
+            "success": False,
+            "replicas": original,
+            "error": str(error),
+        }
+
+
+def execute_parallel_recovery():
+    state = base.read_state()
+    actions = state.get("actions", {})
+
+    recoverable = {
+        name: action
+        for name, action in actions.items()
+        if action.get("phase") == "CAPACITY_VERIFIED"
+    }
+
+    base.append_action_event({
+        "timestamp": timestamp(),
+        "phase": "PARALLEL_EFFECT_VERIFIED",
+        "functions": sorted(recoverable),
+    })
+
+    state["phase"] = "PARALLEL_RECOVERY_PENDING"
+    base.write_state(state)
+
+    results = []
+
+    if recoverable:
+        with ThreadPoolExecutor(
+            max_workers=len(recoverable)
+        ) as executor:
+            futures = {
+                executor.submit(
+                    recover_one,
+                    name,
+                    action,
+                ): name
+                for name, action in recoverable.items()
+            }
+
+            for future in as_completed(futures):
+                result = future.result()
+                results.append(result)
+
+                phase = (
+                    "PARALLEL_RECOVERY_VERIFIED"
+                    if result["success"]
+                    else "PARALLEL_RECOVERY_FAILED"
+                )
+
+                base.append_action_event({
+                    "timestamp": timestamp(),
+                    "phase": phase,
+                    "target_function": result["function"],
+                    "replicas": result["replicas"],
+                    "error": result["error"],
+                })
+
+    failures = [
+        item["function"]
+        for item in results
+        if not item["success"]
+    ]
+
+    if failures:
+        state["phase"] = "PARALLEL_RECOVERY_FAILED"
+        state["failed_recoveries"] = failures
+        base.write_state(state)
+
+        return {
+            "executed": False,
+            "phase": state["phase"],
+            "results": results,
+        }
+
+    admission = base.set_admission_mode("OPEN")
+    base.write_state(base.default_state())
+
+    base.append_action_event({
+        "timestamp": timestamp(),
+        "phase": "PARALLEL_RECOVERY_COMPLETE",
+        "functions": sorted(recoverable),
+        "admission": admission,
+    })
+
+    return {
+        "executed": True,
+        "phase": "IDLE",
+        "results": results,
+        "admission": admission,
+    }
+
+
+
 def main():
-    record = base.read_latest_decision()
+    record = read_latest_parallel_decision()
     decision = record["decision"]
+    state = base.read_state()
+
+    recovery_candidate = (
+        state.get("phase") == "PARALLEL_CAPACITY_VERIFIED"
+        and decision.get("state") == "NORMAL"
+        and decision.get("persistent") is True
+    )
+
+    if recovery_candidate:
+        if base.DRY_RUN:
+            result = {
+                "mode": "DRY_RUN",
+                "action": "RECOVER_MULTIPLE_NFS",
+                "executed": False,
+            }
+        else:
+            result = execute_parallel_recovery()
+
+        print(json.dumps(result, indent=2))
+        return
+
+    if state.get("phase") != "IDLE":
+        result = {
+            "mode": (
+                "DRY_RUN"
+                if base.DRY_RUN
+                else "ACTIVE"
+            ),
+            "action": "HOLD",
+            "executed": False,
+            "reason": (
+                "Parallel actions already active: "
+                + state.get("phase", "UNKNOWN")
+            ),
+        }
+
+        print(json.dumps(result, indent=2))
+        return
+
     plan = build_parallel_plan(decision)
 
-    if not base.DRY_RUN and plan["action"] == "SCALE_MULTIPLE_NFS":
+    if (
+        not base.DRY_RUN
+        and plan["action"] == "SCALE_MULTIPLE_NFS"
+    ):
         plan = execute_parallel_plan(plan)
 
     print(json.dumps(plan, indent=2))

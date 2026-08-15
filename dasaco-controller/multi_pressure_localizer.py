@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 
+import json
+from pathlib import Path
+
 from bottleneck_localizer import (
     CPU_REQUESTS,
     HIGH_THRESHOLD,
     cpu_percent,
 )
+
+LOG_FILE = Path("logs/monitoring.jsonl")
 
 SCALABLE_FUNCTIONS = {
     "amf",
@@ -180,3 +185,47 @@ def validate_parallel_persistence(snapshots):
         ),
         "persistent": True,
     }
+
+
+def load_recent_snapshots(count=2):
+    lines = [
+        line
+        for line in LOG_FILE.read_text().splitlines()
+        if line.strip()
+    ]
+
+    if len(lines) < count:
+        raise SystemExit(
+            f"Need {count} monitoring snapshots, found {len(lines)}"
+        )
+
+    return [
+        json.loads(line)
+        for line in lines[-count:]
+    ]
+
+
+def main():
+    snapshots = load_recent_snapshots(2)
+    decision = validate_parallel_persistence(snapshots)
+
+    output = {
+        "timestamp": snapshots[-1]["timestamp"],
+        "mode": "READ_ONLY",
+        "evidence_window": 2,
+        "decision": decision,
+    }
+
+    output_file = Path(
+        "logs/parallel-localizer-decisions.jsonl"
+    )
+    output_file.parent.mkdir(exist_ok=True)
+
+    with output_file.open("a") as file:
+        file.write(json.dumps(output) + "\n")
+
+    print(json.dumps(output, indent=2))
+
+
+if __name__ == "__main__":
+    main()
