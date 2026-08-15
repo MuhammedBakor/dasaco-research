@@ -1,0 +1,33 @@
+DA-SACO NRF Scaling Eligibility
+
+Result: CONDITIONALLY ELIGIBLE WITH GUARDED NF RE-REGISTRATION
+
+Validated:
+- NRF scaled from 1 to 2 replicas
+- Both replicas became Kubernetes Ready
+- Both replicas returned identical discovery results
+- Both replicas accessed the shared MongoDB-backed NF profile store
+- Service request counts were 22 and 22
+- Registration Accepts: 10
+- Configuration Update Completes: 10
+- Registration Rejects: 0
+- NRF returned from 2 replicas to 1 at the Kubernetes level
+
+Observed scale-down failure:
+- Direct NRF scale-down removed the shared NF profiles
+- MongoDB NfProfile count became zero
+- Discovery returned:
+  {"validityPeriod":100,"nfInstances":null}
+
+Validated guarded recovery:
+- AMF, AUSF, UDM, UDR, and PCF were restarted after NRF scale-down
+- The functions registered new NF profiles
+- AMF discovery returned a REGISTERED profile
+- NRF discovery continuity was restored
+
+Eligibility decision:
+- Blind NRF scale-down is not eligible
+- NRF scale-out is operational
+- NRF scale-down is conditionally eligible only through a specialized
+  recovery transaction that forces NF re-registration and verifies
+  discovery before declaring recovery complete

@@ -1,0 +1,31 @@
+NF profiles=6
+{
+  nfInstanceId: '8ca419c6-919d-44af-a7a3-e7caab2a8c34',
+  nfType: 'AF',
+  nfStatus: 'REGISTERED'
+}
+{
+  nfType: 'AMF',
+  nfStatus: 'REGISTERED',
+  nfInstanceId: 'a3260421-73d9-4b37-a7e7-6f80242e1083'
+}
+{
+  nfInstanceId: '024f915a-4252-4705-a652-9df2a34fb660',
+  nfType: 'AUSF',
+  nfStatus: 'REGISTERED'
+}
+{
+  nfStatus: 'REGISTERED',
+  nfType: 'PCF',
+  nfInstanceId: 'dc27fe1b-147c-4106-95f1-b840cf7ae9fd'
+}
+{
+  nfInstanceId: '952390af-8d28-472f-9898-41b1a9dabcac',
+  nfType: 'UDM',
+  nfStatus: 'REGISTERED'
+}
+{
+  nfStatus: 'REGISTERED',
+  nfInstanceId: '6253876c-998e-4898-9dfb-8172bb694edb',
+  nfType: 'UDR'
+}
