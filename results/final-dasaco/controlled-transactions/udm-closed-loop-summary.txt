@@ -1,0 +1,24 @@
+DA-SACO Controlled UDM Closed-Loop Transaction
+
+Result: PASS
+
+Sequence:
+UDM_PRESSURE
+PROTECTION_ACTIVE
+UDM scaled from 1 to 2
+Kubernetes readiness verified at 2/2
+NRF registration verified at 2 instances
+Persistent NORMAL evidence observed
+EFFECT_VERIFIED
+RECOVERY_PENDING
+UDM scaled from 2 to 1
+Admission restored to OPEN
+RECOVERY_VERIFIED
+Controller returned to IDLE
+
+Final state:
+UDM replicas: 1
+UDM ready replicas: 1
+Admission mode: OPEN
+Controller phase: IDLE
+Last error: null

@@ -1,0 +1,6 @@
+{"timestamp": "2026-08-15T07:13:09.453251+00:00", "phase": "CAPACITY_PENDING", "target_function": "udm", "original_replicas": 1, "target_replicas": 2}
+{"timestamp": "2026-08-15T07:13:13.013548+00:00", "phase": "PROTECTION_ACTIVE", "target_function": "udm", "admission": {"mode": "STRONG_PROTECTION", "enabled": true, "rate_per_second": 15, "burst": 5, "admitted": 0, "waited": 0, "total_wait_ms": 0, "updated_at": "2026-08-15T07:13:10.710912986Z"}}
+{"timestamp": "2026-08-15T07:13:30.132167+00:00", "phase": "CAPACITY_VERIFIED", "target_function": "udm", "target_replicas": 2, "ready_replicas": 2}
+{"timestamp": "2026-08-15T07:14:40.499528+00:00", "phase": "EFFECT_VERIFIED", "trigger": "NORMAL", "previous_action": "SCALE_UDM", "target_function": "udm", "reason": "Persistent NORMAL evidence confirmed after action"}
+{"timestamp": "2026-08-15T07:14:40.500813+00:00", "phase": "RECOVERY_PENDING", "target_function": "udm", "recovery_target": 1}
+{"timestamp": "2026-08-15T07:14:48.889266+00:00", "phase": "RECOVERY_VERIFIED", "target_function": "udm", "replicas": 1, "admission": {"mode": "OPEN", "enabled": false, "rate_per_second": 0, "burst": 1000, "admitted": 0, "waited": 0, "total_wait_ms": 0, "updated_at": "2026-08-15T07:14:46.163979523Z"}}
