@@ -1,0 +1,24 @@
+DA-SACO Controlled AUSF Closed-Loop Transaction
+
+Result: PASS
+
+Sequence:
+AUSF_PRESSURE
+PROTECTION_ACTIVE
+AUSF scaled from 1 to 2
+Kubernetes readiness verified at 2/2
+NRF registration verified at 2 instances
+Persistent NORMAL evidence observed
+EFFECT_VERIFIED
+RECOVERY_PENDING
+AUSF scaled from 2 to 1
+Admission restored to OPEN
+RECOVERY_VERIFIED
+Controller returned to IDLE
+
+Final state:
+AUSF replicas: 1
+AUSF ready replicas: 1
+Admission mode: OPEN
+Controller phase: IDLE
+Last error: null
