@@ -1,0 +1,8 @@
+Received=100
+SuccessfulSends=100
+FailedSends=0
+BrokenPipes=0
+RemovedGnBs=1
+RegistrationAccepts=100
+ConfigurationUpdates=100
+PacketRusherRejects=0

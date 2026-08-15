@@ -1,0 +1,4 @@
+2026/08/15 08:00:58 [INFO] Accepted connection from 10.244.0.1:44762
+2026/08/15 08:02:04 [ERROR] Read error: EOF
+2026/08/15 08:03:58 [ERROR] Read error: EOF
+2026/08/15 08:03:58 [INFO] Removed disconnected GnB from manager: GnB-10.244.0.1:44762

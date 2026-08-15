@@ -1,0 +1,3 @@
+2026/08/15 08:01:31 [INFO] Connected to AMF: 10.244.0.161:38412, ID: free5gc-free5gc-amf-amf-8c7b86c8-6kcml
+2026/08/15 08:01:31 [INFO] Added AMF to manager: free5gc-free5gc-amf-amf-8c7b86c8-6kcml
+2026/08/15 08:01:31 [INFO] AMF free5gc-free5gc-amf-amf-8c7b86c8-6kcml successfully registered with manager

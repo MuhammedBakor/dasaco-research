@@ -1,0 +1,6 @@
+{"timestamp": "2026-08-15T08:01:19.448560+00:00", "phase": "CAPACITY_PENDING", "original_replicas": 1, "target_replicas": 2}
+{"timestamp": "2026-08-15T08:01:23.265095+00:00", "phase": "PROTECTION_ACTIVE", "admission": {"mode": "STRONG_PROTECTION", "enabled": true, "rate_per_second": 15, "burst": 5, "admitted": 101, "waited": 0, "total_wait_ms": 0, "updated_at": "2026-08-15T08:01:20.807773849Z"}}
+{"timestamp": "2026-08-15T08:01:37.593260+00:00", "phase": "CAPACITY_VERIFIED", "target_replicas": 2, "running_amfs": ["free5gc-free5gc-amf-amf-8c7b86c8-6kcml", "free5gc-free5gc-amf-amf-8c7b86c8-qp4wx"]}
+{"timestamp": "2026-08-15T08:02:03.728219+00:00", "phase": "EFFECT_VERIFIED", "trigger": "NORMAL", "previous_action": "SCALE_AMF", "target_function": "amf", "reason": "Persistent NORMAL evidence confirmed after action"}
+{"timestamp": "2026-08-15T08:02:03.729160+00:00", "phase": "RECOVERY_PENDING", "target_function": "amf", "recovery_target": 1}
+{"timestamp": "2026-08-15T08:02:07.647096+00:00", "phase": "RECOVERY_VERIFIED", "target_function": "amf", "replicas": 1, "admission": {"mode": "OPEN", "enabled": false, "rate_per_second": 0, "burst": 1000, "admitted": 101, "waited": 0, "total_wait_ms": 0, "updated_at": "2026-08-15T08:02:05.629439516Z"}}

@@ -1,0 +1,64 @@
+DA-SACO Multi-NF Active100 with gNB Lifecycle Cleanup
+
+Status: VALID CLOSED-LOOP RUN
+Registration result: PASS
+Stability result: PASS
+Dynamic action result: PASS
+Scale-out traffic distribution: NOT EXERCISED BY THIS SHORT BURST
+
+Workload:
+- InitialUEMessages received: 100
+- InitialUEMessages successfully forwarded: 100
+- Failed InitialUEMessage sends: 0
+- Broken-pipe lines: 0
+- Disconnected gNB removals: 1
+- PacketRusher Registration Accepts: 100
+- PacketRusher Configuration Update Completes: 100
+- PacketRusher Registration Rejects: 0
+- Unique UEs started: 100
+- Unique UEs completed: 100
+- Unique success ratio: 100.00%
+- Retry events: 0
+
+Performance:
+- P50 latency: 874.722 ms
+- P95 latency: 4923.081 ms
+- P99 latency: 5600.586 ms
+- Minimum latency: 46.843 ms
+- Maximum latency: 6614.758 ms
+
+Controller:
+- Real persistent AMF pressure detected
+- Strong admission protection activated
+- AMF scaled automatically from 1 to 2
+- Kubernetes readiness verified at 2/2
+- Open5GLoS discovery of both AMFs verified
+- Persistent NORMAL evidence triggered effect verification
+- AMF recovered automatically from 2 to 1
+- Admission restored automatically to OPEN
+- Controller returned to IDLE
+- Last error: null
+
+Timeline:
+- First InitialUEMessage: 08:00:59 UTC
+- Second AMF discovered by Open5GLoS: 08:01:31 UTC
+- Capacity verified at 2/2: 08:01:37 UTC
+- The second AMF became available about 32 seconds after the first UE arrived
+
+gNB lifecycle:
+- PacketRusher disconnect produced EOF
+- Open5GLoS immediately removed the disconnected gNB
+- No broken pipes occurred
+
+Traffic distribution:
+- All 100 InitialUEMessages were assigned to the original AMF
+- The workload burst arrived before scale-out and discovery completed
+- The run validates the closed-loop transaction, but does not
+  demonstrate traffic redistribution to the newly added AMF
+- A longer or phased workload is required to measure scale-out benefit
+
+Interpretation:
+The run validates stable 100-UE registration, disconnected-gNB cleanup,
+monitoring-driven AMF localization, automatic admission protection,
+automatic scale-out, readiness and discovery verification, effect
+verification, automatic scale-down, and restoration to OPEN and IDLE.
