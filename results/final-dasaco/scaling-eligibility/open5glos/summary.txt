@@ -1,0 +1,41 @@
+DA-SACO Open5GLoS Scaling Eligibility
+
+Result: CONDITIONALLY ELIGIBLE WITH CONNECTION-AWARE DRAINING
+
+Validation:
+- Open5GLoS scaled from 1 to 2 replicas
+- Both replicas became Kubernetes Ready
+- Both replicas connected independently to the current AMF
+- Kubernetes distributed two SCTP gNB connections across both replicas
+
+Per-replica traffic:
+- Replica 1: 1 gNB connection, 10 Initial UE Messages, 10 successful forwards
+- Replica 2: 1 gNB connection, 10 Initial UE Messages, 10 successful forwards
+
+Registration result:
+- Planned UEs: 20
+- Registration Accepts: 20
+- Configuration Update Completes: 20
+- Registration Rejects: 0
+- Broken pipes: 0
+- Disconnected gNB removals: 2
+
+State constraint:
+- gNB, UE, UE-to-AMF binding, and connection state are local to each
+  Open5GLoS replica.
+- UEs cannot migrate between Open5GLoS replicas during an active SCTP
+  association.
+- Kubernetes distributes complete SCTP connections, not individual UEs
+  inside an existing connection.
+
+Recovery decision:
+- Blind scale-down while a target replica owns active gNB connections
+  is unsafe.
+- Open5GLoS scale-down is eligible only after connection-aware draining:
+  stop new connections to the selected replica, wait until active gNB
+  count reaches zero, and then reduce the Deployment replica count.
+
+Conclusion:
+Open5GLoS is eligible for guarded horizontal scale-out and
+connection-aware scale-down. Newly created replicas provided useful
+capacity when new gNB SCTP associations were established.

@@ -1,0 +1,129 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "51"
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{},"labels":{"app":"free5gc","io.service":"open5glos","nf":"open5glos"},"name":"open5glos","namespace":"free5gc"},"spec":{"replicas":1,"selector":{"matchLabels":{"nf":"open5glos"}},"template":{"metadata":{"labels":{"app":"free5gc","io.service":"open5glos","nf":"open5glos"}},"spec":{"containers":[{"args":["/etc/5glos/config.yaml"],"env":[{"name":"POD_NAMESPACE","valueFrom":{"fieldRef":{"fieldPath":"metadata.namespace"}}},{"name":"ADMISSION_MODE","value":"OPEN"},{"name":"ADMISSION_CONTROL_ADDRESS","value":":9091"}],"image":"open5glos:dasaco-dynamic-admission","imagePullPolicy":"IfNotPresent","livenessProbe":{"failureThreshold":3,"httpGet":{"path":"/healthz","port":"admission-api"},"initialDelaySeconds":10,"periodSeconds":10,"timeoutSeconds":2},"name":"open5glos","ports":[{"containerPort":38412,"name":"ngap","protocol":"SCTP"},{"containerPort":9090,"name":"metrics","protocol":"TCP"},{"containerPort":9091,"name":"admission-api","protocol":"TCP"}],"readinessProbe":{"failureThreshold":6,"httpGet":{"path":"/healthz","port":"admission-api"},"initialDelaySeconds":3,"periodSeconds":5,"timeoutSeconds":2},"resources":{"limits":{"cpu":"500m","memory":"512Mi"},"requests":{"cpu":"100m","memory":"128Mi"}},"volumeMounts":[{"mountPath":"/etc/5glos","name":"config","readOnly":true}]}],"serviceAccountName":"open5glos","volumes":[{"configMap":{"name":"5glos-config"},"name":"config"}]}}}}
+  creationTimestamp: "2026-08-11T09:38:52Z"
+  generation: 53
+  labels:
+    app: free5gc
+    io.service: open5glos
+    nf: open5glos
+  name: open5glos
+  namespace: free5gc
+  resourceVersion: "220613"
+  uid: f4c49bb7-bb3f-4adb-b2e5-4b83a250d5ae
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      nf: open5glos
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      annotations:
+        kubectl.kubernetes.io/restartedAt: "2026-08-15T20:32:30+08:00"
+      labels:
+        app: free5gc
+        io.service: open5glos
+        nf: open5glos
+    spec:
+      containers:
+      - args:
+        - /etc/5glos/config.yaml
+        env:
+        - name: POD_NAMESPACE
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+        - name: ADMISSION_MODE
+          value: OPEN
+        - name: ADMISSION_CONTROL_ADDRESS
+          value: :9091
+        image: open5glos:dasaco-amf-cleanup
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /healthz
+            port: admission-api
+            scheme: HTTP
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 2
+        name: open5glos
+        ports:
+        - containerPort: 38412
+          name: ngap
+          protocol: SCTP
+        - containerPort: 9090
+          name: metrics
+          protocol: TCP
+        - containerPort: 9091
+          name: admission-api
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 6
+          httpGet:
+            path: /healthz
+            port: admission-api
+            scheme: HTTP
+          initialDelaySeconds: 3
+          periodSeconds: 5
+          successThreshold: 1
+          timeoutSeconds: 2
+        resources:
+          limits:
+            cpu: 500m
+            memory: 512Mi
+          requests:
+            cpu: 100m
+            memory: 128Mi
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /etc/5glos
+          name: config
+          readOnly: true
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      serviceAccount: open5glos
+      serviceAccountName: open5glos
+      terminationGracePeriodSeconds: 30
+      volumes:
+      - configMap:
+          defaultMode: 420
+          name: 5glos-config
+        name: config
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2026-08-15T03:54:24Z"
+    lastUpdateTime: "2026-08-15T03:54:24Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  - lastTransitionTime: "2026-08-11T09:38:52Z"
+    lastUpdateTime: "2026-08-15T12:32:37Z"
+    message: ReplicaSet "open5glos-58f9fff4b6" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  observedGeneration: 53
+  readyReplicas: 1
+  replicas: 1
+  terminatingReplicas: 0
+  updatedReplicas: 1

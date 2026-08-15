@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"open5glos","namespace":"free5gc"},"spec":{"ports":[{"name":"ngap","nodePort":30412,"port":38412,"protocol":"SCTP","targetPort":38412}],"selector":{"nf":"open5glos"},"type":"NodePort"}}
+  creationTimestamp: "2026-08-11T09:38:52Z"
+  name: open5glos
+  namespace: free5gc
+  resourceVersion: "16251"
+  uid: a455c780-885d-4916-80d5-effcc6d19f10
+spec:
+  clusterIP: 10.96.225.52
+  clusterIPs:
+  - 10.96.225.52
+  externalTrafficPolicy: Cluster
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: ngap
+    nodePort: 30412
+    port: 38412
+    protocol: SCTP
+    targetPort: 38412
+  selector:
+    nf: open5glos
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}
