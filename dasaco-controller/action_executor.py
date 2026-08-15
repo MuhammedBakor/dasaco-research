@@ -56,7 +56,9 @@ NF_CONFIG = {
         "deployment": "free5gc-free5gc-pcf-pcf",
         "label": "nf=pcf",
         "max_replicas": 3,
-        "eligible": False,
+        "eligible": True,
+        "nrf_type": "PCF",
+        "requester_type": "AMF",
     },
 }
 
