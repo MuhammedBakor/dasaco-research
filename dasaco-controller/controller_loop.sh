@@ -7,7 +7,11 @@ LOOP_LOG="$LOG_DIR/controller-loop.log"
 
 mkdir -p "$LOG_DIR"
 
-echo "DA-SACO Controller Loop started in DRY_RUN mode."
+if [ "${DASACO_ACTIVE:-0}" = "1" ]; then
+  echo "DA-SACO Controller Loop started in ACTIVE mode."
+else
+  echo "DA-SACO Controller Loop started in DRY_RUN mode."
+fi
 echo "Interval: ${INTERVAL_SECONDS} seconds"
 echo "Press Ctrl+C to stop."
 

@@ -88,33 +88,27 @@ def classify(snapshot):
 
     if "mongodb" in pressured:
         return {
-            "state": "DOWNSTREAM_PRESSURE",
-            "reason": "MongoDB pressure requires path protection",
-            "functions": pressured,
+            "state": "MONGODB_PRESSURE",
+            "reason": "MongoDB pressure requires admission protection",
+            "functions": ["mongodb"],
             "recommended_action": "PROTECT_WITH_ADMISSION",
         }
 
-    downstream = [
-        name
-        for name in pressured
-        if name in {"ausf", "udm", "udr", "pcf"}
-    ]
+    # Select the deepest pressured dependency first. This avoids scaling
+    # an upstream NF when the active bottleneck is farther downstream.
+    pressure_priority = ["udr", "udm", "ausf", "pcf", "amf"]
 
-    if downstream:
-        return {
-            "state": "DOWNSTREAM_PRESSURE",
-            "reason": "Downstream registration dependency pressure",
-            "functions": downstream,
-            "recommended_action": "COLLECT_MORE_EVIDENCE",
-        }
-
-    if "amf" in pressured:
-        return {
-            "state": "AMF_PRESSURE",
-            "reason": "AMF CPU pressure detected",
-            "functions": ["amf"],
-            "recommended_action": "SCALE_AMF_CANDIDATE",
-        }
+    for name in pressure_priority:
+        if name in pressured:
+            return {
+                "state": f"{name.upper()}_PRESSURE",
+                "reason": (
+                    f"{name.upper()} CPU pressure detected on the "
+                    "registration dependency path"
+                ),
+                "functions": [name],
+                "recommended_action": f"SCALE_{name.upper()}_CANDIDATE",
+            }
 
     return {
         "state": "NORMAL",
