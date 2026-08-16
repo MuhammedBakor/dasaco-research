@@ -1,0 +1,59 @@
+DA-SACO Primary Registration Latency Summary
+
+Definition:
+  First AMF Handle InitialRegistration to
+  last AMF Handle Registration Complete per SUPI.
+
+Per-run results:
+  clean-dasaco-20260816-202519
+    Completed UEs: 100
+    Mean: 1971.864 ms
+    P50: 1966.017 ms
+    P95: 4173.229 ms
+    P99: 5611.732 ms
+    Minimum: 175.734 ms
+    Maximum: 6320.068 ms
+    Sample SD: 1201.958 ms
+  clean-dasaco-20260816-203351
+    Completed UEs: 99
+    Mean: 2495.759 ms
+    P50: 2482.186 ms
+    P95: 4613.728 ms
+    P99: 6642.770 ms
+    Minimum: 232.591 ms
+    Maximum: 7909.083 ms
+    Sample SD: 1405.040 ms
+  clean-dasaco-20260816-204156
+    Completed UEs: 98
+    Mean: 2350.453 ms
+    P50: 1989.002 ms
+    P95: 6376.317 ms
+    P99: 7919.469 ms
+    Minimum: 191.778 ms
+    Maximum: 8478.016 ms
+    Sample SD: 1805.361 ms
+
+Pooled completed-UE result:
+  Completed UEs: 297
+  Mean: 2271.417 ms
+  P50: 2097.958 ms
+  P95: 5028.426 ms
+  P99: 7158.174 ms
+  Minimum: 175.734 ms
+  Maximum: 8478.016 ms
+  Sample SD: 1501.366 ms
+
+Mean of per-run statistics:
+  Mean of run means: 2272.692 ms
+  Mean P50: 2145.735 ms
+  Mean P95: 5054.425 ms
+  Mean P99: 6724.657 ms
+  P50 between-run sample SD: 291.602 ms
+  P95 between-run sample SD: 1165.787 ms
+  P99 between-run sample SD: 1156.046 ms
+
+Methodological notes:
+  The primary completion denominator remains 100 planned UEs
+  per repetition, not only UEs observed in AMF logs.
+  Retry counts from the current AMF-event heuristic are not
+  used as paper results without further event validation.
