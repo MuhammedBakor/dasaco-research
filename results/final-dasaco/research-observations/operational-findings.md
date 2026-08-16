@@ -469,3 +469,48 @@ Final recovery guard:
 
 Run 3 is classified as a diagnostic run and is excluded from final
 comparative statistics.
+
+## Automatic Parallel Run 4: Recovery Guard Validation
+
+Wave 1 completed successfully:
+
+- UEs started: 100
+- Registration Accepts: 100
+- Configuration Update Completes: 100
+- Registration Rejects: 0
+- AMF Status Indications: 0
+
+The newly created AMF replica carried real traffic:
+
+- Registration-related events: 113
+- Unique IMSIs: 36
+- Traffic-use classification: CAPACITY_USE_VERIFIED
+
+The protocol-aware recovery guard blocked recovery repeatedly while
+Open5GLoS reported two and then one active gNB associations. Recovery
+started only after the active gNB connection count reached zero.
+
+No AMF Status Indication occurred, demonstrating that the active-gNB
+recovery guard prevented the premature AMF removal observed in the
+previous diagnostic run.
+
+Wave 2 began when AMF desired replicas were two but only one replica
+was Ready. Its result was therefore:
+
+- UEs started: 100
+- Registration Accepts: 12
+- Configuration Update Completes: 3
+- Registration Rejects: 0
+- AMF Status Indications: 0
+
+Research implication:
+
+`Replica scale requested != capacity ready for a subsequent wave`
+
+A post-scale workload must wait for desired replicas to equal Ready
+replicas, completion of service-level verification, and replica-wide
+Admission OPEN. Detecting only a desired replica count greater than one
+is insufficient.
+
+Run 4 is classified as a diagnostic run and excluded from final
+comparative statistics.
