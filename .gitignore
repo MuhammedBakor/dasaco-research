@@ -51,3 +51,6 @@ backups/
 *.archive
 *.tar
 *.tar.gz
+
+# Locally generated per-run registration-latency analysis
+results/final-dasaco/final-accepted-runs/*/analysis/
