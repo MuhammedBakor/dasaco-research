@@ -1,0 +1,85 @@
+DA-SACO VERIFIED EXPERIMENTAL ENVIRONMENT
+=========================================
+
+HOST VIRTUAL MACHINE
+--------------------
+Operating system: Ubuntu 22.04.5 LTS
+Kernel: 6.8.0-136-generic
+Architecture: x86_64
+Virtualization: VMware
+Allocated CPUs: 6 vCPU
+Processor model: AMD Ryzen 7 8845HS with Radeon 780M Graphics
+Memory: approximately 10 GiB
+Swap: 2 GiB
+Disk: 100 GB
+Networking: VMware NAT
+
+CONTAINER AND KUBERNETES PLATFORM
+---------------------------------
+Docker: 29.7.2
+Docker Compose: 5.4.0
+Host containerd: 2.3.3
+Kind: 0.32.0
+Kind node image: kindest/node:v1.36.1
+kubectl client: 1.36.0
+Kubernetes server: 1.36.1
+Metrics Server image: registry.k8s.io/metrics-server/metrics-server:v0.9.0
+Kubernetes namespace: free5gc
+
+DEVELOPMENT TOOLS
+-----------------
+Python: 3.10.12
+Git: 2.34.1
+Helm: 3.21.3
+
+FREE5GC
+-------
+Network-function image version: free5GC v4.2.3
+AMF image: free5gc/amf:v4.2.3
+AUSF image: free5gc/ausf:v4.2.3
+NRF image: free5gc/nrf:v4.2.3
+PCF image: free5gc/pcf:v4.2.3
+UDM image: free5gc/udm:v4.2.3
+UDR image: free5gc/udr:v4.2.3
+free5GC Helm commit:
+6f67ec11512e8c6b4eb6b3237f46e71fec5bdda2
+Repository state: detached HEAD at the recorded commit
+
+OPEN5GLOS
+---------
+Runtime image: open5glos:dasaco-gnb-runtime
+Repository branch: dasaco-serialized-writer
+Repository commit:
+55994ae45ac66e00722460fad4902a481dac6f68
+
+PACKETRUSHER
+------------
+Repository commit:
+194ae987ee2bacfae2cf57d435b475e54076679e
+
+Executable SHA-256:
+3f5b7adbd9428d5882c45995c1644f0aa73d7489f40edaa6caa37b69289d421b
+
+PacketRusher does not support a version flag in this build. The
+repository commit and executable SHA-256 identify the exact version.
+
+PRIMARY DA-SACO WORKLOAD
+------------------------
+Planned UEs: 100
+Inter-arrival time: 50 ms
+PDU sessions: 0
+Timeout: 240 seconds
+Subscriber range:
+imsi-208930000018001 through imsi-208930000018100
+
+SUPPLEMENTARY WORKLOADS
+-----------------------
+Experiment 1:
+Planned UEs: 150
+Inter-arrival time: 50 ms
+Purpose: rapid-burst multi-function scale-out demonstration
+
+Experiment 2:
+Planned UEs: 150
+Inter-arrival time: 500 ms
+Purpose: sustained-arrival new-replica capacity-use demonstration
