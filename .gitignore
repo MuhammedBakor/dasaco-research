@@ -19,3 +19,35 @@ results/final-dasaco/*-console.log
 results/final-dasaco/dasaco-fresh-run-*.log
 results/final-dasaco/dasaco-final-run-*.log
 results/final-dasaco/dasaco-final-valid-run-*.log
+
+# Local nested repositories and generated caches
+free5gc/
+open5glos/repo/.git/
+packetrusher/repo/.git/
+dasaco-controller/__pycache__/
+scripts/experiment/__pycache__/
+
+# Private keys, credentials, and local cluster access
+*.key
+*.pem
+*.p12
+*.pfx
+*.kubeconfig
+kubeconfig
+.env
+.env.*
+*token*
+*credentials*
+
+# Raw supplementary experiment evidence
+results/exploratory-stress-dasaco/diagnostic-runs/
+results/exploratory-stress-dasaco/stress-150ue-*/
+results/exploratory-stress-dasaco/*-console.log
+results/exploratory-sustained-dasaco/sustained-150ue-*/
+results/exploratory-sustained-dasaco/*-console.log
+
+# Local archives and database backups
+backups/
+*.archive
+*.tar
+*.tar.gz
