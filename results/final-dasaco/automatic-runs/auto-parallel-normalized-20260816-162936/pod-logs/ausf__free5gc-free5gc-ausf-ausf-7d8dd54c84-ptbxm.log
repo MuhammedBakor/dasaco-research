@@ -1,0 +1,1077 @@
+2026-08-16T08:30:07.908410554Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:07.912886196Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.952897297Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.952951508Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.956551308Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.956612292Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.959345307Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.959426990Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.959591459Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.959602139Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.961208391Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.961461866Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:10.103808784Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:10.103895607Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:11.991665985Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018007, imsi-208930000018007) to map.
+2026-08-16T08:30:11.993614428Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018009, imsi-208930000018009) to map.
+2026-08-16T08:30:11.993797672Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:11.995216322Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018011, imsi-208930000018011) to map.
+2026-08-16T08:30:11.999061532Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.004941297Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.007600363Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018010, imsi-208930000018010) to map.
+2026-08-16T08:30:12.008290778Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.027392956Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.105067170Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.106304520Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.106604322Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.141012400Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.141210651Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.143979824Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.144189086Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.147990704Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.148547659Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.148502474Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.149053507Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.369169198Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018013, imsi-208930000018013) to map.
+2026-08-16T08:30:12.370342629Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.370973752Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.398419454Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.398648464Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.477143006Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018004, imsi-208930000018004) to map.
+2026-08-16T08:30:12.478120128Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.478281200Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.477346908Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018012, imsi-208930000018012) to map.
+2026-08-16T08:30:12.478581043Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.478658818Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.498310164Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.498369426Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.704334734Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018008, imsi-208930000018008) to map.
+2026-08-16T08:30:12.704424943Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.704481188Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.704640086Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018017, imsi-208930000018017) to map.
+2026-08-16T08:30:12.704647771Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.704683357Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.704760792Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018015, imsi-208930000018015) to map.
+2026-08-16T08:30:12.704767615Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.704799335Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.706436224Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018018, imsi-208930000018018) to map.
+2026-08-16T08:30:12.706499893Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.706531172Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.757005815Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.757452784Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.762914996Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.763125391Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.772420500Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018019, imsi-208930000018019) to map.
+2026-08-16T08:30:12.772465404Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.772997021Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.776239991Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018016, imsi-208930000018016) to map.
+2026-08-16T08:30:12.776860174Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.777094774Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.850140058Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.850229465Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.872737509Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018024, imsi-208930000018024) to map.
+2026-08-16T08:30:12.872804595Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.873064843Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.886739725Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018021, imsi-208930000018021) to map.
+2026-08-16T08:30:12.903741424Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.904156673Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.903628442Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.905278085Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.903673897Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018022, imsi-208930000018022) to map.
+2026-08-16T08:30:12.905784164Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.906325820Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.915371451Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.915405815Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.992950829Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018030, imsi-208930000018030) to map.
+2026-08-16T08:30:12.992979192Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.993021431Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.993824197Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.993870714Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.008880748Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.009312728Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.013756340Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018025, imsi-208930000018025) to map.
+2026-08-16T08:30:13.014828610Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.014938136Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.088889981Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.089465630Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.093393715Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.093422559Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.116361292Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018027, imsi-208930000018027) to map.
+2026-08-16T08:30:13.116402819Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.116580703Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.116361402Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018028, imsi-208930000018028) to map.
+2026-08-16T08:30:13.116857211Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.116890935Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.141429506Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.141473518Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.141691407Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018031, imsi-208930000018031) to map.
+2026-08-16T08:30:13.142648181Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.143841198Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.143192281Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.145727494Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.162957262Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018036, imsi-208930000018036) to map.
+2026-08-16T08:30:13.163389652Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.163636154Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.193729592Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.194101970Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.196289111Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.196362809Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.280608645Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018037, imsi-208930000018037) to map.
+2026-08-16T08:30:13.281332663Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.281390712Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.302763898Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.302835252Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.368924263Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018033, imsi-208930000018033) to map.
+2026-08-16T08:30:13.375357837Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.375639595Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.375307422Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018042, imsi-208930000018042) to map.
+2026-08-16T08:30:13.376969789Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.377089153Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.380301466Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018034, imsi-208930000018034) to map.
+2026-08-16T08:30:13.380376777Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.380441759Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.415557073Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.415777666Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.423044872Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.423123560Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.429201567Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.429244227Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.472926716Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018043, imsi-208930000018043) to map.
+2026-08-16T08:30:13.473422826Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.473537621Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.503670833Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.504287649Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.604457364Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018040, imsi-208930000018040) to map.
+2026-08-16T08:30:13.604492540Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.604531883Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.615942500Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018048, imsi-208930000018048) to map.
+2026-08-16T08:30:13.618835364Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.619379525Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.622292026Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018039, imsi-208930000018039) to map.
+2026-08-16T08:30:13.638518412Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018049, imsi-208930000018049) to map.
+2026-08-16T08:30:13.638862978Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.639110232Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.703169618Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.703330029Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.704095204Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.704331958Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.704855710Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.704889383Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.704217063Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.705166333Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.803345154Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.803471120Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.814628050Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.816035279Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.816159412Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.821491430Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.875921600Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018014, imsi-208930000018014) to map.
+2026-08-16T08:30:13.875955874Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.876363017Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.890511006Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018046, imsi-208930000018046) to map.
+2026-08-16T08:30:13.892518992Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.892741349Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.892164176Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018045, imsi-208930000018045) to map.
+2026-08-16T08:30:13.893610909Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.893716918Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.892184414Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018023, imsi-208930000018023) to map.
+2026-08-16T08:30:13.905121813Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.905528586Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.913350813Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.913459266Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.918889699Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.920237006Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.936956646Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.937745465Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.940938902Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.940996601Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.983466815Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018054, imsi-208930000018054) to map.
+2026-08-16T08:30:13.983512631Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.983716443Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.094567256Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.094605297Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.178664875Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018020, imsi-208930000018020) to map.
+2026-08-16T08:30:14.178740156Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.178993682Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.179256264Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018055, imsi-208930000018055) to map.
+2026-08-16T08:30:14.179268357Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.179293043Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.216040116Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018029, imsi-208930000018029) to map.
+2026-08-16T08:30:14.216225073Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.216276329Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.219506716Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.219563723Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.228615585Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018052, imsi-208930000018052) to map.
+2026-08-16T08:30:14.230409159Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.230464122Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.230302759Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.231204410Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.254519767Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018051, imsi-208930000018051) to map.
+2026-08-16T08:30:14.254560874Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.256753074Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018060, imsi-208930000018060) to map.
+2026-08-16T08:30:14.257437197Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.258477498Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.261237122Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.296656386Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.300396860Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.473042562Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018061, imsi-208930000018061) to map.
+2026-08-16T08:30:14.479427804Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.485350270Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.486263402Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018026, imsi-208930000018026) to map.
+2026-08-16T08:30:14.486843640Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.487044517Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.486653003Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018035, imsi-208930000018035) to map.
+2026-08-16T08:30:14.487526331Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.488030296Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:07.908410554Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:07.912886196Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.952897297Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.952951508Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.956551308Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.956612292Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.959345307Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.959426990Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.959591459Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.959602139Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:09.961208391Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:09.961461866Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:10.103808784Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:10.103895607Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:11.991665985Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018007, imsi-208930000018007) to map.
+2026-08-16T08:30:11.993614428Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018009, imsi-208930000018009) to map.
+2026-08-16T08:30:11.993797672Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:11.995216322Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018011, imsi-208930000018011) to map.
+2026-08-16T08:30:11.999061532Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.004941297Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.007600363Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018010, imsi-208930000018010) to map.
+2026-08-16T08:30:12.008290778Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.027392956Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.105067170Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.106304520Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.106604322Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.141012400Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.141210651Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.143979824Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.144189086Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.147990704Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.148547659Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.148502474Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.149053507Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.369169198Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018013, imsi-208930000018013) to map.
+2026-08-16T08:30:12.370342629Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.370973752Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.398419454Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.398648464Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.477143006Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018004, imsi-208930000018004) to map.
+2026-08-16T08:30:12.478120128Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.478281200Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.477346908Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018012, imsi-208930000018012) to map.
+2026-08-16T08:30:12.478581043Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.478658818Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.498310164Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.498369426Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.704334734Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018008, imsi-208930000018008) to map.
+2026-08-16T08:30:12.704424943Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.704481188Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.704640086Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018017, imsi-208930000018017) to map.
+2026-08-16T08:30:12.704647771Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.704683357Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.704760792Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018015, imsi-208930000018015) to map.
+2026-08-16T08:30:12.704767615Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.704799335Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.706436224Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018018, imsi-208930000018018) to map.
+2026-08-16T08:30:12.706499893Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.706531172Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.757005815Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.757452784Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.762914996Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.763125391Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.772420500Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018019, imsi-208930000018019) to map.
+2026-08-16T08:30:12.772465404Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.772997021Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.776239991Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018016, imsi-208930000018016) to map.
+2026-08-16T08:30:12.776860174Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.777094774Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.850140058Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.850229465Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.872737509Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018024, imsi-208930000018024) to map.
+2026-08-16T08:30:12.872804595Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.873064843Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.886739725Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018021, imsi-208930000018021) to map.
+2026-08-16T08:30:12.903741424Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.904156673Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.903628442Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.905278085Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.903673897Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018022, imsi-208930000018022) to map.
+2026-08-16T08:30:12.905784164Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.906325820Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.915371451Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.915405815Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:12.992950829Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018030, imsi-208930000018030) to map.
+2026-08-16T08:30:12.992979192Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:12.993021431Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:12.993824197Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:12.993870714Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.008880748Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.009312728Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.013756340Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018025, imsi-208930000018025) to map.
+2026-08-16T08:30:13.014828610Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.014938136Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.088889981Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.089465630Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.093393715Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.093422559Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.116361292Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018027, imsi-208930000018027) to map.
+2026-08-16T08:30:13.116402819Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.116580703Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.116361402Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018028, imsi-208930000018028) to map.
+2026-08-16T08:30:13.116857211Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.116890935Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.141429506Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.141473518Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.141691407Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018031, imsi-208930000018031) to map.
+2026-08-16T08:30:13.142648181Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.143841198Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.143192281Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.145727494Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.162957262Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018036, imsi-208930000018036) to map.
+2026-08-16T08:30:13.163389652Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.163636154Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.193729592Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.194101970Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.196289111Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.196362809Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.280608645Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018037, imsi-208930000018037) to map.
+2026-08-16T08:30:13.281332663Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.281390712Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.302763898Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.302835252Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.368924263Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018033, imsi-208930000018033) to map.
+2026-08-16T08:30:13.375357837Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.375639595Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.375307422Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018042, imsi-208930000018042) to map.
+2026-08-16T08:30:13.376969789Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.377089153Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.380301466Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018034, imsi-208930000018034) to map.
+2026-08-16T08:30:13.380376777Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.380441759Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.415557073Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.415777666Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.423044872Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.423123560Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.429201567Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.429244227Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.472926716Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018043, imsi-208930000018043) to map.
+2026-08-16T08:30:13.473422826Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.473537621Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.503670833Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.504287649Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.604457364Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018040, imsi-208930000018040) to map.
+2026-08-16T08:30:13.604492540Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.604531883Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.615942500Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018048, imsi-208930000018048) to map.
+2026-08-16T08:30:13.618835364Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.619379525Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.622292026Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018039, imsi-208930000018039) to map.
+2026-08-16T08:30:13.638518412Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018049, imsi-208930000018049) to map.
+2026-08-16T08:30:13.638862978Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.639110232Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.703169618Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.703330029Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.704095204Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.704331958Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.704855710Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.704889383Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.704217063Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.705166333Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.803345154Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.803471120Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.814628050Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.816035279Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.816159412Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.821491430Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.875921600Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018014, imsi-208930000018014) to map.
+2026-08-16T08:30:13.875955874Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.876363017Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.890511006Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018046, imsi-208930000018046) to map.
+2026-08-16T08:30:13.892518992Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.892741349Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.892164176Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018045, imsi-208930000018045) to map.
+2026-08-16T08:30:13.893610909Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.893716918Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.892184414Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018023, imsi-208930000018023) to map.
+2026-08-16T08:30:13.905121813Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.905528586Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:13.913350813Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.913459266Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.918889699Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.920237006Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.936956646Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.937745465Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.940938902Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:13.940996601Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:13.983466815Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018054, imsi-208930000018054) to map.
+2026-08-16T08:30:13.983512631Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:13.983716443Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.094567256Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.094605297Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.178664875Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018020, imsi-208930000018020) to map.
+2026-08-16T08:30:14.178740156Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.178993682Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.179256264Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018055, imsi-208930000018055) to map.
+2026-08-16T08:30:14.179268357Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.179293043Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.216040116Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018029, imsi-208930000018029) to map.
+2026-08-16T08:30:14.216225073Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.216276329Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.219506716Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.219563723Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.228615585Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018052, imsi-208930000018052) to map.
+2026-08-16T08:30:14.230409159Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.230464122Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.230302759Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.231204410Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.254519767Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018051, imsi-208930000018051) to map.
+2026-08-16T08:30:14.254560874Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.256753074Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018060, imsi-208930000018060) to map.
+2026-08-16T08:30:14.257437197Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.258477498Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.261237122Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.296656386Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.300396860Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.473042562Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018061, imsi-208930000018061) to map.
+2026-08-16T08:30:14.479427804Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.485350270Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.486263402Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018026, imsi-208930000018026) to map.
+2026-08-16T08:30:14.486843640Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.487044517Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.486653003Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018035, imsi-208930000018035) to map.
+2026-08-16T08:30:14.487526331Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.488030296Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.558168010Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.604142404Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.608187218Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.608404926Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.608888162Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.613942530Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.704887737Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018041, imsi-208930000018041) to map.
+2026-08-16T08:30:14.704929406Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.704986593Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.705314037Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018032, imsi-208930000018032) to map.
+2026-08-16T08:30:14.705383357Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.705422771Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.746926112Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.747018375Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.810287439Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.810331271Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.827788945Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018067, imsi-208930000018067) to map.
+2026-08-16T08:30:14.828608863Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.828711285Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.863665445Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.863716250Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.905043411Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018047, imsi-208930000018047) to map.
+2026-08-16T08:30:14.905244358Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.905570730Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018038, imsi-208930000018038) to map.
+2026-08-16T08:30:14.905594304Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:14.906340603Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.906836974Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:14.928748549Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.929305554Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:14.964849721Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:14.964901679Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.001107858Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018044, imsi-208930000018044) to map.
+2026-08-16T08:30:15.001159485Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:15.001222774Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:15.081016102Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018053, imsi-208930000018053) to map.
+2026-08-16T08:30:15.081903496Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:15.082174113Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:15.095683214Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.096156061Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.183187970Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018059, imsi-208930000018059) to map.
+2026-08-16T08:30:15.183265886Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:15.183327462Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:15.253511351Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.253611729Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.288042869Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018065, imsi-208930000018065) to map.
+2026-08-16T08:30:15.288204222Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:15.288302927Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:15.327004326Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.327041836Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.327503021Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.327528518Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.354026704Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.354785517Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.370395878Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.372848015Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.400699139Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018071, imsi-208930000018071) to map.
+2026-08-16T08:30:15.400733393Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:15.400777856Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:15.416306594Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.416340317Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.476272233Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018057, imsi-208930000018057) to map.
+2026-08-16T08:30:15.476363625Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:15.476733088Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:15.492646576Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.493471052Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:15.961671588Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018073, imsi-208930000018073) to map.
+2026-08-16T08:30:15.961836447Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:15.961914593Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:15.985356288Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:15.985427622Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.065349290Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.065557120Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.084191410Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018079, imsi-208930000018079) to map.
+2026-08-16T08:30:16.084220515Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.084264387Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.111012712Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.111080950Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.159522611Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018050, imsi-208930000018050) to map.
+2026-08-16T08:30:16.159599575Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.159776527Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.170786061Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018085, imsi-208930000018085) to map.
+2026-08-16T08:30:16.170825124Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.170886459Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.173708951Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.174043809Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.181108787Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.181229533Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.268250594Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018091, imsi-208930000018091) to map.
+2026-08-16T08:30:16.268282063Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.268349980Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.295620573Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.295764233Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.370336411Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018056, imsi-208930000018056) to map.
+2026-08-16T08:30:16.370375133Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.370442159Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.389491476Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.390410340Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.478075659Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018097, imsi-208930000018097) to map.
+2026-08-16T08:30:16.478115403Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.478630569Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.502219419Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:16.502354933Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:16.574696589Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018062, imsi-208930000018062) to map.
+2026-08-16T08:30:16.574764496Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.603663694Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.619388858Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.619458178Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.704810008Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018058, imsi-208930000018058) to map.
+2026-08-16T08:30:16.705100853Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.705152250Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.705625417Z[31m [ERRO][AUSF][Consumer] [0mError in ConfirmAuth: 500, Internal Server Error
+2026-08-16T08:30:16.706238947Z[36m [INFO][AUSF][5gAka] [0m500, Internal Server Error
+2026-08-16T08:30:16.706941545Z[36m [INFO][AUSF][GIN] [0m| 500 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018011/5g-aka-confirmation |  |
+2026-08-16T08:30:16.705724222Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018077, imsi-208930000018077) to map.
+2026-08-16T08:30:16.707350101Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.707682795Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.705745392Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018066, imsi-208930000018066) to map.
+2026-08-16T08:30:16.707940789Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.708366868Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.722610446Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:16.722704242Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:16.740967316Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.741035765Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.755302727Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.755377126Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.803628702Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018063, imsi-208930000018063) to map.
+2026-08-16T08:30:16.803697411Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.803769817Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.804112620Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018018/5g-aka-confirmation |  |
+2026-08-16T08:30:16.804264534Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.804288339Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.867494884Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018072, imsi-208930000018072) to map.
+2026-08-16T08:30:16.867690070Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.867759681Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.884577695Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018083, imsi-208930000018083) to map.
+2026-08-16T08:30:16.885034111Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.884938702Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018068, imsi-208930000018068) to map.
+2026-08-16T08:30:16.885310639Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.885399366Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.886045988Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.887252992Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018064, imsi-208930000018064) to map.
+2026-08-16T08:30:16.887318344Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:16.887354562Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:16.906304334Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.906429348Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.911893063Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:16.912414801Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:16.917674804Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.917787505Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.926497637Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.927507390Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.927435405Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.929231514Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:16.927494185Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:16.931571982Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.020172001Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018074, imsi-208930000018074) to map.
+2026-08-16T08:30:17.020236171Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.020279703Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.022269944Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018025/5g-aka-confirmation |  |
+2026-08-16T08:30:17.028699179Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.028742420Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.059553925Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018069, imsi-208930000018069) to map.
+2026-08-16T08:30:17.059668330Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.059712452Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018034/5g-aka-confirmation |  |
+2026-08-16T08:30:17.059719225Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.059654133Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.059765732Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.063094183Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.063118419Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.081600614Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018089, imsi-208930000018089) to map.
+2026-08-16T08:30:17.082426813Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.084327027Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.092207172Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018070, imsi-208930000018070) to map.
+2026-08-16T08:30:17.094092136Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.094402659Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.095777557Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018039/5g-aka-confirmation |  |
+2026-08-16T08:30:17.111798136Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.111948538Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.153579689Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.154149247Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.154085448Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.159248288Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.172997759Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018045/5g-aka-confirmation |  |
+2026-08-16T08:30:17.173904300Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.180213229Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.177319343Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.180484518Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.187805014Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018080, imsi-208930000018080) to map.
+2026-08-16T08:30:17.187912365Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.187995582Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.251812041Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.253138408Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.283069721Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018078, imsi-208930000018078) to map.
+2026-08-16T08:30:17.283118482Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.283199394Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.283487073Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018026/5g-aka-confirmation |  |
+2026-08-16T08:30:17.288367284Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.288752897Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.352445333Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.352529811Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.365720305Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018076, imsi-208930000018076) to map.
+2026-08-16T08:30:17.365917204Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.366039824Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.385940007Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.385979782Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.476167770Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018095, imsi-208930000018095) to map.
+2026-08-16T08:30:17.476318653Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.476568572Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.478121203Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018075, imsi-208930000018075) to map.
+2026-08-16T08:30:17.479843031Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.480319004Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.479718818Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018067/5g-aka-confirmation |  |
+2026-08-16T08:30:17.488863946Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.489404520Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.489287841Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.491315694Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.493249770Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018086, imsi-208930000018086) to map.
+2026-08-16T08:30:17.493869091Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.494048899Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.554393477Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.556173615Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.556937387Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.556956062Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.562993453Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018044/5g-aka-confirmation |  |
+2026-08-16T08:30:17.565045159Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018009/5g-aka-confirmation |  |
+2026-08-16T08:30:17.569926553Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.571540850Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.571976957Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:17.576119796Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:17.584670548Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018084, imsi-208930000018084) to map.
+2026-08-16T08:30:17.585902198Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.586902083Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.594867609Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018082, imsi-208930000018082) to map.
+2026-08-16T08:30:17.596033054Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.596121119Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.653961684Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.654021657Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.705849247Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:17.705939776Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:17.712949890Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018097/5g-aka-confirmation |  |
+2026-08-16T08:30:17.808607306Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018081, imsi-208930000018081) to map.
+2026-08-16T08:30:17.809054745Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.809162968Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.809267013Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018092, imsi-208930000018092) to map.
+2026-08-16T08:30:17.809286189Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:17.809356100Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:17.810605663Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018016/5g-aka-confirmation |  |
+2026-08-16T08:30:17.920381379Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.003245172Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.004933418Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:18.004971209Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:18.006483404Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:18.008917699Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:18.009535537Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.010270966Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.104157931Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018021/5g-aka-confirmation |  |
+2026-08-16T08:30:18.104387742Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018090, imsi-208930000018090) to map.
+2026-08-16T08:30:18.104403601Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:18.104438577Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:18.104439840Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018077/5g-aka-confirmation |  |
+2026-08-16T08:30:18.113350608Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.113374954Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.153683265Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:18.153726336Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:18.206020930Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018088, imsi-208930000018088) to map.
+2026-08-16T08:30:18.206056657Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:18.209488723Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:18.245068707Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:18.245130022Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:18.378838596Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018036/5g-aka-confirmation |  |
+2026-08-16T08:30:18.396965295Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018096, imsi-208930000018096) to map.
+2026-08-16T08:30:18.397136476Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:18.397180198Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:18.399105317Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.403334918Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.418744692Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.418826716Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.503758999Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018087, imsi-208930000018087) to map.
+2026-08-16T08:30:18.505765712Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:18.505895996Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:18.503896266Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018094, imsi-208930000018094) to map.
+2026-08-16T08:30:18.506189647Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:18.506229261Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:18.504052069Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018043/5g-aka-confirmation |  |
+2026-08-16T08:30:18.516678244Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.517292456Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.533872785Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:18.536180322Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:18.604276266Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018008/5g-aka-confirmation |  |
+2026-08-16T08:30:18.604637934Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:18.605328629Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:18.621939686Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.621973730Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.703805019Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018046/5g-aka-confirmation |  |
+2026-08-16T08:30:18.704275371Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018019/5g-aka-confirmation |  |
+2026-08-16T08:30:18.704330815Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018100, imsi-208930000018100) to map.
+2026-08-16T08:30:18.705576139Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:18.705634459Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:18.719156373Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.719364043Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.719301034Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.721555653Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.722482481Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.722632682Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.803645275Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018012/5g-aka-confirmation |  |
+2026-08-16T08:30:18.806528070Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018022/5g-aka-confirmation |  |
+2026-08-16T08:30:18.811757546Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018029/5g-aka-confirmation |  |
+2026-08-16T08:30:18.817191436Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.821836375Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.822411353Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.826610979Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.844128173Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.844560233Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.873392025Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018017/5g-aka-confirmation |  |
+2026-08-16T08:30:18.875272952Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018031/5g-aka-confirmation |  |
+2026-08-16T08:30:18.879776918Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.880408442Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.889465304Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018038/5g-aka-confirmation |  |
+2026-08-16T08:30:18.903896714Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.904151792Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.904541323Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:18.904563584Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:18.908583773Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018093, imsi-208930000018093) to map.
+2026-08-16T08:30:18.908615803Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:18.913266954Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:18.959820453Z[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2026-08-16T08:30:18.959865096Z[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2026-08-16T08:30:19.019310651Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018027/5g-aka-confirmation |  |
+2026-08-16T08:30:19.022803561Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018048/5g-aka-confirmation |  |
+2026-08-16T08:30:19.022836522Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018065/5g-aka-confirmation |  |
+2026-08-16T08:30:19.086209891Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018099, imsi-208930000018099) to map.
+2026-08-16T08:30:19.086501397Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:19.086567551Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:19.118457387Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.118505477Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.159824664Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.160108586Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.185532157Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.185966502Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.189245580Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018057/5g-aka-confirmation |  |
+2026-08-16T08:30:19.192019521Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018042/5g-aka-confirmation |  |
+2026-08-16T08:30:19.206785469Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.206854989Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.209884930Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.209925005Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.209967946Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.210143826Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.211792326Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018055/5g-aka-confirmation |  |
+2026-08-16T08:30:19.219686278Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.219725231Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.285112164Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018056/5g-aka-confirmation |  |
+2026-08-16T08:30:19.291190752Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018023/5g-aka-confirmation |  |
+2026-08-16T08:30:19.296965440Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.299495714Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.297581926Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018007/5g-aka-confirmation |  |
+2026-08-16T08:30:19.309970926Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018060/5g-aka-confirmation |  |
+2026-08-16T08:30:19.320340470Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.320371097Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.321453066Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.321796881Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.323769480Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.323790429Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.403086924Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018072/5g-aka-confirmation |  |
+2026-08-16T08:30:19.404980565Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018013/5g-aka-confirmation |  |
+2026-08-16T08:30:19.410207365Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.410253922Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.421787359Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.421840208Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.472816713Z[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0000-0-0-0000018098, imsi-208930000018098) to map.
+2026-08-16T08:30:19.472857750Z[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2026-08-16T08:30:19.472903225Z[36m [INFO][AUSF][GIN] [0m| 201 |    10.244.0.204 | POST    | /nausf-auth/v1/ue-authentications |  |
+2026-08-16T08:30:19.473025565Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018054/5g-aka-confirmation |  |
+2026-08-16T08:30:19.473055691Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018071/5g-aka-confirmation |  |
+2026-08-16T08:30:19.482711767Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.483961200Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.498684858Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018024/5g-aka-confirmation |  |
+2026-08-16T08:30:19.498816194Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018074/5g-aka-confirmation |  |
+2026-08-16T08:30:19.524869646Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.605582006Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.604182522Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.606307757Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.603832496Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018010/5g-aka-confirmation |  |
+2026-08-16T08:30:19.604153438Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.607098931Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.619383745Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.619407279Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.707844907Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018028/5g-aka-confirmation |  |
+2026-08-16T08:30:19.719384875Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.720260678Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.776255843Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018015/5g-aka-confirmation |  |
+2026-08-16T08:30:19.776434368Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018052/5g-aka-confirmation |  |
+2026-08-16T08:30:19.776512204Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018073/5g-aka-confirmation |  |
+2026-08-16T08:30:19.787262832Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.787356979Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.791173043Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018037/5g-aka-confirmation |  |
+2026-08-16T08:30:19.804039280Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.806030182Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.804567159Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.806351074Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.804606834Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.806766032Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.873516042Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018091/5g-aka-confirmation |  |
+2026-08-16T08:30:19.884733065Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018047/5g-aka-confirmation |  |
+2026-08-16T08:30:19.886233107Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018049/5g-aka-confirmation |  |
+2026-08-16T08:30:19.887313423Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018030/5g-aka-confirmation |  |
+2026-08-16T08:30:19.891600431Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.892435477Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.902752954Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.903069677Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.907853076Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.907955438Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.916129335Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.916967877Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.930661163Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018033/5g-aka-confirmation |  |
+2026-08-16T08:30:19.933281036Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.933534561Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.976760622Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018051/5g-aka-confirmation |  |
+2026-08-16T08:30:19.977761999Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018059/5g-aka-confirmation |  |
+2026-08-16T08:30:19.978201103Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018066/5g-aka-confirmation |  |
+2026-08-16T08:30:19.987277682Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.987615315Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.991797968Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.991843564Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:19.995497144Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:19.995521530Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.017548471Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018040/5g-aka-confirmation |  |
+2026-08-16T08:30:20.025034559Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.025074904Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.070640302Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018014/5g-aka-confirmation |  |
+2026-08-16T08:30:20.075196766Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.075267439Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.102167628Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018020/5g-aka-confirmation |  |
+2026-08-16T08:30:20.105716212Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.106577917Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.179179720Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018061/5g-aka-confirmation |  |
+2026-08-16T08:30:20.185672524Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.185713050Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.198300994Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018041/5g-aka-confirmation |  |
+2026-08-16T08:30:20.203675982Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.203945197Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.272960505Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018053/5g-aka-confirmation |  |
+2026-08-16T08:30:20.280517665Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.280548804Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.376522621Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018062/5g-aka-confirmation |  |
+2026-08-16T08:30:20.385207616Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.385292195Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.489174832Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018063/5g-aka-confirmation |  |
+2026-08-16T08:30:20.492323586Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.492390923Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.585345298Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018078/5g-aka-confirmation |  |
+2026-08-16T08:30:20.603636205Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.603681189Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.618034793Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018095/5g-aka-confirmation |  |
+2026-08-16T08:30:20.626922728Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.627626267Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.704574471Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018092/5g-aka-confirmation |  |
+2026-08-16T08:30:20.722004324Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.722061451Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.743158841Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018094/5g-aka-confirmation |  |
+2026-08-16T08:30:21.035841089Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018085/5g-aka-confirmation |  |
+2026-08-16T08:30:21.038736067Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018035/5g-aka-confirmation |  |
+2026-08-16T08:30:21.039542098Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018083/5g-aka-confirmation |  |
+2026-08-16T08:30:21.047463411Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.047548160Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.052151672Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.052195313Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.052343611Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.052360443Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.085553623Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018058/5g-aka-confirmation |  |
+2026-08-16T08:30:21.091710568Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018032/5g-aka-confirmation |  |
+2026-08-16T08:30:21.093306690Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018080/5g-aka-confirmation |  |
+2026-08-16T08:30:21.097739512Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.097991094Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.101851482Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.105787943Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.113542443Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.113789346Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.944692852Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.944794783Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.965866043Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018084/5g-aka-confirmation |  |
+2026-08-16T08:30:22.181380997Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018064/5g-aka-confirmation |  |
+2026-08-16T08:30:22.181755649Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018079/5g-aka-confirmation |  |
+2026-08-16T08:30:22.187367972Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.187822765Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.187793279Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.189400974Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.201130127Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018089/5g-aka-confirmation |  |
+2026-08-16T08:30:22.202670205Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.203077469Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.212691536Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018050/5g-aka-confirmation |  |
+2026-08-16T08:30:22.217574883Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.217609488Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.236977824Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.237305829Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.273294791Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018086/5g-aka-confirmation |  |
+2026-08-16T08:30:22.282657997Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.282771470Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.376101480Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018069/5g-aka-confirmation |  |
+2026-08-16T08:30:22.377637881Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018068/5g-aka-confirmation |  |
+2026-08-16T08:30:22.384201868Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.384608240Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.472114311Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018088/5g-aka-confirmation |  |
+2026-08-16T08:30:22.472231020Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018070/5g-aka-confirmation |  |
+2026-08-16T08:30:22.502679864Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.502709259Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.671362784Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018076/5g-aka-confirmation |  |
+2026-08-16T08:30:22.703276184Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.703343000Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.779203443Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018090/5g-aka-confirmation |  |
+2026-08-16T08:30:22.783749717Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.783781417Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.869747279Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018100/5g-aka-confirmation |  |
+2026-08-16T08:30:22.941223403Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.941308923Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:23.008945195Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018093/5g-aka-confirmation |  |
+2026-08-16T08:30:23.671517070Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:23.671593454Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:23.770557488Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018087/5g-aka-confirmation |  |
+2026-08-16T08:30:24.098877898Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:24.099226462Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:24.111651921Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018075/5g-aka-confirmation |  |
+2026-08-16T08:30:24.179083910Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018082/5g-aka-confirmation |  |
+2026-08-16T08:30:25.045323978Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:25.045440576Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:25.087135167Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018081/5g-aka-confirmation |  |
+2026-08-16T08:30:25.906055980Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:25.906172078Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:25.962233956Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018099/5g-aka-confirmation |  |
+2026-08-16T08:30:26.484380743Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:26.484880070Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:26.577888337Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018096/5g-aka-confirmation |  |
+2026-08-16T08:30:27.404651489Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:27.409468291Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.272960505Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018053/5g-aka-confirmation |  |
+2026-08-16T08:30:20.280517665Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.280548804Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.376522621Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018062/5g-aka-confirmation |  |
+2026-08-16T08:30:20.385207616Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.385292195Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.489174832Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018063/5g-aka-confirmation |  |
+2026-08-16T08:30:20.492323586Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.492390923Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.585345298Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018078/5g-aka-confirmation |  |
+2026-08-16T08:30:20.603636205Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.603681189Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.618034793Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018095/5g-aka-confirmation |  |
+2026-08-16T08:30:20.626922728Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.627626267Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.704574471Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018092/5g-aka-confirmation |  |
+2026-08-16T08:30:20.722004324Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:20.722061451Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:20.743158841Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018094/5g-aka-confirmation |  |
+2026-08-16T08:30:21.035841089Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018085/5g-aka-confirmation |  |
+2026-08-16T08:30:21.038736067Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018035/5g-aka-confirmation |  |
+2026-08-16T08:30:21.039542098Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018083/5g-aka-confirmation |  |
+2026-08-16T08:30:21.047463411Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.047548160Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.052151672Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.052195313Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.052343611Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.052360443Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.085553623Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018058/5g-aka-confirmation |  |
+2026-08-16T08:30:21.091710568Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018032/5g-aka-confirmation |  |
+2026-08-16T08:30:21.093306690Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018080/5g-aka-confirmation |  |
+2026-08-16T08:30:21.097739512Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.097991094Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.101851482Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.105787943Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.113542443Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.113789346Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.944692852Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:21.944794783Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:21.965866043Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018084/5g-aka-confirmation |  |
+2026-08-16T08:30:22.181380997Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018064/5g-aka-confirmation |  |
+2026-08-16T08:30:22.181755649Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018079/5g-aka-confirmation |  |
+2026-08-16T08:30:22.187367972Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.187822765Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.187793279Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.189400974Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.201130127Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018089/5g-aka-confirmation |  |
+2026-08-16T08:30:22.202670205Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.203077469Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.212691536Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018050/5g-aka-confirmation |  |
+2026-08-16T08:30:22.217574883Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.217609488Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.236977824Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.237305829Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.273294791Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018086/5g-aka-confirmation |  |
+2026-08-16T08:30:22.282657997Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.282771470Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.376101480Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018069/5g-aka-confirmation |  |
+2026-08-16T08:30:22.377637881Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018068/5g-aka-confirmation |  |
+2026-08-16T08:30:22.384201868Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.384608240Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.472114311Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018088/5g-aka-confirmation |  |
+2026-08-16T08:30:22.472231020Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018070/5g-aka-confirmation |  |
+2026-08-16T08:30:22.502679864Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.502709259Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.671362784Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018076/5g-aka-confirmation |  |
+2026-08-16T08:30:22.703276184Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.703343000Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.779203443Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018090/5g-aka-confirmation |  |
+2026-08-16T08:30:22.783749717Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.783781417Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:22.869747279Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018100/5g-aka-confirmation |  |
+2026-08-16T08:30:22.941223403Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:22.941308923Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:23.008945195Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018093/5g-aka-confirmation |  |
+2026-08-16T08:30:23.671517070Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:23.671593454Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:23.770557488Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018087/5g-aka-confirmation |  |
+2026-08-16T08:30:24.098877898Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:24.099226462Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:24.111651921Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018075/5g-aka-confirmation |  |
+2026-08-16T08:30:24.179083910Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018082/5g-aka-confirmation |  |
+2026-08-16T08:30:25.045323978Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:25.045440576Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:25.087135167Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018081/5g-aka-confirmation |  |
+2026-08-16T08:30:25.906055980Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:25.906172078Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:25.962233956Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018099/5g-aka-confirmation |  |
+2026-08-16T08:30:26.484380743Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:26.484880070Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:26.577888337Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018096/5g-aka-confirmation |  |
+2026-08-16T08:30:27.404651489Z[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2026-08-16T08:30:27.409468291Z[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2026-08-16T08:30:27.605111603Z[36m [INFO][AUSF][GIN] [0m| 200 |    10.244.0.204 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0000-0-0-0000018098/5g-aka-confirmation |  |

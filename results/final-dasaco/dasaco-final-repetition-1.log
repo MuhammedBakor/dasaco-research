@@ -1,0 +1,41 @@
+Run ID: auto-parallel-final-20260816-182143
+[OK] Clean baseline verified
+[1] Resetting subscribers
+Defaulted container "mongodb" out of: mongodb, install-tini (init)
+imsi-208930000018001..imsi-208930000018100 matched=100
+imsi-208930000017001..imsi-208930000017100 matched=100
+[2] Starting Parallel DA-SACO
+[3] Starting Wave 1 once
+Wave 1 PID=645155
+[4] Waiting for fully verified scale-out
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+phase=IDLE replicas='1=1 1=1 1=1 1=1 1=1 ' admission=OPEN
+ERROR: Fully verified scale-out was not reached

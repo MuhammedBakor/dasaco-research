@@ -1,0 +1,32 @@
+2026-08-16T08:31:10.506684381Z[36m [INFO][UDM][Main] [0mUDM version:  
+	free5GC version: v4.2.3
+	build time:      2026-06-30T05:46:08Z
+	commit hash:     bdcc8bc3
+	commit time:     2026-06-24T09:23:17Z
+	go version:      go1.26.2 linux/amd64
+2026-08-16T08:31:10.509747735Z[36m [INFO][UDM][CFG] [0mRead config from [./config/udmcfg.yaml]
+2026-08-16T08:31:10.601565839Z[36m [INFO][UDM][Main] [0mLog enable is set to [true]
+2026-08-16T08:31:10.604226458Z[36m [INFO][UDM][Main] [0mLog level is set to [info]
+2026-08-16T08:31:10.604255783Z[36m [INFO][UDM][Main] [0mReport Caller is set to [false]
+2026-08-16T08:31:10.609765364Z[36m [INFO][UDM][Util] [0mudmconfig Info: Version[1.0.3] Description[UDM initial local configuration]
+2026-08-16T08:31:10.694927428Z[36m [INFO][UDM][SBI] [0mBinding addr: [0.0.0.0:8080]
+2026-08-16T08:31:10.695624125Z[36m [INFO][UDM][Init] [0mServer started
+2026-08-16T08:31:10.695749029Z[36m [INFO][UDM][SBI] [0mStarting server...
+2026-08-16T08:31:10.810899743Z[36m [INFO][UDM][Main] [0mOAuth2 setting receive from NRF: false
+2026-08-16T08:31:10.812742618Z[36m [INFO][UDM][SBI] [0mStart SBI server (listen on 0.0.0.0:8080)
+2026-08-16T08:31:10.506684381Z[36m [INFO][UDM][Main] [0mUDM version:  
+	free5GC version: v4.2.3
+	build time:      2026-06-30T05:46:08Z
+	commit hash:     bdcc8bc3
+	commit time:     2026-06-24T09:23:17Z
+	go version:      go1.26.2 linux/amd64
+2026-08-16T08:31:10.509747735Z[36m [INFO][UDM][CFG] [0mRead config from [./config/udmcfg.yaml]
+2026-08-16T08:31:10.601565839Z[36m [INFO][UDM][Main] [0mLog enable is set to [true]
+2026-08-16T08:31:10.604226458Z[36m [INFO][UDM][Main] [0mLog level is set to [info]
+2026-08-16T08:31:10.604255783Z[36m [INFO][UDM][Main] [0mReport Caller is set to [false]
+2026-08-16T08:31:10.609765364Z[36m [INFO][UDM][Util] [0mudmconfig Info: Version[1.0.3] Description[UDM initial local configuration]
+2026-08-16T08:31:10.694927428Z[36m [INFO][UDM][SBI] [0mBinding addr: [0.0.0.0:8080]
+2026-08-16T08:31:10.695624125Z[36m [INFO][UDM][Init] [0mServer started
+2026-08-16T08:31:10.695749029Z[36m [INFO][UDM][SBI] [0mStarting server...
+2026-08-16T08:31:10.810899743Z[36m [INFO][UDM][Main] [0mOAuth2 setting receive from NRF: false
+2026-08-16T08:31:10.812742618Z[36m [INFO][UDM][SBI] [0mStart SBI server (listen on 0.0.0.0:8080)

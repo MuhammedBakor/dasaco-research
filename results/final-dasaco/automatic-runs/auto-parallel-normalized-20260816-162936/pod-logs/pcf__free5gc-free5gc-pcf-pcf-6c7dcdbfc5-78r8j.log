@@ -1,0 +1,305 @@
+2026-08-16T08:30:21.224508803Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:21.229958151Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:21.722795091Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:21.723752376Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:21.901022687Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:21.941178442Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.109683930Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.184848759Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.223877230Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.393238132Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.464451202Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.467064492Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.824842109Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.836852660Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.919515829Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.920816328Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.920920413Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.937258047Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.938651951Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.020586804Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.102362599Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.114466104Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.129157962Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.137329995Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.219163728Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.267703304Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.385638410Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.569127063Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.598378291Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.667301506Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.720120023Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.720825637Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.721090393Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.727652267Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.727739300Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.727880134Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.933513630Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.938680308Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.082152217Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.084323067Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.084670749Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.086127170Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.091293347Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.092421642Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.093145258Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.099354522Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.291264095Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.292665703Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.377937645Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.385277757Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.721702345Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.724427414Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.728487177Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.732405143Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.820274304Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.821443687Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.839833179Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.841395418Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.919263296Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.930945350Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.023414376Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.024836061Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.035214091Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.038251496Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.113324474Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.114530235Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.119673749Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.120181651Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.197034375Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.204896227Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.289444871Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.367158620Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.393003371Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.563633917Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.706076727Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.706708241Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.717492914Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.717534210Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.768074587Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.826045705Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.826517480Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.826839574Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.826908743Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.827617202Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.867636521Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.870658538Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.115415211Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.155071879Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.230967387Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.285302860Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.313266093Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.376210759Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.414907197Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.415576502Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.463481346Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.464791062Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.610297367Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.623239223Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.706065067Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.755367571Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.905581583Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.906548506Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.926680374Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.950203161Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.970403649Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.972169670Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.037028104Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.057516340Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.208699435Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.264258352Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.317101046Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.376887279Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.378519991Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.392748451Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.513083194Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.564938445Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.790896541Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.869298750Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.890899754Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.973570897Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:28.031669506Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:28.032157401Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:28.045531568Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:28.045818276Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:28.605576745Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:28.618588673Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:21.229958151Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:21.722795091Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:21.723752376Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:21.901022687Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:21.941178442Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.109683930Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.184848759Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.223877230Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.393238132Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.464451202Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.467064492Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.824842109Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.836852660Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.919515829Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.920816328Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.920920413Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:22.937258047Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:22.938651951Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.020586804Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.102362599Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.114466104Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.129157962Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.137329995Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.219163728Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.267703304Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.385638410Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.569127063Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.598378291Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.667301506Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.720120023Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.720825637Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.721090393Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.727652267Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.727739300Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.727880134Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:23.933513630Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:23.938680308Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.082152217Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.084323067Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.084670749Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.086127170Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.091293347Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.092421642Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.093145258Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.099354522Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.291264095Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.292665703Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.377937645Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.385277757Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.721702345Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.724427414Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.728487177Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.732405143Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.820274304Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.821443687Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.839833179Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.841395418Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:24.919263296Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:24.930945350Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.023414376Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.024836061Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.035214091Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.038251496Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.113324474Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.114530235Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.119673749Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.120181651Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.197034375Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.204896227Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.289444871Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.367158620Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.393003371Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.563633917Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.706076727Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.706708241Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.717492914Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.717534210Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.768074587Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.826045705Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.826517480Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:25.826839574Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.826908743Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.827617202Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.867636521Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:25.870658538Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.115415211Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.155071879Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.230967387Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.285302860Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.313266093Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.376210759Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.414907197Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.415576502Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.463481346Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.464791062Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.610297367Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.623239223Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.706065067Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.755367571Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.905581583Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.906548506Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.926680374Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:26.950203161Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.970403649Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:26.972169670Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.037028104Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.057516340Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.208699435Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.264258352Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.317101046Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.376887279Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.378519991Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.392748451Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.513083194Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.564938445Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.790896541Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.869298750Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:27.890899754Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:27.973570897Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:28.031669506Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:28.032157401Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:28.045531568Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:28.045818276Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:28.605576745Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:28.618588673Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:28.818499668Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:28.819050371Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:28.831350264Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:28.831592748Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:29.009493634Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:29.011464269Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:29.046691433Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:29.048814854Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:29.198240707Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:29.199945945Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:29.207339518Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:29.207606619Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:29.695881061Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:29.730697876Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:30.596588896Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:30.603789107Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:30.709687350Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:30.726521665Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:30.892950370Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:30.899165334Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:31.035551736Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:31.042071291Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:31.116234791Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:31.120901692Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:31.186343521Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:31.198157653Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:31.223060227Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:31.265264433Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:31.490886849Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:31.506316189Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:31.687940157Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:31.724009378Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:31.899310901Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:31.904533685Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:32.085560771Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:32.089933790Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:32.193703105Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:32.202133592Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:32.587232629Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:32.596527096Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:32.792576000Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:32.817925311Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:32.828006824Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:32.828238579Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:33.011868978Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:33.031910387Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:34.206961501Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:34.215240464Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:34.582526558Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:34.590017244Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:34.206961501Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:34.215240464Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |
+2026-08-16T08:30:34.582526558Z[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2026-08-16T08:30:34.590017244Z[36m [INFO][PCF][GIN] [0m| 201 |    10.244.0.204 | POST    | /npcf-am-policy-control/v1/policies |  |

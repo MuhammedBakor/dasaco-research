@@ -1,0 +1,306 @@
+2026-08-16T16:39:57+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:40:09+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:40:22+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:40:34+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:40:47+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:40:59+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:41:12+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         2
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:41:24+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         2
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:41:36+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         2
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:41:49+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         2
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:42:01+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         2
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:42:14+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         2
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:42:26+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         2
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:42:38+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     2         2
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:42:50+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:43:02+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:43:14+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:43:26+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:43:38+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:43:50+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:44:02+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:44:14+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:44:26+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:44:38+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:44:50+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:45:02+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:45:14+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:45:26+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:45:38+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:45:50+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:46:02+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:46:14+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:46:27+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+
+2026-08-16T16:46:39+08:00
+NAME                        DESIRED   READY
+open5glos                   1         1
+free5gc-free5gc-amf-amf     1         1
+free5gc-free5gc-ausf-ausf   1         1
+free5gc-free5gc-udm-udm     1         1
+free5gc-free5gc-udr-udr     1         1
+free5gc-free5gc-pcf-pcf     1         1
+

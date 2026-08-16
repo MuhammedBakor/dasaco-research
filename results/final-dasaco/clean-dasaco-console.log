@@ -1,8 +1,37 @@
-{"timestamp": "2026-08-16T10:39:01.530233+00:00", "phase": "PARALLEL_PROTECTION_ACTIVE", "functions": ["amf", "udm", "udr"], "admission": {"mode": "STRONG_PROTECTION", "replicas_verified": 1, "pods": {"open5glos-6f48f6dc8f-fqlxx": {"mode": "STRONG_PROTECTION", "enabled": true, "rate_per_second": 15, "burst": 5, "admitted": 100, "waited": 0, "total_wait_ms": 0, "updated_at": "2026-08-16T10:38:55.570131623Z"}}}}
+========================================
+DA-SACO CLEAN AUTOMATIC RUN
+Run ID: clean-dasaco-20260816-183742
+========================================
+[1] Verifying clean baseline
+[OK] Baseline: all functions 1/1
+[OK] Admission: OPEN
+[OK] Controller: IDLE
+[2] Cleaning run logs
+[3] Resetting 100 subscribers
+Defaulted container "mongodb" out of: mongodb, install-tini (init)
+sqnMatched=100
+[4] Starting DA-SACO Parallel Controller
+[OK] Controller PID=891972
+[5] Starting one 100-UE workload
+[INFO] PacketRusher reached the configured 240-second timeout
+[6] Waiting for protocol-safe recovery
+PARALLEL_CAPACITY_VERIFIED 0 0 {'open5glos': 1, 'amf': 2, 'ausf': 1, 'udm': 2, 'udr': 2, 'pcf': 1}
+PARALLEL_RECOVERY_PENDING 0 0 {'open5glos': 1, 'amf': 2, 'ausf': 1, 'udm': 1, 'udr': 1, 'pcf': 1}
+PARALLEL_RECOVERY_PENDING 0 1 {'open5glos': 1, 'amf': 1, 'ausf': 1, 'udm': 1, 'udr': 1, 'pcf': 1}
+[OK] Functional baseline verified
+[7] Saving evidence
+[8] Calculating result
+Run ID: clean-dasaco-20260816-183742
+Started=100
+Accepts=98
+Completes=98
+Rejects=2
+AMF_Status=0
+
+=== AUTOMATIC CONTROL ACTIONS ===
 {"timestamp": "2026-08-16T10:39:16.472638+00:00", "phase": "CAPACITY_VERIFIED", "target_function": "amf", "original_replicas": 1, "target_replicas": 2, "success": true, "error": null, "rollback_error": null, "verification": {"ready_replicas": 2, "running_pods": ["free5gc-free5gc-amf-amf-568cd85d46-5b52m", "free5gc-free5gc-amf-amf-568cd85d46-hsl8k"], "verification": "KUBERNETES_AND_OPEN5GLOS"}}
 {"timestamp": "2026-08-16T10:39:19.822015+00:00", "phase": "CAPACITY_VERIFIED", "target_function": "udr", "original_replicas": 1, "target_replicas": 2, "success": true, "error": null, "rollback_error": null, "verification": {"ready_replicas": 2, "registered_instances": 2, "verification": "KUBERNETES_AND_NRF"}}
 {"timestamp": "2026-08-16T10:39:19.839660+00:00", "phase": "CAPACITY_VERIFIED", "target_function": "udm", "original_replicas": 1, "target_replicas": 2, "success": true, "error": null, "rollback_error": null, "verification": {"ready_replicas": 2, "registered_instances": 2, "verification": "KUBERNETES_AND_NRF"}}
-{"timestamp": "2026-08-16T10:39:26.831326+00:00", "phase": "PARALLEL_CAPACITY_ADMISSION_OPEN", "functions": ["amf", "udm", "udr"], "admission": {"mode": "OPEN", "replicas_verified": 1, "pods": {"open5glos-6f48f6dc8f-fqlxx": {"mode": "OPEN", "enabled": false, "rate_per_second": 0, "burst": 1000, "admitted": 100, "waited": 0, "total_wait_ms": 0, "updated_at": "2026-08-16T10:39:21.250322342Z"}}}}
 {"timestamp": "2026-08-16T10:39:47.210791+00:00", "phase": "CAPACITY_IDLE", "target_function": "amf", "new_pods": ["free5gc-free5gc-amf-amf-568cd85d46-5b52m"], "traffic_use": {"function": "amf", "status": "CAPACITY_IDLE", "all_new_replicas_used": false, "replicas": [{"function": "amf", "pod": "free5gc-free5gc-amf-amf-568cd85d46-5b52m", "used": false, "request_events": 0, "unique_identifiers": 0, "identifiers": [], "runtime": null, "window": "3m"}]}}
 {"timestamp": "2026-08-16T10:39:47.528802+00:00", "phase": "CAPACITY_IDLE", "target_function": "udm", "new_pods": ["free5gc-free5gc-udm-udm-748f566f59-wr6fg"], "traffic_use": {"function": "udm", "status": "CAPACITY_IDLE", "all_new_replicas_used": false, "replicas": [{"function": "udm", "pod": "free5gc-free5gc-udm-udm-748f566f59-wr6fg", "used": false, "request_events": 0, "unique_identifiers": 0, "identifiers": [], "runtime": null, "window": "3m"}]}}
 {"timestamp": "2026-08-16T10:39:47.824963+00:00", "phase": "CAPACITY_IDLE", "target_function": "udr", "new_pods": ["free5gc-free5gc-udr-udr-7b9f9ccc79-gcjhl"], "traffic_use": {"function": "udr", "status": "CAPACITY_IDLE", "all_new_replicas_used": false, "replicas": [{"function": "udr", "pod": "free5gc-free5gc-udr-udr-7b9f9ccc79-gcjhl", "used": false, "request_events": 0, "unique_identifiers": 0, "identifiers": [], "runtime": null, "window": "3m"}]}}
@@ -18,8 +47,19 @@
 {"timestamp": "2026-08-16T10:41:48.408761+00:00", "phase": "RECOVERY_BLOCKED_ACTIVE_GNB", "active_gnb_connections": 1, "open5glos_pods": {"open5glos-6f48f6dc8f-fqlxx": 1}}
 {"timestamp": "2026-08-16T10:41:59.614819+00:00", "phase": "RECOVERY_BLOCKED_ACTIVE_GNB", "active_gnb_connections": 1, "open5glos_pods": {"open5glos-6f48f6dc8f-fqlxx": 1}}
 {"timestamp": "2026-08-16T10:42:10.428724+00:00", "phase": "RECOVERY_BLOCKED_ACTIVE_GNB", "active_gnb_connections": 1, "open5glos_pods": {"open5glos-6f48f6dc8f-fqlxx": 1}}
-{"timestamp": "2026-08-16T10:42:22.744814+00:00", "phase": "PARALLEL_EFFECT_VERIFIED", "functions": ["amf", "udm", "udr"]}
-{"timestamp": "2026-08-16T10:42:26.916885+00:00", "phase": "PARALLEL_RECOVERY_VERIFIED", "target_function": "udr", "replicas": 1, "error": null, "recovery_order": ["open5glos", "udr", "udm", "ausf", "pcf", "amf"]}
-{"timestamp": "2026-08-16T10:42:32.116525+00:00", "phase": "PARALLEL_RECOVERY_VERIFIED", "target_function": "udm", "replicas": 1, "error": null, "recovery_order": ["open5glos", "udr", "udm", "ausf", "pcf", "amf"]}
-{"timestamp": "2026-08-16T10:42:36.911042+00:00", "phase": "PARALLEL_RECOVERY_VERIFIED", "target_function": "amf", "replicas": 1, "error": null, "recovery_order": ["open5glos", "udr", "udm", "ausf", "pcf", "amf"]}
 {"timestamp": "2026-08-16T10:42:45.037394+00:00", "phase": "PARALLEL_RECOVERY_COMPLETE", "functions": ["amf", "udm", "udr"], "admission": {"mode": "OPEN", "replicas_verified": 1, "pods": {"open5glos-6f48f6dc8f-fqlxx": {"mode": "OPEN", "enabled": false, "rate_per_second": 0, "burst": 1000, "admitted": 100, "waited": 0, "total_wait_ms": 0, "updated_at": "2026-08-16T10:42:38.522533395Z"}}}}
+
+=== FINAL STATE ===
+{
+  "phase": "IDLE",
+  "action": null,
+  "target_function": null,
+  "original_replicas": null,
+  "target_replicas": null,
+  "started_at": null,
+  "cooldown_until": null,
+  "last_error": null
+}
+
+[OK] CLEAN DA-SACO RUN COMPLETED
+Results: /home/moba/dasaco-research/results/final-dasaco/automatic-runs/clean-dasaco-20260816-183742

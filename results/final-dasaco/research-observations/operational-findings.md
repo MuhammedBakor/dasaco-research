@@ -514,3 +514,40 @@ is insufficient.
 
 Run 4 is classified as a diagnostic run and excluded from final
 comparative statistics.
+
+## Cross-Run NGAP Context Contamination
+
+A repeated DA-SACO run produced 87 failed Downlink NAS deliveries
+affecting 67 distinct RAN UE identifiers.
+
+PacketRusher reported:
+
+Cannot send DownlinkNASTransport message to UE with RANUEID X
+as it does not know this UE
+
+Open5GLoS logs showed active LB-to-RAN NGAP UE identifier translation,
+but the translated identifiers were not present in the receiving gNB
+context table.
+
+The run completed only 33 of 100 registration procedures. Kubernetes
+readiness, NRF registration, parallel scaling, guarded recovery, and
+the final IDLE state all succeeded.
+
+Research classification:
+
+- Control-cycle validation: PASS
+- UE service-level validation: FAIL
+- Final comparative eligibility: EXCLUDED
+
+Likely cause:
+
+In-memory UE and NGAP identifier state was preserved across repeated
+experiments because the network functions and Open5GLoS were returned
+to one replica but were not restarted between repetitions.
+
+Experimental correction:
+
+Every final repetition must begin with a fresh restart of Open5GLoS,
+AMF, AUSF, UDM, UDR, and PCF, followed by Kubernetes readiness, NRF
+registration, Open5GLoS AMF discovery, zero active gNB associations,
+subscriber-context cleanup, and Controller IDLE verification.
