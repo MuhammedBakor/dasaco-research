@@ -301,38 +301,50 @@ def running_amf_pods():
     return running_pods("nf=amf")
 
 
-def current_open5glos_pod():
+def running_open5glos_pods():
     pods = sorted(running_pods(OPEN5GLOS_LABEL))
 
-    if len(pods) != 1:
+    if not pods:
         raise RuntimeError(
-            "Expected exactly one Running Open5GLoS Pod, "
-            f"found {len(pods)}"
+            "No Running Open5GLoS Pods found"
         )
 
-    return pods[0]
+    return pods
 
 
 def discovered_amf_pods():
-    pod = current_open5glos_pod()
-
-    logs = run_command([
-        "kubectl",
-        "logs",
-        "-n",
-        NAMESPACE,
-        pod,
-        "--since=2h",
-    ])
-
     discovered = set()
     log_marker = "Added AMF to manager:"
 
-    for line in logs.splitlines():
-        if log_marker in line:
-            name = line.split(log_marker, 1)[1].strip()
-            if name:
-                discovered.add(name)
+    for pod in running_open5glos_pods():
+        logs = run_command([
+            "kubectl",
+            "logs",
+            "-n",
+            NAMESPACE,
+            pod,
+            "--since=2h",
+        ])
+
+        for line in logs.splitlines():
+            if log_marker in line:
+                name = line.split(log_marker, 1)[1].strip()
+                if name:
+                    discovered.add(name)
+
+            elif "Connected to AMF:" in line and "ID:" in line:
+                name = line.rsplit("ID:", 1)[1].strip()
+                if name:
+                    discovered.add(name)
+
+            elif " successfully registered with manager" in line:
+                marker = "[INFO] AMF "
+                if marker in line:
+                    name = line.split(marker, 1)[1].split(
+                        " successfully registered", 1
+                    )[0].strip()
+                    if name:
+                        discovered.add(name)
 
     return discovered
 

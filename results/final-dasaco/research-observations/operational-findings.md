@@ -116,3 +116,91 @@ Required per-replica evidence:
 
 This evidence will demonstrate that newly created replicas carried real
 traffic and were not merely Kubernetes Ready.
+
+## Open5GLoS Horizontal Scaling and SCTP Connection Ownership
+
+### Observation
+
+Open5GLoS successfully scaled from one to two replicas. Two independent
+PacketRusher gNB workloads created separate SCTP associations, and
+Kubernetes distributed one association to each Open5GLoS replica.
+
+Measured per-replica behavior:
+
+- Open5GLoS replica 1: one gNB connection, 10 Initial UE Messages,
+  10 successful forwards, and one disconnected-gNB removal.
+- Open5GLoS replica 2: one gNB connection, 10 Initial UE Messages,
+  10 successful forwards, and one disconnected-gNB removal.
+- Total Registration Accepts: 20.
+- Total Configuration Update Completes: 20.
+- Registration Rejects: 0.
+- Broken pipes: 0.
+
+### Operational Constraint
+
+Kubernetes distributes complete SCTP associations between Open5GLoS
+replicas. It does not redistribute individual UEs belonging to an
+already established gNB association.
+
+Therefore, creating additional Open5GLoS replicas provides useful
+capacity only when new gNB SCTP associations are established.
+
+### Scale-Down Constraint
+
+An Open5GLoS replica owns local gNB connections, UE contexts, AMF
+bindings, and NGAP identifier mappings. Blind Deployment scale-down
+may terminate a Pod that still owns active associations.
+
+Open5GLoS must therefore not use generic automatic scale-down while
+active gNB connections exist.
+
+### DA-SACO Policy Implication
+
+Open5GLoS pressure
+→ activate temporary admission protection
+→ scale out up to the configured maximum
+→ verify Kubernetes readiness
+→ verify connection to the current AMF set
+→ verify that new gNB associations use the added capacity
+
+Open5GLoS recovery
+→ stop assigning new connections to the selected replica
+→ mark the replica as draining
+→ wait until its active gNB count reaches zero
+→ reduce the Deployment replica count
+→ verify the remaining Open5GLoS endpoint
+→ verify AMF discovery and Admission OPEN
+
+### Research Implication
+
+The experiment demonstrates:
+
+`Kubernetes Ready != useful Open5GLoS capacity`
+
+and:
+
+`Replica scale-down safety depends on SCTP connection ownership`
+
+DA-SACO therefore requires protocol-aware usefulness and draining
+checks, rather than considering Deployment readiness and replica count
+alone.
+
+## MongoDB Protection-Only Validation
+
+DA-SACO correctly classified persistent MongoDB pressure as a
+protection-only condition.
+
+Validated behavior:
+
+- Strong admission protection was activated at 15 registrations/s
+  with burst capacity 5.
+- MongoDB was not scaled blindly.
+- MongoDB remained at one desired and one Ready replica.
+- Admission was restored to OPEN after recovery.
+- The controller returned to IDLE.
+
+Research implication:
+
+MongoDB is treated as a constrained stateful dependency in this
+testbed. DA-SACO protects it using temporary admission control rather
+than unsafe generic horizontal scaling.
