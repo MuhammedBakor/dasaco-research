@@ -1,0 +1,64 @@
+DA-SACO Primary Resource-Usage Summary
+
+Scope:
+  Source: monitoring.jsonl from the three accepted primary runs.
+  Managed path: Open5GLoS, AMF, AUSF, UDM, UDR, and PCF.
+  MongoDB is excluded from the managed-path aggregate.
+
+Per-run results:
+
+Run 1: clean-dasaco-20260816-202519
+  Observed window: 241.930 s
+  Mean managed CPU: 244.560 m
+  Peak managed CPU: 322.270 m
+  Mean managed memory: 93.112 MiB
+  Peak managed memory: 107.020 MiB
+  Observed managed replica-seconds: 1605.978
+  Observed additional replica-seconds: 154.400
+  AMF mean CPU: 78.817 m
+  AMF peak CPU: 122.450 m
+  AMF peak memory: 45.600 MiB
+  AMF peak replicas: 2
+
+Run 2: clean-dasaco-20260816-203351
+  Observed window: 242.206 s
+  Mean managed CPU: 241.950 m
+  Peak managed CPU: 323.050 m
+  Mean managed memory: 93.660 MiB
+  Peak managed memory: 101.990 MiB
+  Observed managed replica-seconds: 1616.669
+  Observed additional replica-seconds: 163.432
+  AMF mean CPU: 79.752 m
+  AMF peak CPU: 118.950 m
+  AMF peak memory: 35.950 MiB
+  AMF peak replicas: 2
+
+Run 3: clean-dasaco-20260816-204156
+  Observed window: 250.201 s
+  Mean managed CPU: 255.079 m
+  Peak managed CPU: 676.570 m
+  Mean managed memory: 93.039 MiB
+  Peak managed memory: 114.860 MiB
+  Observed managed replica-seconds: 1664.541
+  Observed additional replica-seconds: 163.333
+  AMF mean CPU: 78.647 m
+  AMF peak CPU: 176.420 m
+  AMF peak memory: 43.290 MiB
+  AMF peak replicas: 2
+
+Means across the three runs:
+  Mean managed CPU: 247.196 m
+  Mean of peak managed CPU: 440.630 m
+  Mean managed memory: 93.270 MiB
+  Mean of peak managed memory: 107.957 MiB
+  Mean observed managed replica-seconds: 1629.062
+  Mean observed additional replica-seconds: 160.389
+  Mean AMF CPU: 79.072 m
+  Mean of peak AMF CPU: 139.273 m
+  Mean of peak AMF memory: 41.613 MiB
+  Peak AMF replicas: 2
+
+Limitation:
+  Monitoring ended before final scale-in was visible in the recorded
+  samples. Replica-seconds describe only the observed monitoring
+  window and are not the complete experiment or recovery-cycle cost.
