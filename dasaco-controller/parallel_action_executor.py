@@ -723,6 +723,23 @@ def execute_parallel_recovery():
 
 
 
+def active_gnb_connection_summary():
+    details = {}
+    total = 0
+
+    for pod in base.running_open5glos_pods():
+        runtime = base.open5glos_runtime(pod)
+        active = runtime.get(
+            "active_gnb_connections",
+            0,
+        )
+
+        details[pod] = active
+        total += active
+
+    return total, details
+
+
 def main():
     record = read_latest_parallel_decision()
     decision = record["decision"]
@@ -735,6 +752,39 @@ def main():
     )
 
     if recovery_candidate:
+        active_gnbs, gnb_details = (
+            active_gnb_connection_summary()
+        )
+
+        if active_gnbs > 0:
+            result = {
+                "mode": (
+                    "DRY_RUN"
+                    if base.DRY_RUN
+                    else "ACTIVE"
+                ),
+                "action": "HOLD_RECOVERY",
+                "executed": False,
+                "reason": (
+                    "Recovery blocked while active "
+                    "gNB associations remain"
+                ),
+                "active_gnb_connections":
+                    active_gnbs,
+                "open5glos_pods": gnb_details,
+            }
+
+            base.append_action_event({
+                "timestamp": timestamp(),
+                "phase":
+                    "RECOVERY_BLOCKED_ACTIVE_GNB",
+                "active_gnb_connections":
+                    active_gnbs,
+                "open5glos_pods": gnb_details,
+            })
+
+            print(json.dumps(result, indent=2))
+            return
         if base.DRY_RUN:
             result = {
                 "mode": "DRY_RUN",

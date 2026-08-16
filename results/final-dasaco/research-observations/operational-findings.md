@@ -429,3 +429,43 @@ Research implications:
 
 Run 2 is classified as a diagnostic run and is excluded from final
 comparative statistics.
+
+## Automatic Parallel Run 3: Useful AMF Capacity and Premature Recovery
+
+The second workload wave verified that the newly created AMF replica
+carried real traffic:
+
+- Registration-related events on the new AMF replica: 107
+- Unique IMSIs handled by the new AMF replica: 35
+- Traffic-use classification: CAPACITY_USE_VERIFIED
+
+However, CPU pressure returned to NORMAL while the gNB association and
+UE procedures were still active. The controller reduced AMF capacity
+from two replicas to one during the active wave.
+
+Observed workload result:
+
+- UEs started: 100
+- Registration Accepts: 14
+- Configuration Update Completes: 0
+- Registration Rejects: 0
+- AMF Status Indications: 1
+
+Research implication:
+
+`Persistent CPU NORMAL != protocol-level recovery safety`
+
+A function can become CPU-normal while active protocol sessions still
+depend on the expanded capacity. DA-SACO must therefore combine
+resource-level recovery evidence with protocol-level quiescence.
+
+Final recovery guard:
+
+- Block all parallel recovery while any Open5GLoS replica reports an
+  active gNB association.
+- Begin gradual dependency-ordered recovery only after the total active
+  gNB connection count reaches zero.
+- Preserve per-replica traffic-use evidence before removing capacity.
+
+Run 3 is classified as a diagnostic run and is excluded from final
+comparative statistics.
