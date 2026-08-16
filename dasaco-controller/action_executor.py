@@ -503,6 +503,225 @@ def wait_for_all_open5glos_amf_connectivity():
     return False, details
 
 
+def open5glos_pod_ip(pod):
+    return run_command([
+        "kubectl", "get", "pod", pod,
+        "-n", NAMESPACE,
+        "-o", "jsonpath={.status.podIP}",
+    ])
+
+
+def call_open5glos_pod_api(
+    pod,
+    endpoint,
+    method="GET",
+    payload=None,
+):
+    pod_ip = open5glos_pod_ip(pod)
+    check_pod = (
+        "dasaco-open5glos-api-"
+        + str(int(time.time() * 1000))
+    )
+
+    args = [
+        "kubectl", "run", check_pod,
+        "-n", NAMESPACE,
+        "--restart=Never",
+        "--image=curlimages/curl:8.7.1",
+        "--",
+        "curl", "-sf",
+        "--max-time", "10",
+        "-X", method,
+    ]
+
+    if payload is not None:
+        args.extend([
+            "-H", "Content-Type: application/json",
+            "-d", json.dumps(payload),
+        ])
+
+    args.append(
+        f"http://{pod_ip}:9091/{endpoint}"
+    )
+
+    try:
+        run_command(args)
+
+        run_command([
+            "kubectl", "wait",
+            "-n", NAMESPACE,
+            "--for=jsonpath={.status.phase}=Succeeded",
+            f"pod/{check_pod}",
+            "--timeout=30s",
+        ])
+
+        output = run_command([
+            "kubectl", "logs",
+            "-n", NAMESPACE,
+            f"pod/{check_pod}",
+        ])
+
+        return json.loads(output)
+
+    finally:
+        run_command([
+            "kubectl", "delete", "pod", check_pod,
+            "-n", NAMESPACE,
+            "--ignore-not-found",
+            "--wait=false",
+        ])
+
+
+def open5glos_runtime(pod):
+    return call_open5glos_pod_api(
+        pod,
+        "runtime",
+    )
+
+
+def set_open5glos_draining(pod, enabled):
+    result = call_open5glos_pod_api(
+        pod,
+        "draining",
+        method="PUT",
+        payload={"draining": enabled},
+    )
+
+    if result.get("draining") is not enabled:
+        raise RuntimeError(
+            f"Failed to set draining={enabled} on {pod}"
+        )
+
+    return result
+
+
+def wait_for_open5glos_drained(pod, timeout=180):
+    deadline = time.monotonic() + timeout
+
+    while time.monotonic() < deadline:
+        runtime = open5glos_runtime(pod)
+
+        if (
+            runtime.get("draining") is True
+            and runtime.get(
+                "active_gnb_connections"
+            ) == 0
+        ):
+            return True, runtime
+
+        time.sleep(POLL_INTERVAL_SECONDS)
+
+    return False, open5glos_runtime(pod)
+
+
+def set_open5glos_deletion_cost(pod, cost):
+    run_command([
+        "kubectl", "annotate", "pod", pod,
+        "-n", NAMESPACE,
+        f"controller.kubernetes.io/pod-deletion-cost={cost}",
+        "--overwrite",
+    ])
+
+
+def select_open5glos_drain_target():
+    pods = running_open5glos_pods()
+
+    if len(pods) <= 1:
+        raise RuntimeError(
+            "Open5GLoS baseline replica must be preserved"
+        )
+
+    candidates = []
+
+    for pod in pods:
+        runtime = open5glos_runtime(pod)
+
+        candidates.append((
+            runtime.get(
+                "active_gnb_connections",
+                0,
+            ),
+            pod,
+            runtime,
+        ))
+
+    candidates.sort(
+        key=lambda item: (item[0], item[1])
+    )
+
+    return candidates[0][1], candidates[0][2]
+
+
+def guarded_open5glos_scale_down():
+    current = current_open5glos_replicas()
+
+    if current <= 1:
+        raise RuntimeError(
+            "Open5GLoS is already at baseline"
+        )
+
+    target_pod, initial_runtime = (
+        select_open5glos_drain_target()
+    )
+
+    for pod in running_open5glos_pods():
+        cost = -1000 if pod == target_pod else 1000
+        set_open5glos_deletion_cost(pod, cost)
+
+    draining = set_open5glos_draining(
+        target_pod,
+        True,
+    )
+
+    drained, final_runtime = (
+        wait_for_open5glos_drained(target_pod)
+    )
+
+    if not drained:
+        raise RuntimeError(
+            f"Open5GLoS drain timeout for {target_pod}: "
+            f"{final_runtime}"
+        )
+
+    scale_open5glos(
+        current - 1,
+        allow_scale_down=True,
+    )
+
+    if not wait_for_open5glos_ready(current - 1):
+        raise RuntimeError(
+            "Open5GLoS recovery readiness timeout"
+        )
+
+    remaining = running_open5glos_pods()
+
+    if target_pod in remaining:
+        raise RuntimeError(
+            "Kubernetes did not remove the drained "
+            f"Open5GLoS Pod: {target_pod}"
+        )
+
+    connected, details = (
+        wait_for_all_open5glos_amf_connectivity()
+    )
+
+    if not connected:
+        raise RuntimeError(
+            "Remaining Open5GLoS Pods failed "
+            "AMF connectivity verification"
+        )
+
+    return {
+        "removed_pod": target_pod,
+        "initial_runtime": initial_runtime,
+        "draining_runtime": draining,
+        "final_runtime": final_runtime,
+        "remaining_pods": remaining,
+        "amf_connectivity": details,
+        "replicas": current - 1,
+    }
+
+
 def default_state():
     return {
         "phase": "IDLE",
