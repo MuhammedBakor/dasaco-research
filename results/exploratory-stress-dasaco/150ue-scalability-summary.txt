@@ -1,0 +1,45 @@
+DA-SACO Supplementary 150-UE Scalability Demonstration
+
+Run ID: stress-150ue-20260816-220145
+Classification: EXPLORATORY_STRESS_RUN
+Included in primary comparison: No
+
+Workload:
+  Planned UEs: 150
+  Inter-arrival time: 50 ms
+  PDU sessions: 0
+
+Service result:
+  Started UEs: 150
+  Completed UEs: 148
+  Completion rate: 98.67%
+  Registration Accept events: 173
+  Registration Reject events: 2
+  AMF Status Indications: 0
+  Unknown RAN UE errors: 0
+
+Control result:
+  AMF: 1 -> 2 -> 1
+  AUSF: 1 -> 2 -> 1
+  UDM: 1 -> 2 -> 1
+  UDR: 1 -> 2 -> 1
+  PCF: remained at 1
+  Open5GLoS: remained at 1
+
+Capacity-use result:
+  New AMF replica used: No
+  New AUSF replica used: No
+  New UDM replica used: No
+  New UDR replica used: No
+
+Recovery:
+  Active-gNB recovery guard: Successful
+  Final admission mode: OPEN
+  Final Controller state: IDLE
+  Final replicas: one per managed function
+
+Interpretation:
+  The experiment confirms coordinated multi-function scale-out,
+  readiness verification, protocol-safe recovery, and stable scale-in.
+  The new replicas did not process UE traffic because the useful arrival
+  wave completed before the added capacity became operationally useful.
