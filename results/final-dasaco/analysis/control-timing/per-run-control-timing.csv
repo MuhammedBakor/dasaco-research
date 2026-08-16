@@ -1,0 +1,4 @@
+run_id,scaled_functions,capacity_use_verified_functions,capacity_idle_functions,capacity_verified_events,capacity_use_verified_events,capacity_idle_events,recovery_blocked_events,first_to_last_capacity_verified_s,capacity_verified_to_use_or_idle_s,recovery_block_observed_span_s,first_block_to_recovery_complete_s,controller_action_window_s,recovery_complete_recorded
+clean-dasaco-20260816-202519,amf,,amf,1,0,1,13,0.0,27.281409,135.520604,,212.018365,False
+clean-dasaco-20260816-203351,amf,,amf,1,0,1,14,0.0,26.922464,144.186205,,220.571206,False
+clean-dasaco-20260816-204156,amf,,amf,1,0,1,14,0.0,27.237691,144.151087,,220.680969,False

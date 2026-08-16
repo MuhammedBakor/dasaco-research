@@ -1,0 +1,53 @@
+DA-SACO Primary Control-Timing Summary
+
+Scope:
+  Timing is derived from controller-actions.jsonl.
+  It measures recorded Controller phases only.
+  It does not infer an unrecorded workload-start or
+  pressure-detection timestamp.
+
+Per-run results:
+  clean-dasaco-20260816-202519
+    Scaled functions: amf
+    Capacity-use verified functions: none
+    Capacity-idle functions: amf
+    Capacity verification span: 0.000 s
+    Last verification to use/idle classification: 27.281 s
+    Observed active-gNB block span: 135.521 s
+    First block to recovery complete: N/A s
+    Recorded Controller action window: 212.018 s
+    Recovery-complete record present: false
+
+  clean-dasaco-20260816-203351
+    Scaled functions: amf
+    Capacity-use verified functions: none
+    Capacity-idle functions: amf
+    Capacity verification span: 0.000 s
+    Last verification to use/idle classification: 26.922 s
+    Observed active-gNB block span: 144.186 s
+    First block to recovery complete: N/A s
+    Recorded Controller action window: 220.571 s
+    Recovery-complete record present: false
+
+  clean-dasaco-20260816-204156
+    Scaled functions: amf
+    Capacity-use verified functions: none
+    Capacity-idle functions: amf
+    Capacity verification span: 0.000 s
+    Last verification to use/idle classification: 27.238 s
+    Observed active-gNB block span: 144.151 s
+    First block to recovery complete: N/A s
+    Recorded Controller action window: 220.681 s
+    Recovery-complete record present: false
+
+Aggregate means across available runs:
+  Capacity verification span: 0.000 s
+  Verification to use/idle classification: 27.147 s
+  Observed active-gNB block span: 141.286 s
+  First block to recovery complete: N/A
+  Recorded Controller action window: 217.757 s
+
+Methodological note:
+  The observed recovery-block span is bounded by
+  periodic Controller samples. It is not an exact
+  packet-level gNB connection duration.
