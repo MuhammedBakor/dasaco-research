@@ -553,15 +553,69 @@ def recover_one(name, action):
                         "stabilization timeout"
                     )
 
-                if not (
+                discovered = (
                     base.wait_for_open5glos_discovery(
                         running
                     )
-                ):
-                    raise RuntimeError(
-                        "AMF gradual recovery "
-                        "Open5GLoS discovery timeout"
-                    )
+                )
+
+                if not discovered:
+                    base.append_action_event({
+                        "timestamp": timestamp(),
+                        "phase":
+                            "OPEN5GLOS_DISCOVERY_FALLBACK",
+                        "reason": (
+                            "AMF recovery discovery "
+                            "timeout"
+                        ),
+                        "running_amfs":
+                            sorted(running),
+                    })
+
+                    base.run_command([
+                        "kubectl",
+                        "rollout",
+                        "restart",
+                        "-n",
+                        base.NAMESPACE,
+                        "deployment/open5glos",
+                    ])
+
+                    base.run_command([
+                        "kubectl",
+                        "rollout",
+                        "status",
+                        "-n",
+                        base.NAMESPACE,
+                        "deployment/open5glos",
+                        "--timeout=180s",
+                    ])
+
+                    if not (
+                        base.wait_for_open5glos_ready(1)
+                    ):
+                        raise RuntimeError(
+                            "Open5GLoS fallback "
+                            "readiness timeout"
+                        )
+
+                    if not (
+                        base.wait_for_open5glos_discovery(
+                            running
+                        )
+                    ):
+                        raise RuntimeError(
+                            "AMF discovery failed after "
+                            "Open5GLoS fallback restart"
+                        )
+
+                    base.append_action_event({
+                        "timestamp": timestamp(),
+                        "phase":
+                            "OPEN5GLOS_DISCOVERY_RESTORED",
+                        "running_amfs":
+                            sorted(running),
+                    })
 
                 transitions.append({
                     "from": before,
