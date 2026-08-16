@@ -773,56 +773,158 @@ def set_admission_mode(mode):
             f"Unsupported admission mode: {mode}"
         )
 
-    pod = "dasaco-admission-action"
+    pods = running_open5glos_pods()
+    results = {}
 
-    run_command([
-        "kubectl", "delete", "pod", pod,
-        "-n", NAMESPACE,
-        "--ignore-not-found",
-    ])
-
-    try:
-        run_command([
-            "kubectl", "run", pod,
-            "-n", NAMESPACE,
-            "--restart=Never",
-            "--image=curlimages/curl:8.7.1",
-            "--",
-            "curl", "-sf", "-X", "PUT",
-            "-H", "Content-Type: application/json",
-            "-d", json.dumps({"mode": mode}),
-            "http://open5glos-control:9091/admission",
-        ])
-
-        run_command([
-            "kubectl", "wait",
-            "-n", NAMESPACE,
-            "--for=jsonpath={.status.phase}=Succeeded",
-            f"pod/{pod}",
-            "--timeout=30s",
-        ])
-
-        response = run_command([
-            "kubectl", "logs",
-            "-n", NAMESPACE,
-            f"pod/{pod}",
-        ])
-
-        result = json.loads(response)
+    for pod in pods:
+        result = call_open5glos_pod_api(
+            pod,
+            "admission",
+            method="PUT",
+            payload={"mode": mode},
+        )
 
         if result.get("mode") != mode:
             raise RuntimeError(
-                f"Admission verification failed: {result}"
+                f"Admission update failed on {pod}: {result}"
             )
 
-        return result
+        results[pod] = result
 
-    finally:
-        run_command([
-            "kubectl", "delete", "pod", pod,
-            "-n", NAMESPACE,
-            "--ignore-not-found",
-        ])
+    for pod in pods:
+        verified = call_open5glos_pod_api(
+            pod,
+            "admission",
+        )
+
+        if verified.get("mode") != mode:
+            raise RuntimeError(
+                f"Admission verification failed on {pod}: "
+                f"{verified}"
+            )
+
+    return {
+        "mode": mode,
+        "replicas_verified": len(results),
+        "pods": results,
+    }
+
+
+
+def execute_open5glos_scale_plan(plan):
+    original = plan["current_open5glos_replicas"]
+    target = plan["proposed_open5glos_replicas"]
+    started = datetime.now(timezone.utc).isoformat()
+
+    state = {
+        **default_state(),
+        "phase": "CAPACITY_PENDING",
+        "action": "SCALE_OPEN5GLOS",
+        "target_function": "open5glos",
+        "original_replicas": original,
+        "target_replicas": target,
+        "started_at": started,
+    }
+    write_state(state)
+
+    append_action_event({
+        "timestamp": started,
+        "phase": "CAPACITY_PENDING",
+        "target_function": "open5glos",
+        "original_replicas": original,
+        "target_replicas": target,
+    })
+
+    try:
+        protection = set_admission_mode(
+            "STRONG_PROTECTION"
+        )
+
+        append_action_event({
+            "timestamp": datetime.now(
+                timezone.utc
+            ).isoformat(),
+            "phase": "PROTECTION_ACTIVE",
+            "target_function": "open5glos",
+            "admission": protection,
+        })
+
+        scale_open5glos(target)
+
+        if not wait_for_open5glos_ready(target):
+            raise RuntimeError(
+                "Open5GLoS readiness timeout"
+            )
+
+        connected, details = (
+            wait_for_all_open5glos_amf_connectivity()
+        )
+
+        if not connected:
+            raise RuntimeError(
+                "Open5GLoS AMF connectivity timeout"
+            )
+
+        # New replicas start with local OPEN admission state.
+        # Broadcast a consistent OPEN state after readiness.
+        admission = set_admission_mode("OPEN")
+
+        state["phase"] = "CAPACITY_VERIFIED"
+        write_state(state)
+
+        plan["executed"] = True
+        plan["controller_phase"] = "CAPACITY_VERIFIED"
+        plan["reason"] = (
+            "Open5GLoS scale-out completed; readiness, "
+            "AMF connectivity, and replica-wide admission "
+            "consistency verified"
+        )
+
+        append_action_event({
+            "timestamp": datetime.now(
+                timezone.utc
+            ).isoformat(),
+            "phase": "CAPACITY_VERIFIED",
+            "target_function": "open5glos",
+            "target_replicas": target,
+            "running_pods": sorted(
+                running_open5glos_pods()
+            ),
+            "amf_connectivity": details,
+            "admission": admission,
+        })
+
+        return plan
+
+    except Exception as error:
+        state["phase"] = "ROLLBACK"
+        state["last_error"] = str(error)
+        write_state(state)
+
+        append_action_event({
+            "timestamp": datetime.now(
+                timezone.utc
+            ).isoformat(),
+            "phase": "ROLLBACK",
+            "target_function": "open5glos",
+            "error": str(error),
+            "rollback_target": original,
+        })
+
+        while current_open5glos_replicas() > original:
+            guarded_open5glos_scale_down()
+
+        set_admission_mode("OPEN")
+        write_state(default_state())
+
+        plan["executed"] = False
+        plan["controller_phase"] = "IDLE"
+        plan["reason"] = (
+            "Open5GLoS scale-out failed and "
+            f"rolled back: {error}"
+        )
+
+        return plan
 
 
 def execute_generic_nf_scale_plan(plan):
@@ -1085,7 +1187,22 @@ def execute_recovery_plan(plan):
 
     try:
         if name and original is not None:
-            if name == "amf":
+            if name == "open5glos":
+                while (
+                    current_open5glos_replicas()
+                    > original
+                ):
+                    guarded_open5glos_scale_down()
+
+                if not wait_for_open5glos_ready(
+                    original
+                ):
+                    raise RuntimeError(
+                        "Open5GLoS recovery "
+                        "readiness timeout"
+                    )
+
+            elif name == "amf":
                 scale_amf(original)
 
                 if not wait_for_amf_ready(original):
@@ -1189,6 +1306,42 @@ def create_plan(record):
         )
         return plan
 
+    open5glos_candidate = (
+        decision["state"] == "OPEN5GLOS_PRESSURE"
+        and decision.get("recommended_action")
+        == "SCALE_OPEN5GLOS_CANDIDATE"
+        and decision.get("persistent") is True
+    )
+
+    if open5glos_candidate:
+        current_open = current_open5glos_replicas()
+
+        if current_open >= OPEN5GLOS_MAX_REPLICAS:
+            plan["reason"] = (
+                "Open5GLoS maximum replica limit reached"
+            )
+            return plan
+
+        plan["action"] = "SCALE_OPEN5GLOS"
+        plan["target_function"] = "open5glos"
+        plan["current_open5glos_replicas"] = (
+            current_open
+        )
+        plan["proposed_open5glos_replicas"] = (
+            current_open + 1
+        )
+        plan["reason"] = (
+            "Persistent Open5GLoS pressure passed "
+            "protocol-aware scaling safety guards"
+        )
+
+        if DRY_RUN:
+            plan["reason"] += (
+                "; execution blocked by DRY_RUN"
+            )
+
+        return plan
+
     scale_states = {
         "AUSF_PRESSURE": "ausf",
         "UDM_PRESSURE": "udm",
@@ -1270,7 +1423,10 @@ def main():
     plan = create_plan(read_latest_decision())
 
     if not DRY_RUN and not plan["executed"]:
-        if plan["action"] == "SCALE_AMF":
+        if plan["action"] == "SCALE_OPEN5GLOS":
+            plan = execute_open5glos_scale_plan(plan)
+
+        elif plan["action"] == "SCALE_AMF":
             plan = execute_scale_plan(plan)
 
         elif plan["action"] == "SCALE_NF":

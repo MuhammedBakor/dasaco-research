@@ -12,6 +12,7 @@ from bottleneck_localizer import (
 LOG_FILE = Path("logs/monitoring.jsonl")
 
 SCALABLE_FUNCTIONS = {
+    "open5glos",
     "amf",
     "ausf",
     "udm",

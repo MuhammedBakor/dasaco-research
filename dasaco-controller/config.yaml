@@ -7,6 +7,12 @@ open5glos:
   deployment: open5glos
 
 functions:
+  open5glos:
+    workload_kind: deployment
+    workload_name: open5glos
+    label_selector: nf=open5glos
+    cpu_request_millicores: 100
+
   amf:
     workload_kind: deployment
     workload_name: free5gc-free5gc-amf-amf

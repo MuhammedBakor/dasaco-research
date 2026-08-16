@@ -6,6 +6,7 @@ from pathlib import Path
 LOG_FILE = Path("logs/monitoring.jsonl")
 
 CPU_REQUESTS = {
+    "open5glos": 100,
     "amf": 100,
     "ausf": 100,
     "udm": 100,
@@ -15,6 +16,7 @@ CPU_REQUESTS = {
 }
 
 HIGH_THRESHOLD = {
+    "open5glos": 70,
     "amf": 70,
     "ausf": 75,
     "udm": 75,
@@ -96,7 +98,14 @@ def classify(snapshot):
 
     # Select the deepest pressured dependency first. This avoids scaling
     # an upstream NF when the active bottleneck is farther downstream.
-    pressure_priority = ["udr", "udm", "ausf", "pcf", "amf"]
+    pressure_priority = [
+        "udr",
+        "udm",
+        "ausf",
+        "pcf",
+        "amf",
+        "open5glos",
+    ]
 
     for name in pressure_priority:
         if name in pressured:

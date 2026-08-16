@@ -13,6 +13,7 @@ INTERVAL = 5
 ADMISSION_URL = "http://127.0.0.1:19091/admission"
 
 FUNCTIONS = {
+    "open5glos": ("deployment", "open5glos", "nf=open5glos"),
     "amf": ("deployment", "free5gc-free5gc-amf-amf", "nf=amf"),
     "ausf": ("deployment", "free5gc-free5gc-ausf-ausf", "nf=ausf"),
     "udm": ("deployment", "free5gc-free5gc-udm-udm", "nf=udm"),
