@@ -1,3 +1,3 @@
 [submodule "open5glos/repo"]
 	path = open5glos/repo
-	url = https://github.com/HasukiHT/5glos.git
+	url = git@github.com:MuhammedBakor/open5glos-dasaco.git
