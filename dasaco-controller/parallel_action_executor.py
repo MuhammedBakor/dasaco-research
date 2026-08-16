@@ -223,6 +223,11 @@ def build_parallel_plan(decision):
                 "function": name,
                 "original_replicas": current,
                 "target_replicas": current + 1,
+                "original_pods": sorted(
+                    replica_use.running_function_pods(
+                        name
+                    )
+                ),
             })
             continue
 
