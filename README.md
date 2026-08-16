@@ -704,3 +704,36 @@ Detailed reproducibility notes:
 Supplementary experiment protocol:
 
     docs/experiments/150ue-stress-test.md
+
+## Fresh Repository Setup
+
+Clone the repository with the Open5GLoS submodule:
+
+    git clone --recurse-submodules REPOSITORY_URL
+    cd dasaco-research
+
+If the repository was cloned without submodules:
+
+    git submodule update --init --recursive
+
+Fetch the verified free5GC Helm and PacketRusher source revisions:
+
+    ./scripts/setup/fetch_dependencies.sh
+
+The setup script checks out:
+
+- Open5GLoS at the Gitlink recorded by this repository;
+- free5GC Helm at commit
+  6f67ec11512e8c6b4eb6b3237f46e71fec5bdda2;
+- PacketRusher at commit
+  194ae987ee2bacfae2cf57d435b475e54076679e.
+
+The PacketRusher executable must then be built according to its upstream
+build instructions. The executable used in the recorded experiments had
+the following SHA-256:
+
+    3f5b7adbd9428d5882c45995c1644f0aa73d7489f40edaa6caa37b69289d421b
+
+The dependency setup script does not deploy the Kubernetes environment,
+provision subscribers, or run experiments. Those operations remain
+explicit experimental steps.
