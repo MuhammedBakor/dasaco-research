@@ -31,7 +31,7 @@ NF_CONFIG = {
     "ausf": {
         "deployment": "free5gc-free5gc-ausf-ausf",
         "label": "nf=ausf",
-        "max_replicas": 3,
+        "max_replicas": 5,
         "eligible": True,
         "nrf_type": "AUSF",
         "requester_type": "AMF",
@@ -39,7 +39,7 @@ NF_CONFIG = {
     "udm": {
         "deployment": "free5gc-free5gc-udm-udm",
         "label": "nf=udm",
-        "max_replicas": 3,
+        "max_replicas": 5,
         "eligible": True,
         "nrf_type": "UDM",
         "requester_type": "AUSF",
@@ -47,7 +47,7 @@ NF_CONFIG = {
     "udr": {
         "deployment": "free5gc-free5gc-udr-udr",
         "label": "nf=udr",
-        "max_replicas": 3,
+        "max_replicas": 5,
         "eligible": True,
         "nrf_type": "UDR",
         "requester_type": "UDM",
@@ -55,7 +55,7 @@ NF_CONFIG = {
     "pcf": {
         "deployment": "free5gc-free5gc-pcf-pcf",
         "label": "nf=pcf",
-        "max_replicas": 3,
+        "max_replicas": 5,
         "eligible": True,
         "nrf_type": "PCF",
         "requester_type": "AMF",
@@ -362,6 +362,145 @@ def wait_for_open5glos_discovery(expected_pods):
         time.sleep(POLL_INTERVAL_SECONDS)
 
     return False
+
+
+OPEN5GLOS_DEPLOYMENT = "open5glos"
+OPEN5GLOS_MAX_REPLICAS = 5
+OPEN5GLOS_READY_TIMEOUT_SECONDS = 120
+
+
+def current_open5glos_replicas():
+    value = run_command([
+        "kubectl", "get", "deployment",
+        OPEN5GLOS_DEPLOYMENT,
+        "-n", NAMESPACE,
+        "-o", "jsonpath={.spec.replicas}",
+    ])
+
+    return int(value)
+
+
+def ready_open5glos_replicas():
+    value = run_command([
+        "kubectl", "get", "deployment",
+        OPEN5GLOS_DEPLOYMENT,
+        "-n", NAMESPACE,
+        "-o", "jsonpath={.status.readyReplicas}",
+    ])
+
+    return int(value or "0")
+
+
+def scale_open5glos(target, allow_scale_down=False):
+    current = current_open5glos_replicas()
+
+    if target < 1 or target > OPEN5GLOS_MAX_REPLICAS:
+        raise RuntimeError(
+            f"Open5GLoS target {target} is outside safe range"
+        )
+
+    if target < current and not allow_scale_down:
+        raise RuntimeError(
+            "Open5GLoS scale-down blocked: "
+            "connection-aware draining is required"
+        )
+
+    run_command([
+        "kubectl", "scale",
+        f"deployment/{OPEN5GLOS_DEPLOYMENT}",
+        "-n", NAMESPACE,
+        f"--replicas={target}",
+    ])
+
+
+def wait_for_open5glos_ready(target):
+    deadline = (
+        time.monotonic()
+        + OPEN5GLOS_READY_TIMEOUT_SECONDS
+    )
+
+    while time.monotonic() < deadline:
+        desired = current_open5glos_replicas()
+        ready = ready_open5glos_replicas()
+        running = running_open5glos_pods()
+
+        if (
+            desired == target
+            and ready == target
+            and len(running) == target
+        ):
+            return True
+
+        time.sleep(POLL_INTERVAL_SECONDS)
+
+    return False
+
+
+def open5glos_pod_amfs(pod, since="2h"):
+    logs = run_command([
+        "kubectl", "logs",
+        "-n", NAMESPACE,
+        pod,
+        f"--since={since}",
+    ])
+
+    found = set()
+
+    for line in logs.splitlines():
+        if "Connected to AMF:" in line and "ID:" in line:
+            name = line.rsplit("ID:", 1)[1].strip()
+
+            if name:
+                found.add(name)
+
+        elif " successfully registered with manager" in line:
+            marker = "[INFO] AMF "
+
+            if marker in line:
+                name = line.split(marker, 1)[1].split(
+                    " successfully registered", 1
+                )[0].strip()
+
+                if name:
+                    found.add(name)
+
+    return found
+
+
+def verify_all_open5glos_amf_connectivity():
+    open5glos_pods = running_open5glos_pods()
+    expected_amfs = running_amf_pods()
+    details = {}
+
+    all_connected = True
+
+    for pod in open5glos_pods:
+        connected = open5glos_pod_amfs(pod)
+        details[pod] = sorted(connected)
+
+        if not expected_amfs.issubset(connected):
+            all_connected = False
+
+    return all_connected, details
+
+
+def wait_for_all_open5glos_amf_connectivity():
+    deadline = (
+        time.monotonic()
+        + AMF_DISCOVERY_TIMEOUT_SECONDS
+    )
+
+    while time.monotonic() < deadline:
+        verified, details = (
+            verify_all_open5glos_amf_connectivity()
+        )
+
+        if verified:
+            return True, details
+
+        time.sleep(POLL_INTERVAL_SECONDS)
+
+    return False, details
 
 
 def default_state():
