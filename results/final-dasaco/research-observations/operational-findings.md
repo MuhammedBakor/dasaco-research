@@ -241,3 +241,27 @@ Research implication:
 Recovery ordering is therefore part of DA-SACO correctness. Admission
 must not return to OPEN until dependency-ordered recovery and an
 end-to-end registration probe both succeed.
+
+## AUSF Replica-Local Authentication State
+
+During the five-replica integration test, the initial authentication
+POST request reached one AUSF replica and created the SUCI-to-SUPI
+mapping locally. The subsequent 5G-AKA confirmation PUT request reached
+a different AUSF replica, where the mapping did not exist.
+
+Observed result:
+
+- Authentication creation POST: HTTP 201 on one AUSF replica.
+- 5G-AKA confirmation PUT: HTTP 400 on another AUSF replica.
+- Logged cause: `supiSuciPair does not exist`.
+- The UE received the Authentication Request but did not complete
+  registration.
+
+Research implication:
+
+`AUSF Ready + NRF Registered != authentication-session continuity`
+
+AUSF horizontal scaling requires request affinity or shared
+authentication-session state. DA-SACO must verify complete multi-step
+procedure continuity rather than treating successful single-request
+distribution as sufficient scaling eligibility.

@@ -1,0 +1,16 @@
+2026-08-16T07:13:54.223268089Z[36m [INFO][AUSF][Main] [0mAUSF version:  
+	free5GC version: v4.2.3
+	build time:      2026-06-30T05:43:29Z
+	commit hash:     b74ee7da
+	commit time:     2026-06-22T06:06:41Z
+	go version:      go1.26.2 linux/amd64
+2026-08-16T07:13:54.224539153Z[36m [INFO][AUSF][CFG] [0mRead config from [./config/ausfcfg.yaml]
+2026-08-16T07:13:54.228413508Z[36m [INFO][AUSF][Main] [0mLog enable is set to [true]
+2026-08-16T07:13:54.228432654Z[36m [INFO][AUSF][Main] [0mLog level is set to [info]
+2026-08-16T07:13:54.228441751Z[36m [INFO][AUSF][Main] [0mReport Caller is set to [false]
+2026-08-16T07:13:54.228688393Z[36m [INFO][AUSF][Init] [0mausfconfig Info: Version[1.0.3] Description[AUSF initial local configuration]
+2026-08-16T07:13:54.231359161Z[36m [INFO][AUSF][SBI] [0mBinding addr: [0.0.0.0:8080]
+ausf context =  &{{{} {{{} 0} {0 0} {[] {} <nil>} <nil> <nil> 0}} {{} {{{} 0} {0 0} {[] {} <nil>} <nil> <nil> 0}} 9261c09d-04de-4ba9-8765-f58ae061a4ad ausfGroup001 8080 free5gc-free5gc-ausf-service 0.0.0.0 http://free5gc-free5gc-ausf-service:8080 http http://nrf-nnrf:8000 ./cert/nrf.pem map[nausf-auth:{9261c09d-04de-4ba9-8765-f58ae061a4ad nausf-auth [{v1 1.0.3 <nil>}] http REGISTERED   [{free5gc-free5gc-ausf-service   8080}]  [] [] [] [] [] [] map[] map[] 0 0 0 <nil> <nil>  [] [] []  map[] false <nil>}] [{208 93} {123 45}]  0xa7a53352a00 false false}
+2026-08-16T07:13:54.231798966Z[36m [INFO][AUSF][Init] [0mServer started
+2026-08-16T07:13:54.357576536Z[36m [INFO][AUSF][Main] [0mOAuth2 setting receive from NRF: false
+2026-08-16T07:13:54.357629545Z[36m [INFO][AUSF][SBI] [0mStart SBI server (listen on 0.0.0.0:8080)
