@@ -43,6 +43,9 @@ echo "Run ID: $RUN_ID"
 
 cd "$CONTROLLER"
 
+rm -f     logs/monitoring.jsonl     logs/parallel-localizer-decisions.jsonl     logs/controller-actions.jsonl     logs/parallel-controller-loop.log
+
+
 python3 - <<'PY'
 import action_executor as a
 
@@ -243,6 +246,12 @@ if [ "$SCALE_READY" != "1" ]; then
         echo "Rejects=$(
             grep -c             "Receive Registration Reject"             "$WAVE1_LOG" || true
         )"
+
+        cp "$CONTROLLER/logs/monitoring.jsonl"             "$RESULTS/" 2>/dev/null || true
+
+        cp "$CONTROLLER/logs/parallel-localizer-decisions.jsonl"             "$RESULTS/" 2>/dev/null || true
+
+        cp "$CONTROLLER/logs/controller-actions.jsonl"             "$RESULTS/" 2>/dev/null || true
 
         echo           "[OK] Run completed without unnecessary scaling: $RUN_ID"
 
