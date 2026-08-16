@@ -1,0 +1,56 @@
+DA-SACO Supplementary Sustained-Arrival Capacity-Use Demonstration
+
+Classification:
+  EXPLORATORY_SUSTAINED_RUN
+
+Primary comparison eligibility:
+  No
+
+Workload:
+  Planned UEs: 150
+  Inter-arrival time: 500 ms
+  Approximate arrival-wave duration: 75 seconds
+  PDU sessions: 0
+
+Service result:
+  Started UEs: 150
+  Completed UEs: 146
+  Completion rate: 97.33%
+  Registration Accept events: 146
+  Registration Reject events: 2
+  AMF Status Indications: 0
+  Unknown RAN UE errors: 0
+
+Selective control result:
+  AMF: 1 -> 2 -> 1
+  UDR: 1 -> 2 -> 1
+  AUSF: remained at 1
+  UDM: remained at 1
+  PCF: remained at 1
+  Open5GLoS: remained at 1
+
+AMF capacity use:
+  Original replica unique UEs: 79
+  New replica unique UEs: 70
+  New replica used: Yes
+  Controller verification: CAPACITY_USE_VERIFIED
+
+UDR capacity use:
+  Original replica unique UEs: 149
+  New replica unique UEs: 53
+  New replica used: Yes
+  Controller verification: CAPACITY_USE_VERIFIED
+  Note: Per-replica unique UE counts can overlap because one UE can
+  generate multiple UDR requests handled by different replicas.
+
+Recovery:
+  Active-gNB recovery guard: Successful
+  Final admission mode: OPEN
+  Final Controller state: IDLE
+  Final replicas: one per managed function
+
+Interpretation:
+  Sustained arrivals continued after the new AMF and UDR replicas became
+  Ready. This allowed the added capacity to process real UE-associated
+  traffic. The result confirms both scaling execution and scaling
+  utility, while remaining separate from the primary 100-UE comparison.
