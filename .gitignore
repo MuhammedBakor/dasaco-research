@@ -7,3 +7,15 @@ free5gc/
 packetrusher/
 *.tar.gz
 dasaco-controller/*.before-*
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# DA-SACO temporary and diagnostic outputs
+results/final-dasaco/automatic-runs/
+results/final-dasaco/diagnostic-runs/
+results/final-dasaco/*-console.log
+results/final-dasaco/dasaco-fresh-run-*.log
+results/final-dasaco/dasaco-final-run-*.log
+results/final-dasaco/dasaco-final-valid-run-*.log
