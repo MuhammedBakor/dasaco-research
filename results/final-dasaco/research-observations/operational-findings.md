@@ -294,3 +294,105 @@ Gradual recovery avoids an abrupt capacity withdrawal while residual
 traffic from the previous registration wave may still be present. It
 also provides a verification boundary after every replica reduction,
 making recovery failures observable and limiting their scope.
+
+## First Real Automatic Parallel DA-SACO Run
+
+Run identifier: auto-parallel-20260816-160715
+
+Workload:
+
+- Planned UEs: 100
+- Inter-arrival time: 50 ms
+- Test timeout: 240 seconds
+- Initial replica count: one replica for every scalable function
+
+Registration result:
+
+- UEs started: 100
+- Registration Accepts: 97
+- Configuration Update Completes: 96
+- Registration Rejects: 0
+
+Automatic scaling decision:
+
+- Persistent pressure was detected only on UDM.
+- UDM scaled automatically from one to two replicas.
+- No unnecessary scaling was performed for Open5GLoS, AMF, AUSF,
+  UDR, or PCF.
+- Pressure returned to NORMAL after the UDM capacity increment.
+- UDM recovered automatically from two replicas to the baseline of one.
+
+Final state:
+
+- Open5GLoS: 1 desired, 1 Ready
+- AMF: 1 desired, 1 Ready
+- AUSF: 1 desired, 1 Ready
+- UDM: 1 desired, 1 Ready
+- UDR: 1 desired, 1 Ready
+- PCF: 1 desired, 1 Ready
+- Controller: IDLE
+- Admission: OPEN
+
+Research implication:
+
+The maximum replica value is a safety limit rather than a target.
+DA-SACO adds one replica per persistent-pressure decision and stops
+scaling when the measured bottleneck is relieved. In this run, a
+single UDM increment was sufficient, so scaling to three, four, or five
+replicas was neither required nor performed.
+
+The 97 Registration Accepts and 96 Configuration Update Completes also
+show that Kubernetes readiness and selective scaling alone do not
+guarantee perfect completion for every UE. The incomplete UE paths
+must be examined separately and reported transparently.
+
+### Replica-Use Verification
+
+Per-replica UDM evidence showed:
+
+- Original UDM replica:
+  - HTTP requests: 1207
+  - Unique SUPIs: 100
+  - Generate-auth-data occurrences: 171
+- Newly created UDM replica:
+  - HTTP requests: 0
+  - Unique SUPIs: 0
+  - Generate-auth-data occurrences: 0
+
+Therefore, the additional UDM replica became Kubernetes Ready and was
+registered in NRF, but did not carry observable UE traffic during the
+remaining workload interval.
+
+This run must not be interpreted as proof that the UDM scale-out
+provided useful additional capacity.
+
+Research implication:
+
+`Scaled + Ready + NRF Registered != traffic-useful capacity`
+
+DA-SACO must verify replica use after every scaling action. Possible
+causes include cached NF selection, direct NF-instance addressing,
+connection reuse, insufficient workload remaining after readiness, or
+service-routing behavior.
+
+### Monitoring Normalization Finding
+
+The monitoring adapter currently aggregates CPU usage across all Pods
+of a function. The localizer divides this aggregate by the CPU request
+of one replica.
+
+After horizontal scaling, this can overestimate function utilization
+because the denominator does not increase with replica count.
+
+The normalized aggregate utilization should be calculated as:
+
+total function CPU usage
+/
+(replica count × per-replica CPU request)
+
+Per-replica maximum and average utilization should also be preserved
+for bottleneck diagnosis.
+
+Until CPU normalization and traffic-use verification are implemented,
+this run is classified as an exploratory automatic-control run rather
+than a final comparative result.

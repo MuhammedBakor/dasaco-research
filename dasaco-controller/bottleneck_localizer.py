@@ -49,7 +49,24 @@ def load_recent(count=2):
 
 def cpu_percent(name, data):
     request = CPU_REQUESTS[name]
-    return 100 * data.get("cpu_m", 0) / request
+    replicas = max(data.get("desired", 1), 1)
+    total_request = request * replicas
+
+    return (
+        100
+        * data.get("cpu_m", 0)
+        / total_request
+    )
+
+
+def max_pod_cpu_percent(name, data):
+    request = CPU_REQUESTS[name]
+
+    return (
+        100
+        * data.get("max_pod_cpu_m", 0)
+        / request
+    )
 
 
 def classify(snapshot):

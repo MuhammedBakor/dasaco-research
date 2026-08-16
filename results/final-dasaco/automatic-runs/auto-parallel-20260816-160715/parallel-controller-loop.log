@@ -1,0 +1,5076 @@
+[2026-08-15T19:14:19+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:21.924196+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=43.37m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=43.22m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=42.00m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=136.91m memory=300.48Mi restarts=1
+Need 2 monitoring snapshots, found 1
+[2026-08-15T19:14:19+08:00] Parallel localization failed
+[2026-08-15T19:14:23+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:25.181693+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=43.37m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=43.22m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=42.00m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=136.91m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:25.181693+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:25.358110+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:23+08:00] Parallel cycle completed
+[2026-08-15T19:14:26+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:28.339586+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=43.37m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=43.22m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=42.00m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=136.91m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:28.339586+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:28.477676+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:26+08:00] Parallel cycle completed
+[2026-08-15T19:14:29+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:31.470696+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=43.37m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=43.22m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=42.00m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=136.91m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:31.470696+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:31.626464+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:29+08:00] Parallel cycle completed
+[2026-08-15T19:14:32+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:34.564196+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=44.09m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=44.56m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=40.37m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:34.564196+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:34.694268+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:32+08:00] Parallel cycle completed
+[2026-08-15T19:14:35+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:37.634727+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=44.09m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=44.56m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=40.37m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:37.634727+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:37.770951+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:35+08:00] Parallel cycle completed
+[2026-08-15T19:14:38+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:41.072091+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=44.09m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=44.56m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=40.37m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:41.072091+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:41.330329+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:38+08:00] Parallel cycle completed
+[2026-08-15T19:14:42+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:45.009095+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=44.09m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=44.56m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=40.37m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:45.009095+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:45.234051+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:42+08:00] Parallel cycle completed
+[2026-08-15T19:14:46+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:48.461177+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=41.74m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=44.09m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=44.56m memory=12.34Mi restarts=0
+UDR      ready=1/1 cpu=40.37m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=39.76m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:48.461177+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:48.631396+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:46+08:00] Parallel cycle completed
+[2026-08-15T19:14:49+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:52.004309+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.17m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=36.54m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=65.30m memory=15.86Mi restarts=0
+UDR      ready=1/1 cpu=40.91m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=38.26m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:52.004309+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:52.201303+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:49+08:00] Parallel cycle completed
+[2026-08-15T19:14:53+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:55.421939+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.17m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=36.54m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=65.30m memory=15.86Mi restarts=0
+UDR      ready=1/1 cpu=40.91m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=38.26m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:55.421939+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:55.604302+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:53+08:00] Parallel cycle completed
+[2026-08-15T19:14:56+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:14:58.935537+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.17m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=36.54m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=65.30m memory=15.86Mi restarts=0
+UDR      ready=1/1 cpu=40.91m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=38.26m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:14:58.935537+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:14:59.078784+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:14:56+08:00] Parallel cycle completed
+[2026-08-15T19:15:00+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:15:02.247933+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.17m memory=14.68Mi restarts=0
+AUSF     ready=1/1 cpu=36.54m memory=17.30Mi restarts=0
+UDM      ready=1/1 cpu=65.30m memory=15.86Mi restarts=0
+UDR      ready=1/1 cpu=40.91m memory=10.62Mi restarts=0
+PCF      ready=1/1 cpu=38.26m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=152.35m memory=300.48Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:15:02.247933+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:15:02.448128+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:15:00+08:00] Parallel cycle completed
+[2026-08-15T19:15:03+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:15:05.448408+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=112.45m memory=39.53Mi restarts=0
+AUSF     ready=1/1 cpu=104.07m memory=22.53Mi restarts=0
+UDM      ready=1/1 cpu=170.45m memory=18.07Mi restarts=0
+UDR      ready=1/1 cpu=139.18m memory=13.29Mi restarts=0
+PCF      ready=1/1 cpu=65.09m memory=12.16Mi restarts=0
+MONGODB  ready=1/1 cpu=229.18m memory=393.82Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:15:05.448408+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "EVIDENCE_PENDING",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": false
+  }
+}
+{
+  "timestamp": "2026-08-15T11:15:05.589479+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:15:03+08:00] Parallel cycle completed
+[2026-08-15T19:15:06+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:15:08.502404+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=112.45m memory=39.53Mi restarts=0
+AUSF     ready=1/1 cpu=104.07m memory=22.53Mi restarts=0
+UDM      ready=1/1 cpu=170.45m memory=18.07Mi restarts=0
+UDR      ready=1/1 cpu=139.18m memory=13.29Mi restarts=0
+PCF      ready=1/1 cpu=65.09m memory=12.16Mi restarts=0
+MONGODB  ready=1/1 cpu=229.18m memory=393.82Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:15:08.502404+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "MULTI_NF_PRESSURE",
+    "pressure_functions": [
+      "amf",
+      "ausf",
+      "udm",
+      "udr"
+    ],
+    "scale_candidates": [
+      "amf",
+      "ausf",
+      "udm",
+      "udr"
+    ],
+    "protection_candidates": [],
+    "recommended_action": "SCALE_MULTIPLE_NFS_CANDIDATE",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:15:09.233760+00:00",
+  "mode": "ACTIVE",
+  "action": "SCALE_MULTIPLE_NFS",
+  "candidates": [
+    {
+      "function": "amf",
+      "original_replicas": 1,
+      "target_replicas": 2
+    },
+    {
+      "function": "ausf",
+      "original_replicas": 1,
+      "target_replicas": 2
+    },
+    {
+      "function": "udm",
+      "original_replicas": 1,
+      "target_replicas": 2
+    },
+    {
+      "function": "udr",
+      "original_replicas": 1,
+      "target_replicas": 2
+    }
+  ],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": true,
+  "results": [
+    {
+      "function": "amf",
+      "phase": "CAPACITY_VERIFIED",
+      "original_replicas": 1,
+      "target_replicas": 2,
+      "started_at": "2026-08-15T11:15:12.334572+00:00",
+      "finished_at": "2026-08-15T11:15:27.786683+00:00",
+      "success": true,
+      "verification": {
+        "ready_replicas": 2,
+        "running_pods": [
+          "free5gc-free5gc-amf-amf-5597dcbb9c-l8wtk",
+          "free5gc-free5gc-amf-amf-5597dcbb9c-nsf8r"
+        ],
+        "verification": "KUBERNETES_AND_OPEN5GLOS"
+      },
+      "error": null
+    },
+    {
+      "function": "udr",
+      "phase": "CAPACITY_VERIFIED",
+      "original_replicas": 1,
+      "target_replicas": 2,
+      "started_at": "2026-08-15T11:15:12.338950+00:00",
+      "finished_at": "2026-08-15T11:15:30.764815+00:00",
+      "success": true,
+      "verification": {
+        "ready_replicas": 2,
+        "registered_instances": 2,
+        "verification": "KUBERNETES_AND_NRF"
+      },
+      "error": null
+    },
+    {
+      "function": "udm",
+      "phase": "CAPACITY_VERIFIED",
+      "original_replicas": 1,
+      "target_replicas": 2,
+      "started_at": "2026-08-15T11:15:12.336940+00:00",
+      "finished_at": "2026-08-15T11:15:31.871357+00:00",
+      "success": true,
+      "verification": {
+        "ready_replicas": 2,
+        "registered_instances": 2,
+        "verification": "KUBERNETES_AND_NRF"
+      },
+      "error": null
+    },
+    {
+      "function": "ausf",
+      "phase": "CAPACITY_VERIFIED",
+      "original_replicas": 1,
+      "target_replicas": 2,
+      "started_at": "2026-08-15T11:15:12.336380+00:00",
+      "finished_at": "2026-08-15T11:15:31.928089+00:00",
+      "success": true,
+      "verification": {
+        "ready_replicas": 2,
+        "registered_instances": 2,
+        "verification": "KUBERNETES_AND_NRF"
+      },
+      "error": null
+    }
+  ],
+  "verified_functions": [
+    "amf",
+    "udr",
+    "udm",
+    "ausf"
+  ],
+  "failed_functions": [],
+  "controller_phase": "PARALLEL_CAPACITY_VERIFIED"
+}
+[2026-08-15T19:15:06+08:00] Parallel cycle completed
+[2026-08-15T19:15:32+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:15:34.878208+00:00
+Admission: STRONG_PROTECTION
+------------------------------------------------------------------------
+AMF      ready=2/2 cpu=66.72m memory=76.40Mi restarts=0
+AUSF     ready=2/2 cpu=59.29m memory=36.76Mi restarts=0
+UDM      ready=2/2 cpu=63.51m memory=23.93Mi restarts=0
+UDR      ready=2/2 cpu=49.24m memory=23.15Mi restarts=0
+PCF      ready=1/1 cpu=50.19m memory=12.88Mi restarts=0
+MONGODB  ready=1/1 cpu=201.76m memory=445.42Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:15:34.878208+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "EVIDENCE_PENDING",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": false
+  }
+}
+{
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "executed": false,
+  "reason": "Parallel actions already active: PARALLEL_CAPACITY_VERIFIED"
+}
+[2026-08-15T19:15:32+08:00] Parallel cycle completed
+[2026-08-15T19:15:36+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:15:38.092830+00:00
+Admission: STRONG_PROTECTION
+------------------------------------------------------------------------
+AMF      ready=2/2 cpu=66.72m memory=76.40Mi restarts=0
+AUSF     ready=2/2 cpu=59.29m memory=36.76Mi restarts=0
+UDM      ready=2/2 cpu=63.51m memory=23.93Mi restarts=0
+UDR      ready=2/2 cpu=49.24m memory=23.15Mi restarts=0
+PCF      ready=1/1 cpu=50.19m memory=12.88Mi restarts=0
+MONGODB  ready=1/1 cpu=201.76m memory=445.42Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:15:38.092830+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "executed": true,
+  "phase": "IDLE",
+  "results": [
+    {
+      "function": "amf",
+      "success": true,
+      "replicas": 1,
+      "error": null
+    },
+    {
+      "function": "udr",
+      "success": true,
+      "replicas": 1,
+      "error": null
+    },
+    {
+      "function": "ausf",
+      "success": true,
+      "replicas": 1,
+      "error": null
+    },
+    {
+      "function": "udm",
+      "success": true,
+      "replicas": 1,
+      "error": null
+    }
+  ],
+  "admission": {
+    "mode": "OPEN",
+    "enabled": false,
+    "rate_per_second": 0,
+    "burst": 1000,
+    "admitted": 100,
+    "waited": 0,
+    "total_wait_ms": 0,
+    "updated_at": "2026-08-15T11:15:47.478268943Z"
+  }
+}
+[2026-08-15T19:15:36+08:00] Parallel cycle completed
+[2026-08-15T19:15:51+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:15:52.972316+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=51.06m memory=46.68Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=44.89m memory=15.63Mi restarts=0
+UDR      ready=1/1 cpu=40.97m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=40.07m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=153.95m memory=300.47Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:15:52.972316+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:15:53.133557+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:15:51+08:00] Parallel cycle completed
+[2026-08-15T19:15:54+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:15:56.108555+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=51.06m memory=46.68Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=44.89m memory=15.63Mi restarts=0
+UDR      ready=1/1 cpu=40.97m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=40.07m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=153.95m memory=300.47Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:15:56.108555+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:15:56.278164+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:15:54+08:00] Parallel cycle completed
+[2026-08-15T19:15:57+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:15:59.269101+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=51.06m memory=46.68Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=44.89m memory=15.63Mi restarts=0
+UDR      ready=1/1 cpu=40.97m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=40.07m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=153.95m memory=300.47Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:15:59.269101+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:15:59.407872+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:15:57+08:00] Parallel cycle completed
+[2026-08-15T19:16:00+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:02.341775+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=51.06m memory=46.68Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=44.89m memory=15.63Mi restarts=0
+UDR      ready=1/1 cpu=40.97m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=40.07m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=153.95m memory=300.47Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:02.341775+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:02.477670+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:00+08:00] Parallel cycle completed
+[2026-08-15T19:16:03+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:05.443635+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.37m memory=46.64Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=42.24m memory=15.61Mi restarts=0
+UDR      ready=1/1 cpu=37.86m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=36.92m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:05.443635+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:05.585503+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:03+08:00] Parallel cycle completed
+[2026-08-15T19:16:06+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:08.564384+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.37m memory=46.64Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=42.24m memory=15.61Mi restarts=0
+UDR      ready=1/1 cpu=37.86m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=36.92m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:08.564384+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:08.701861+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:06+08:00] Parallel cycle completed
+[2026-08-15T19:16:09+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:11.691985+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.37m memory=46.64Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=42.24m memory=15.61Mi restarts=0
+UDR      ready=1/1 cpu=37.86m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=36.92m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:11.691985+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:11.825159+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:09+08:00] Parallel cycle completed
+[2026-08-15T19:16:12+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:14.774810+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.37m memory=46.64Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=42.24m memory=15.61Mi restarts=0
+UDR      ready=1/1 cpu=37.86m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=36.92m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:14.774810+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:14.927208+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:12+08:00] Parallel cycle completed
+[2026-08-15T19:16:15+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:17.890070+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.37m memory=46.64Mi restarts=0
+AUSF     ready=1/1 cpu=42.84m memory=22.55Mi restarts=0
+UDM      ready=1/1 cpu=42.24m memory=15.61Mi restarts=0
+UDR      ready=1/1 cpu=37.86m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=36.92m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:17.890070+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:18.045182+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:15+08:00] Parallel cycle completed
+[2026-08-15T19:16:19+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:20.986750+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.91m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=42.21m memory=25.44Mi restarts=0
+UDM      ready=1/1 cpu=39.07m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.98m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=39.24m memory=15.18Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:20.986750+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:21.157684+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:19+08:00] Parallel cycle completed
+[2026-08-15T19:16:22+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:24.064846+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.91m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=42.21m memory=25.44Mi restarts=0
+UDM      ready=1/1 cpu=39.07m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.98m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=39.24m memory=15.18Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:24.064846+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:24.222873+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:22+08:00] Parallel cycle completed
+[2026-08-15T19:16:25+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:27.111479+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.91m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=42.21m memory=25.44Mi restarts=0
+UDM      ready=1/1 cpu=39.07m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.98m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=39.24m memory=15.18Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:27.111479+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:27.278896+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:25+08:00] Parallel cycle completed
+[2026-08-15T19:16:28+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:30.221478+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.91m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=42.21m memory=25.44Mi restarts=0
+UDM      ready=1/1 cpu=39.07m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.98m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=39.24m memory=15.18Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:30.221478+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:30.364843+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:28+08:00] Parallel cycle completed
+[2026-08-15T19:16:31+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:33.316219+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=43.91m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=42.21m memory=25.44Mi restarts=0
+UDM      ready=1/1 cpu=39.07m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.98m memory=13.80Mi restarts=0
+PCF      ready=1/1 cpu=39.24m memory=15.18Mi restarts=0
+MONGODB  ready=1/1 cpu=186.88m memory=444.24Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:33.316219+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:33.470190+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:31+08:00] Parallel cycle completed
+[2026-08-15T19:16:34+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:36.490673+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.97m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=39.79m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=45.52m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.02m memory=14.12Mi restarts=0
+PCF      ready=1/1 cpu=35.85m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=116.73m memory=382.09Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:36.490673+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:36.631621+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:34+08:00] Parallel cycle completed
+[2026-08-15T19:16:37+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:39.572169+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.97m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=39.79m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=45.52m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.02m memory=14.12Mi restarts=0
+PCF      ready=1/1 cpu=35.85m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=116.73m memory=382.09Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:39.572169+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:39.698714+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:37+08:00] Parallel cycle completed
+[2026-08-15T19:16:40+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:42.640795+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.97m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=39.79m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=45.52m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.02m memory=14.12Mi restarts=0
+PCF      ready=1/1 cpu=35.85m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=116.73m memory=382.09Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:42.640795+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:42.769605+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:40+08:00] Parallel cycle completed
+[2026-08-15T19:16:43+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:45.669690+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.97m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=39.79m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=45.52m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.02m memory=14.12Mi restarts=0
+PCF      ready=1/1 cpu=35.85m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=116.73m memory=382.09Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:45.669690+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:45.806324+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:43+08:00] Parallel cycle completed
+[2026-08-15T19:16:46+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:48.756225+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.65m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=35.99m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=40.31m memory=14.26Mi restarts=0
+PCF      ready=1/1 cpu=43.10m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=95.78m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:48.756225+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:48.898956+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:46+08:00] Parallel cycle completed
+[2026-08-15T19:16:49+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:51.830732+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.65m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=35.99m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=40.31m memory=14.26Mi restarts=0
+PCF      ready=1/1 cpu=43.10m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=95.78m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:51.830732+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:51.982338+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:49+08:00] Parallel cycle completed
+[2026-08-15T19:16:53+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:54.868455+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.65m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=35.99m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=40.31m memory=14.26Mi restarts=0
+PCF      ready=1/1 cpu=43.10m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=95.78m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:54.868455+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:55.020498+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:53+08:00] Parallel cycle completed
+[2026-08-15T19:16:56+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:16:57.988351+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.65m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=35.99m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=40.31m memory=14.26Mi restarts=0
+PCF      ready=1/1 cpu=43.10m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=95.78m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:16:57.988351+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:16:58.143612+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:56+08:00] Parallel cycle completed
+[2026-08-15T19:16:59+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:01.073602+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.65m memory=21.22Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=35.99m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=40.31m memory=14.26Mi restarts=0
+PCF      ready=1/1 cpu=43.10m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=95.78m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:01.073602+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:01.251432+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:16:59+08:00] Parallel cycle completed
+[2026-08-15T19:17:02+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:04.133541+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.96m memory=20.74Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=41.70m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.34m memory=13.81Mi restarts=0
+PCF      ready=1/1 cpu=37.36m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=170.62m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:04.133541+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:04.299129+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:02+08:00] Parallel cycle completed
+[2026-08-15T19:17:05+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:07.190744+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.96m memory=20.74Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=41.70m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.34m memory=13.81Mi restarts=0
+PCF      ready=1/1 cpu=37.36m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=170.62m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:07.190744+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:07.360726+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:05+08:00] Parallel cycle completed
+[2026-08-15T19:17:08+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:10.287956+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.96m memory=20.74Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=41.70m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.34m memory=13.81Mi restarts=0
+PCF      ready=1/1 cpu=37.36m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=170.62m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:10.287956+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:10.420194+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:08+08:00] Parallel cycle completed
+[2026-08-15T19:17:11+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:13.332507+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.96m memory=20.74Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=41.70m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.34m memory=13.81Mi restarts=0
+PCF      ready=1/1 cpu=37.36m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=170.62m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:13.332507+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:13.468700+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:11+08:00] Parallel cycle completed
+[2026-08-15T19:17:14+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:16.351809+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=37.96m memory=20.74Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=41.70m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.34m memory=13.81Mi restarts=0
+PCF      ready=1/1 cpu=37.36m memory=12.89Mi restarts=0
+MONGODB  ready=1/1 cpu=170.62m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:16.351809+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:16.494838+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:14+08:00] Parallel cycle completed
+[2026-08-15T19:17:17+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:19.387560+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.63m memory=20.75Mi restarts=0
+AUSF     ready=1/1 cpu=39.80m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.71m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.08m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=118.80m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:19.387560+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:19.521229+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:17+08:00] Parallel cycle completed
+[2026-08-15T19:17:20+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:22.465908+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.63m memory=20.75Mi restarts=0
+AUSF     ready=1/1 cpu=39.80m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.71m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.08m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=118.80m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:22.465908+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:22.611564+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:20+08:00] Parallel cycle completed
+[2026-08-15T19:17:23+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:25.635237+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.63m memory=20.75Mi restarts=0
+AUSF     ready=1/1 cpu=39.80m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.71m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.08m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=118.80m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:25.635237+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:25.772680+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:23+08:00] Parallel cycle completed
+[2026-08-15T19:17:26+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:28.716460+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.63m memory=20.75Mi restarts=0
+AUSF     ready=1/1 cpu=39.80m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.71m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.08m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=118.80m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:28.716460+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:28.850992+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:26+08:00] Parallel cycle completed
+[2026-08-15T19:17:29+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:31.796893+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.63m memory=20.75Mi restarts=0
+AUSF     ready=1/1 cpu=39.80m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.71m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=42.08m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=118.80m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:31.796893+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:31.948198+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:29+08:00] Parallel cycle completed
+[2026-08-15T19:17:32+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:34.896904+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.91m memory=20.78Mi restarts=0
+AUSF     ready=1/1 cpu=41.08m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.38m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.14m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=159.38m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:34.896904+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:35.050084+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:32+08:00] Parallel cycle completed
+[2026-08-15T19:17:36+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:37.952804+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.91m memory=20.78Mi restarts=0
+AUSF     ready=1/1 cpu=41.08m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.38m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.14m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=159.38m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:37.952804+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:38.104948+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:36+08:00] Parallel cycle completed
+[2026-08-15T19:17:39+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:40.970507+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.91m memory=20.78Mi restarts=0
+AUSF     ready=1/1 cpu=41.08m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.38m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.14m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=159.38m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:40.970507+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:41.137394+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:39+08:00] Parallel cycle completed
+[2026-08-15T19:17:42+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:44.092458+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.91m memory=20.78Mi restarts=0
+AUSF     ready=1/1 cpu=41.08m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.38m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.14m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=159.38m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:44.092458+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:44.254139+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:42+08:00] Parallel cycle completed
+[2026-08-15T19:17:45+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:47.090565+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.91m memory=20.78Mi restarts=0
+AUSF     ready=1/1 cpu=41.08m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.38m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=38.14m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=40.94m memory=11.06Mi restarts=0
+MONGODB  ready=1/1 cpu=159.38m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:47.090565+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:47.253669+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:45+08:00] Parallel cycle completed
+[2026-08-15T19:17:48+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:50.126767+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=37.61m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.85m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.05m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.79m memory=301.79Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:50.126767+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:50.292340+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:48+08:00] Parallel cycle completed
+[2026-08-15T19:17:51+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:53.123243+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=37.61m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.85m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.05m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.79m memory=301.79Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:53.123243+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:53.273459+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:51+08:00] Parallel cycle completed
+[2026-08-15T19:17:54+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:56.138155+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=37.61m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.85m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.05m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.79m memory=301.79Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:56.138155+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:56.296048+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:54+08:00] Parallel cycle completed
+[2026-08-15T19:17:57+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:17:59.276028+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=37.61m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.85m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.05m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.79m memory=301.79Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:17:59.276028+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:17:59.415697+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:17:57+08:00] Parallel cycle completed
+[2026-08-15T19:18:00+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:02.333093+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=37.61m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=39.85m memory=15.59Mi restarts=0
+UDR      ready=1/1 cpu=39.05m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.79m memory=301.79Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:02.333093+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:02.471462+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:00+08:00] Parallel cycle completed
+[2026-08-15T19:18:03+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:05.430369+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.55m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=15.60Mi restarts=0
+UDR      ready=1/1 cpu=40.68m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=108.03m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:05.430369+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:05.579376+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:03+08:00] Parallel cycle completed
+[2026-08-15T19:18:06+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:08.507532+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.55m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=15.60Mi restarts=0
+UDR      ready=1/1 cpu=40.68m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=108.03m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:08.507532+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:08.642670+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:06+08:00] Parallel cycle completed
+[2026-08-15T19:18:09+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:11.574332+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.55m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=15.60Mi restarts=0
+UDR      ready=1/1 cpu=40.68m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=108.03m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:11.574332+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:11.708120+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:09+08:00] Parallel cycle completed
+[2026-08-15T19:18:12+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:14.641625+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.55m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=15.60Mi restarts=0
+UDR      ready=1/1 cpu=40.68m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=108.03m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:14.641625+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:14.777428+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:12+08:00] Parallel cycle completed
+[2026-08-15T19:18:15+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:17.730131+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.93m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.55m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=15.60Mi restarts=0
+UDR      ready=1/1 cpu=40.68m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=108.03m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:17.730131+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:17.876633+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:15+08:00] Parallel cycle completed
+[2026-08-15T19:18:18+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:20.779942+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.57m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=36.02m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=40.57m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.49m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.05m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:20.779942+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:20.935976+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:18+08:00] Parallel cycle completed
+[2026-08-15T19:18:21+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:23.843762+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.57m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=36.02m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=40.57m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.49m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.05m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:23.843762+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:23.985407+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:21+08:00] Parallel cycle completed
+[2026-08-15T19:18:25+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:26.872444+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.57m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=36.02m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=40.57m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.49m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.05m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:26.872444+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:27.025667+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:25+08:00] Parallel cycle completed
+[2026-08-15T19:18:28+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:29.948685+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.57m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=36.02m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=40.57m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.49m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.05m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:29.948685+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:30.104542+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:28+08:00] Parallel cycle completed
+[2026-08-15T19:18:31+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:33.064752+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.57m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=36.02m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=40.57m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.49m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=136.05m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:33.064752+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:33.229561+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:31+08:00] Parallel cycle completed
+[2026-08-15T19:18:34+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:36.135757+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.71m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.77m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.09m memory=13.45Mi restarts=0
+UDR      ready=1/1 cpu=39.75m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=195.75m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:36.135757+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:36.287553+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:34+08:00] Parallel cycle completed
+[2026-08-15T19:18:37+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:39.217120+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.71m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.77m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.09m memory=13.45Mi restarts=0
+UDR      ready=1/1 cpu=39.75m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=195.75m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:39.217120+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:39.361330+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:37+08:00] Parallel cycle completed
+[2026-08-15T19:18:40+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:42.260741+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.71m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.77m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.09m memory=13.45Mi restarts=0
+UDR      ready=1/1 cpu=39.75m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=195.75m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:42.260741+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:42.387961+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:40+08:00] Parallel cycle completed
+[2026-08-15T19:18:43+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:45.315789+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.71m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.77m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.09m memory=13.45Mi restarts=0
+UDR      ready=1/1 cpu=39.75m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=195.75m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:45.315789+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:45.466764+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:43+08:00] Parallel cycle completed
+[2026-08-15T19:18:46+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:48.376793+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=38.71m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.77m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.09m memory=13.45Mi restarts=0
+UDR      ready=1/1 cpu=39.75m memory=11.31Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=195.75m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:48.376793+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:48.527988+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:46+08:00] Parallel cycle completed
+[2026-08-15T19:18:49+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:51.480741+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=42.38m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.70m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.65m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=41.44m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=70.89m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:51.480741+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:51.618009+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:49+08:00] Parallel cycle completed
+[2026-08-15T19:18:52+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:54.531723+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=42.38m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.70m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.65m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=41.44m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=70.89m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:54.531723+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:54.669982+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:52+08:00] Parallel cycle completed
+[2026-08-15T19:18:55+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:18:57.702192+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=42.38m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.70m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.65m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=41.44m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=70.89m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:18:57.702192+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:18:57.885211+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:55+08:00] Parallel cycle completed
+[2026-08-15T19:18:58+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:01.087100+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=42.38m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.70m memory=21.81Mi restarts=0
+UDM      ready=1/1 cpu=38.80m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=39.65m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=41.44m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=70.89m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:01.087100+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:01.280415+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:18:58+08:00] Parallel cycle completed
+[2026-08-15T19:19:02+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:04.392466+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.08m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.18m memory=25.08Mi restarts=0
+UDM      ready=1/1 cpu=40.22m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=38.38m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=37.82m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=147.55m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:04.392466+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:04.540442+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:02+08:00] Parallel cycle completed
+[2026-08-15T19:19:05+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:07.707575+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.08m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.18m memory=25.08Mi restarts=0
+UDM      ready=1/1 cpu=40.22m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=38.38m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=37.82m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=147.55m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:07.707575+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:07.847501+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:05+08:00] Parallel cycle completed
+[2026-08-15T19:19:08+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:10.768965+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.08m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.18m memory=25.08Mi restarts=0
+UDM      ready=1/1 cpu=40.22m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=38.38m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=37.82m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=147.55m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:10.768965+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:10.909215+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:08+08:00] Parallel cycle completed
+[2026-08-15T19:19:11+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:13.796718+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.08m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.18m memory=25.08Mi restarts=0
+UDM      ready=1/1 cpu=40.22m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=38.38m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=37.82m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=147.55m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:13.796718+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:13.982576+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:11+08:00] Parallel cycle completed
+[2026-08-15T19:19:15+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:17.139052+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=39.08m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=39.18m memory=25.08Mi restarts=0
+UDM      ready=1/1 cpu=40.22m memory=13.39Mi restarts=0
+UDR      ready=1/1 cpu=38.38m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=37.82m memory=10.73Mi restarts=0
+MONGODB  ready=1/1 cpu=147.55m memory=300.50Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:17.139052+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:17.418489+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:15+08:00] Parallel cycle completed
+[2026-08-15T19:19:18+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:20.391219+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=45.96m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=45.15m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.28m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=41.79m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=40.39m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=185.98m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:20.391219+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:20.546985+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:18+08:00] Parallel cycle completed
+[2026-08-15T19:19:21+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:23.738420+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=45.96m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=45.15m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.28m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=41.79m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=40.39m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=185.98m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:23.738420+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:23.907183+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:21+08:00] Parallel cycle completed
+[2026-08-15T19:19:24+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:27.178494+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=45.96m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=45.15m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.28m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=41.79m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=40.39m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=185.98m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:27.178494+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:27.335626+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:24+08:00] Parallel cycle completed
+[2026-08-15T19:19:28+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:30.470932+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=45.96m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=45.15m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.28m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=41.79m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=40.39m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=185.98m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:30.470932+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:30.611871+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:28+08:00] Parallel cycle completed
+[2026-08-15T19:19:31+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:33.845432+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=45.96m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=45.15m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.28m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=41.79m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=40.39m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=185.98m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:33.845432+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:34.013973+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:31+08:00] Parallel cycle completed
+[2026-08-15T19:19:35+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:37.239232+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.27m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=41.54m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=39.76m memory=12.65Mi restarts=0
+UDR      ready=1/1 cpu=41.33m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=46.65m memory=10.62Mi restarts=0
+MONGODB  ready=1/1 cpu=131.41m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:37.239232+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:37.428001+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:35+08:00] Parallel cycle completed
+[2026-08-15T19:19:38+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:40.615523+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.27m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=41.54m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=39.76m memory=12.65Mi restarts=0
+UDR      ready=1/1 cpu=41.33m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=46.65m memory=10.62Mi restarts=0
+MONGODB  ready=1/1 cpu=131.41m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:40.615523+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:40.752927+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:38+08:00] Parallel cycle completed
+[2026-08-15T19:19:41+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:44.024281+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.27m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=41.54m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=39.76m memory=12.65Mi restarts=0
+UDR      ready=1/1 cpu=41.33m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=46.65m memory=10.62Mi restarts=0
+MONGODB  ready=1/1 cpu=131.41m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:44.024281+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:44.218556+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:41+08:00] Parallel cycle completed
+[2026-08-15T19:19:45+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:47.406707+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=40.27m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=41.54m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=39.76m memory=12.65Mi restarts=0
+UDR      ready=1/1 cpu=41.33m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=46.65m memory=10.62Mi restarts=0
+MONGODB  ready=1/1 cpu=131.41m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:47.406707+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:47.550818+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:45+08:00] Parallel cycle completed
+[2026-08-15T19:19:48+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:50.620663+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=42.95m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.63m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.58m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=42.82m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=198.09m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:50.620663+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:50.759902+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:48+08:00] Parallel cycle completed
+[2026-08-15T19:19:51+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:53.724691+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=42.95m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.63m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.58m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=42.82m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=198.09m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:53.724691+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:53.896417+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:51+08:00] Parallel cycle completed
+[2026-08-15T19:19:54+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:19:57.777685+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=42.95m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.63m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.58m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=42.82m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=198.09m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:19:57.777685+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:19:57.927778+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:54+08:00] Parallel cycle completed
+[2026-08-15T19:19:58+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:20:01.063045+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=42.95m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=42.63m memory=18.11Mi restarts=0
+UDM      ready=1/1 cpu=44.58m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=42.82m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=39.40m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=198.09m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:20:01.063045+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:20:01.265947+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:19:58+08:00] Parallel cycle completed
+[2026-08-15T19:20:02+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:20:04.325307+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=44.66m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=44.30m memory=21.63Mi restarts=0
+UDM      ready=1/1 cpu=42.32m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=44.25m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=45.83m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=154.57m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:20:04.325307+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:20:04.475833+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:20:02+08:00] Parallel cycle completed
+[2026-08-15T19:20:05+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:20:07.602151+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=44.66m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=44.30m memory=21.63Mi restarts=0
+UDM      ready=1/1 cpu=42.32m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=44.25m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=45.83m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=154.57m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:20:07.602151+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:20:07.763336+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:20:05+08:00] Parallel cycle completed
+[2026-08-15T19:20:08+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:20:10.948198+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=44.66m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=44.30m memory=21.63Mi restarts=0
+UDM      ready=1/1 cpu=42.32m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=44.25m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=45.83m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=154.57m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:20:10.948198+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:20:11.149660+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:20:08+08:00] Parallel cycle completed
+[2026-08-15T19:20:12+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:20:14.234723+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=44.66m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=44.30m memory=21.63Mi restarts=0
+UDM      ready=1/1 cpu=42.32m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=44.25m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=45.83m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=154.57m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:20:14.234723+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:20:14.401727+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:20:12+08:00] Parallel cycle completed
+[2026-08-15T19:20:15+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-15T11:20:17.615097+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+AMF      ready=1/1 cpu=44.66m memory=21.02Mi restarts=0
+AUSF     ready=1/1 cpu=44.30m memory=21.63Mi restarts=0
+UDM      ready=1/1 cpu=42.32m memory=12.64Mi restarts=0
+UDR      ready=1/1 cpu=44.25m memory=11.01Mi restarts=0
+PCF      ready=1/1 cpu=45.83m memory=10.55Mi restarts=0
+MONGODB  ready=1/1 cpu=154.57m memory=300.51Mi restarts=1
+{
+  "timestamp": "2026-08-15T11:20:17.615097+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-15T11:20:17.785304+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-15T19:20:15+08:00] Parallel cycle completed
+[2026-08-15T19:20:18+08:00] Starting parallel cycle
+[2026-08-16T16:06:47+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:06:49.603419+00:00
+Admission: UNAVAILABLE
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.58m memory=8.18Mi restarts=0
+AMF      ready=1/1 cpu=40.95m memory=12.20Mi restarts=0
+AUSF     ready=1/1 cpu=43.99m memory=17.54Mi restarts=0
+UDM      ready=1/1 cpu=43.93m memory=7.62Mi restarts=0
+UDR      ready=1/1 cpu=48.36m memory=8.57Mi restarts=0
+PCF      ready=1/1 cpu=44.04m memory=8.21Mi restarts=0
+MONGODB  ready=1/1 cpu=109.08m memory=303.47Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:06:49.603419+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "UNSAFE_OR_UNCERTAIN",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:06:49.871232+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:06:47+08:00] Parallel cycle completed
+[2026-08-16T16:07:04+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:07:07.375182+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.69m memory=8.20Mi restarts=0
+AMF      ready=1/1 cpu=42.66m memory=12.20Mi restarts=0
+AUSF     ready=1/1 cpu=41.05m memory=14.57Mi restarts=0
+UDM      ready=1/1 cpu=42.21m memory=7.77Mi restarts=0
+UDR      ready=1/1 cpu=43.40m memory=8.28Mi restarts=0
+PCF      ready=1/1 cpu=41.73m memory=8.21Mi restarts=0
+MONGODB  ready=1/1 cpu=199.21m memory=303.47Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:07:07.375182+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "UNSAFE_OR_UNCERTAIN",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:07:07.598408+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:07:04+08:00] Parallel cycle completed
+[2026-08-16T16:07:22+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:07:25.125348+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.87m memory=8.21Mi restarts=0
+AMF      ready=1/1 cpu=42.66m memory=12.20Mi restarts=0
+AUSF     ready=1/1 cpu=40.99m memory=14.57Mi restarts=0
+UDM      ready=1/1 cpu=37.15m memory=8.04Mi restarts=0
+UDR      ready=1/1 cpu=41.20m memory=8.27Mi restarts=0
+PCF      ready=1/1 cpu=41.57m memory=8.21Mi restarts=0
+MONGODB  ready=1/1 cpu=174.01m memory=335.64Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:07:25.125348+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:07:25.297429+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:07:22+08:00] Parallel cycle completed
+[2026-08-16T16:07:40+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:07:42.736458+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.54m memory=8.21Mi restarts=0
+AMF      ready=1/1 cpu=36.72m memory=12.20Mi restarts=0
+AUSF     ready=1/1 cpu=37.35m memory=14.57Mi restarts=0
+UDM      ready=1/1 cpu=39.88m memory=7.56Mi restarts=0
+UDR      ready=1/1 cpu=42.79m memory=8.27Mi restarts=0
+PCF      ready=1/1 cpu=41.73m memory=8.21Mi restarts=0
+MONGODB  ready=1/1 cpu=174.01m memory=335.64Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:07:42.736458+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:07:42.895796+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:07:40+08:00] Parallel cycle completed
+[2026-08-16T16:07:57+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:08:00.654769+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.64m memory=8.21Mi restarts=0
+AMF      ready=1/1 cpu=40.72m memory=12.20Mi restarts=0
+AUSF     ready=1/1 cpu=43.31m memory=14.82Mi restarts=0
+UDM      ready=1/1 cpu=39.88m memory=7.56Mi restarts=0
+UDR      ready=1/1 cpu=45.73m memory=8.28Mi restarts=0
+PCF      ready=1/1 cpu=40.64m memory=8.21Mi restarts=0
+MONGODB  ready=1/1 cpu=209.55m memory=303.48Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:08:00.654769+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:08:00.845607+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:07:57+08:00] Parallel cycle completed
+[2026-08-16T16:08:15+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:08:18.802463+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.77m memory=8.21Mi restarts=0
+AMF      ready=1/1 cpu=39.51m memory=12.20Mi restarts=0
+AUSF     ready=1/1 cpu=39.92m memory=14.80Mi restarts=0
+UDM      ready=1/1 cpu=46.44m memory=7.56Mi restarts=0
+UDR      ready=1/1 cpu=41.31m memory=8.27Mi restarts=0
+PCF      ready=1/1 cpu=42.90m memory=8.21Mi restarts=0
+MONGODB  ready=1/1 cpu=209.55m memory=303.48Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:08:18.802463+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:08:19.188214+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:08:15+08:00] Parallel cycle completed
+[2026-08-16T16:08:34+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:08:36.440069+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=34.48m memory=8.46Mi restarts=0
+AMF      ready=1/1 cpu=186.62m memory=74.78Mi restarts=0
+AUSF     ready=1/1 cpu=59.88m memory=22.50Mi restarts=0
+UDM      ready=1/1 cpu=159.25m memory=14.39Mi restarts=0
+UDR      ready=1/1 cpu=135.97m memory=12.92Mi restarts=0
+PCF      ready=1/1 cpu=74.08m memory=12.05Mi restarts=0
+MONGODB  ready=1/1 cpu=295.86m memory=303.73Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:08:36.440069+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "EVIDENCE_PENDING",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": false
+  }
+}
+{
+  "timestamp": "2026-08-16T08:08:36.587058+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:08:34+08:00] Parallel cycle completed
+[2026-08-16T16:08:51+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:08:53.903802+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=8.71m memory=8.46Mi restarts=0
+AMF      ready=1/1 cpu=45.71m memory=74.49Mi restarts=0
+AUSF     ready=1/1 cpu=46.11m memory=22.50Mi restarts=0
+UDM      ready=1/1 cpu=86.40m memory=13.79Mi restarts=0
+UDR      ready=1/1 cpu=51.10m memory=13.21Mi restarts=0
+PCF      ready=1/1 cpu=39.30m memory=12.05Mi restarts=0
+MONGODB  ready=1/1 cpu=195.12m memory=303.73Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:08:53.903802+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "UDM_PRESSURE",
+    "pressure_functions": [
+      "udm"
+    ],
+    "scale_candidates": [
+      "udm"
+    ],
+    "protection_candidates": [],
+    "recommended_action": "SCALE_MULTIPLE_NFS_CANDIDATE",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:08:54.237893+00:00",
+  "mode": "ACTIVE",
+  "action": "SCALE_MULTIPLE_NFS",
+  "candidates": [
+    {
+      "function": "udm",
+      "original_replicas": 1,
+      "target_replicas": 2
+    }
+  ],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": true,
+  "results": [
+    {
+      "function": "udm",
+      "phase": "CAPACITY_VERIFIED",
+      "original_replicas": 1,
+      "target_replicas": 2,
+      "started_at": "2026-08-16T08:09:01.776356+00:00",
+      "finished_at": "2026-08-16T08:09:19.036568+00:00",
+      "success": true,
+      "verification": {
+        "ready_replicas": 2,
+        "registered_instances": 2,
+        "verification": "KUBERNETES_AND_NRF"
+      },
+      "error": null
+    }
+  ],
+  "verified_functions": [
+    "udm"
+  ],
+  "failed_functions": [],
+  "controller_phase": "PARALLEL_CAPACITY_VERIFIED",
+  "admission": {
+    "mode": "OPEN",
+    "replicas_verified": 1,
+    "pods": {
+      "open5glos-dcd6cfcd5-crhjp": {
+        "mode": "OPEN",
+        "enabled": false,
+        "rate_per_second": 0,
+        "burst": 1000,
+        "admitted": 100,
+        "waited": 0,
+        "total_wait_ms": 0,
+        "updated_at": "2026-08-16T08:09:20.409110931Z"
+      }
+    }
+  }
+}
+[2026-08-16T16:08:51+08:00] Parallel cycle completed
+[2026-08-16T16:09:41+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:09:43.274549+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=1.21m memory=8.47Mi restarts=0
+AMF      ready=1/1 cpu=43.30m memory=79.15Mi restarts=0
+AUSF     ready=1/1 cpu=37.83m memory=22.49Mi restarts=0
+UDM      ready=2/2 cpu=67.03m memory=21.76Mi restarts=0
+UDR      ready=1/1 cpu=39.39m memory=16.17Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=12.08Mi restarts=0
+MONGODB  ready=1/1 cpu=172.75m memory=303.75Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:09:43.274549+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "EVIDENCE_PENDING",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": false
+  }
+}
+{
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "executed": false,
+  "reason": "Parallel actions already active: PARALLEL_CAPACITY_VERIFIED"
+}
+[2026-08-16T16:09:41+08:00] Parallel cycle completed
+[2026-08-16T16:09:58+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:10:00.704340+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.69m memory=8.46Mi restarts=0
+AMF      ready=1/1 cpu=40.71m memory=77.62Mi restarts=0
+AUSF     ready=1/1 cpu=38.05m memory=22.49Mi restarts=0
+UDM      ready=2/2 cpu=72.78m memory=22.13Mi restarts=0
+UDR      ready=1/1 cpu=40.42m memory=13.21Mi restarts=0
+PCF      ready=1/1 cpu=38.61m memory=12.08Mi restarts=0
+MONGODB  ready=1/1 cpu=82.84m memory=303.75Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:10:00.704340+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "executed": true,
+  "phase": "IDLE",
+  "results": [
+    {
+      "function": "udm",
+      "success": true,
+      "replicas": 1,
+      "transitions": [
+        {
+          "from": 2,
+          "to": 1,
+          "verification": "KUBERNETES_AND_NRF"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "admission": {
+    "mode": "OPEN",
+    "replicas_verified": 1,
+    "pods": {
+      "open5glos-dcd6cfcd5-crhjp": {
+        "mode": "OPEN",
+        "enabled": false,
+        "rate_per_second": 0,
+        "burst": 1000,
+        "admitted": 100,
+        "waited": 0,
+        "total_wait_ms": 0,
+        "updated_at": "2026-08-16T08:10:06.812492173Z"
+      }
+    }
+  }
+}
+[2026-08-16T16:09:58+08:00] Parallel cycle completed
+[2026-08-16T16:10:27+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:10:29.562876+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.71m memory=8.46Mi restarts=0
+AMF      ready=1/1 cpu=39.43m memory=31.83Mi restarts=0
+AUSF     ready=1/1 cpu=45.87m memory=22.50Mi restarts=0
+UDM      ready=1/1 cpu=35.20m memory=13.75Mi restarts=0
+UDR      ready=1/1 cpu=39.19m memory=13.89Mi restarts=0
+PCF      ready=1/1 cpu=40.46m memory=12.11Mi restarts=0
+MONGODB  ready=1/1 cpu=162.26m memory=303.75Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:10:29.562876+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:10:29.698683+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:10:27+08:00] Parallel cycle completed
+[2026-08-16T16:10:44+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:10:46.862047+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.72m memory=8.46Mi restarts=0
+AMF      ready=1/1 cpu=40.16m memory=22.43Mi restarts=0
+AUSF     ready=1/1 cpu=37.38m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=40.18m memory=13.75Mi restarts=0
+UDR      ready=1/1 cpu=40.08m memory=13.22Mi restarts=0
+PCF      ready=1/1 cpu=39.12m memory=12.11Mi restarts=0
+MONGODB  ready=1/1 cpu=133.23m memory=303.75Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:10:46.862047+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:10:47.004678+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:10:44+08:00] Parallel cycle completed
+[2026-08-16T16:11:02+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:11:04.109422+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.43m memory=8.46Mi restarts=0
+AMF      ready=1/1 cpu=37.92m memory=22.14Mi restarts=0
+AUSF     ready=1/1 cpu=39.79m memory=25.28Mi restarts=0
+UDM      ready=1/1 cpu=37.45m memory=13.75Mi restarts=0
+UDR      ready=1/1 cpu=40.91m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=37.22m memory=11.77Mi restarts=0
+MONGODB  ready=1/1 cpu=93.16m memory=343.57Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:11:04.109422+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:11:04.256172+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:11:02+08:00] Parallel cycle completed
+[2026-08-16T16:11:19+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:11:21.455640+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.74m memory=8.48Mi restarts=0
+AMF      ready=1/1 cpu=37.24m memory=22.14Mi restarts=0
+AUSF     ready=1/1 cpu=36.14m memory=22.51Mi restarts=0
+UDM      ready=1/1 cpu=36.96m memory=13.75Mi restarts=0
+UDR      ready=1/1 cpu=40.46m memory=14.29Mi restarts=0
+PCF      ready=1/1 cpu=40.77m memory=11.77Mi restarts=0
+MONGODB  ready=1/1 cpu=147.89m memory=303.76Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:11:21.455640+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:11:21.600022+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:11:19+08:00] Parallel cycle completed
+[2026-08-16T16:11:36+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:11:38.772398+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.73m memory=8.47Mi restarts=0
+AMF      ready=1/1 cpu=39.70m memory=22.15Mi restarts=0
+AUSF     ready=1/1 cpu=37.63m memory=20.37Mi restarts=0
+UDM      ready=1/1 cpu=36.58m memory=13.75Mi restarts=0
+UDR      ready=1/1 cpu=40.38m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=40.29m memory=11.77Mi restarts=0
+MONGODB  ready=1/1 cpu=120.14m memory=303.76Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:11:38.772398+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:11:38.913619+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:11:36+08:00] Parallel cycle completed
+[2026-08-16T16:11:53+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:11:56.383865+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.61m memory=8.47Mi restarts=0
+AMF      ready=1/1 cpu=37.15m memory=22.17Mi restarts=0
+AUSF     ready=1/1 cpu=36.86m memory=20.35Mi restarts=0
+UDM      ready=1/1 cpu=38.79m memory=12.45Mi restarts=0
+UDR      ready=1/1 cpu=38.84m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=35.49m memory=11.79Mi restarts=0
+MONGODB  ready=1/1 cpu=125.99m memory=372.95Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:11:56.383865+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:11:56.536905+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:11:53+08:00] Parallel cycle completed
+[2026-08-16T16:12:11+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:12:13.695614+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.77m memory=8.47Mi restarts=0
+AMF      ready=1/1 cpu=37.91m memory=22.42Mi restarts=0
+AUSF     ready=1/1 cpu=36.21m memory=20.35Mi restarts=0
+UDM      ready=1/1 cpu=35.97m memory=12.45Mi restarts=0
+UDR      ready=1/1 cpu=40.61m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=41.13m memory=11.82Mi restarts=0
+MONGODB  ready=1/1 cpu=125.99m memory=372.95Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:12:13.695614+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:12:13.851948+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:12:11+08:00] Parallel cycle completed
+[2026-08-16T16:12:28+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:12:31.128990+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.74m memory=8.47Mi restarts=0
+AMF      ready=1/1 cpu=37.68m memory=22.14Mi restarts=0
+AUSF     ready=1/1 cpu=40.12m memory=20.35Mi restarts=0
+UDM      ready=1/1 cpu=38.74m memory=12.45Mi restarts=0
+UDR      ready=1/1 cpu=41.46m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=38.77m memory=11.83Mi restarts=0
+MONGODB  ready=1/1 cpu=136.60m memory=303.76Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:12:31.128990+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:12:31.291313+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:12:28+08:00] Parallel cycle completed
+[2026-08-16T16:12:46+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:12:48.662842+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.80m memory=8.47Mi restarts=0
+AMF      ready=1/1 cpu=37.05m memory=22.15Mi restarts=0
+AUSF     ready=1/1 cpu=40.79m memory=17.36Mi restarts=0
+UDM      ready=1/1 cpu=39.69m memory=12.77Mi restarts=0
+UDR      ready=1/1 cpu=37.25m memory=11.32Mi restarts=0
+PCF      ready=1/1 cpu=40.26m memory=11.84Mi restarts=0
+MONGODB  ready=1/1 cpu=146.24m memory=303.76Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:12:48.662842+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:12:48.817708+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:12:46+08:00] Parallel cycle completed
+[2026-08-16T16:13:03+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:13:06.106498+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.68m memory=8.47Mi restarts=0
+AMF      ready=1/1 cpu=41.85m memory=22.16Mi restarts=0
+AUSF     ready=1/1 cpu=39.22m memory=17.35Mi restarts=0
+UDM      ready=1/1 cpu=41.63m memory=12.45Mi restarts=0
+UDR      ready=1/1 cpu=43.58m memory=10.70Mi restarts=0
+PCF      ready=1/1 cpu=42.55m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=105.99m memory=303.76Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:13:06.106498+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:13:06.258485+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:13:03+08:00] Parallel cycle completed
+[2026-08-16T16:13:21+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:13:23.630825+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=1.55m memory=8.53Mi restarts=0
+AMF      ready=1/1 cpu=36.56m memory=22.15Mi restarts=0
+AUSF     ready=1/1 cpu=40.95m memory=17.36Mi restarts=0
+UDM      ready=1/1 cpu=40.39m memory=12.45Mi restarts=0
+UDR      ready=1/1 cpu=38.04m memory=10.66Mi restarts=0
+PCF      ready=1/1 cpu=39.67m memory=10.35Mi restarts=0
+MONGODB  ready=1/1 cpu=126.07m memory=307.83Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:13:23.630825+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:13:23.790400+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:13:21+08:00] Parallel cycle completed
+[2026-08-16T16:13:38+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:13:41.051608+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.38m memory=8.54Mi restarts=0
+AMF      ready=1/1 cpu=39.97m memory=22.15Mi restarts=0
+AUSF     ready=1/1 cpu=41.39m memory=17.36Mi restarts=0
+UDM      ready=1/1 cpu=40.39m memory=12.45Mi restarts=0
+UDR      ready=1/1 cpu=45.78m memory=10.66Mi restarts=0
+PCF      ready=1/1 cpu=43.53m memory=10.36Mi restarts=0
+MONGODB  ready=1/1 cpu=148.06m memory=303.76Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:13:41.051608+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:13:41.193458+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:13:38+08:00] Parallel cycle completed
+[2026-08-16T16:13:56+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:13:58.609358+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.65m memory=8.58Mi restarts=0
+AMF      ready=1/1 cpu=41.10m memory=22.14Mi restarts=0
+AUSF     ready=1/1 cpu=37.03m memory=17.35Mi restarts=0
+UDM      ready=1/1 cpu=37.32m memory=11.45Mi restarts=0
+UDR      ready=1/1 cpu=40.19m memory=10.66Mi restarts=0
+PCF      ready=1/1 cpu=44.66m memory=13.45Mi restarts=0
+MONGODB  ready=1/1 cpu=148.01m memory=303.77Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:13:58.609358+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:13:58.778867+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:13:56+08:00] Parallel cycle completed
+[2026-08-16T16:14:13+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:14:16.323009+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.79m memory=8.61Mi restarts=0
+AMF      ready=1/1 cpu=41.10m memory=22.14Mi restarts=0
+AUSF     ready=1/1 cpu=37.03m memory=17.35Mi restarts=0
+UDM      ready=1/1 cpu=40.88m memory=11.45Mi restarts=0
+UDR      ready=1/1 cpu=40.19m memory=10.66Mi restarts=0
+PCF      ready=1/1 cpu=39.58m memory=10.37Mi restarts=0
+MONGODB  ready=1/1 cpu=171.20m memory=303.77Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:14:16.323009+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:14:16.499821+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:14:13+08:00] Parallel cycle completed
+[2026-08-16T16:14:31+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:14:34.267782+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=1.00m memory=8.68Mi restarts=0
+AMF      ready=1/1 cpu=39.79m memory=22.14Mi restarts=0
+AUSF     ready=1/1 cpu=45.12m memory=17.36Mi restarts=0
+UDM      ready=1/1 cpu=40.88m memory=11.45Mi restarts=0
+UDR      ready=1/1 cpu=42.51m memory=10.66Mi restarts=0
+PCF      ready=1/1 cpu=45.80m memory=10.37Mi restarts=0
+MONGODB  ready=1/1 cpu=119.93m memory=303.77Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:14:34.267782+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:14:34.422218+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:14:31+08:00] Parallel cycle completed
+[2026-08-16T16:14:49+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:14:51.734824+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.59m memory=8.76Mi restarts=0
+AMF      ready=1/1 cpu=36.62m memory=22.15Mi restarts=0
+AUSF     ready=1/1 cpu=37.49m memory=17.36Mi restarts=0
+UDM      ready=1/1 cpu=41.08m memory=11.45Mi restarts=0
+UDR      ready=1/1 cpu=41.34m memory=10.55Mi restarts=0
+PCF      ready=1/1 cpu=39.61m memory=9.99Mi restarts=0
+MONGODB  ready=1/1 cpu=166.71m memory=303.77Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:14:51.734824+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:14:51.903729+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:14:49+08:00] Parallel cycle completed
+[2026-08-16T16:15:06+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:15:09.631775+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=1.43m memory=8.68Mi restarts=0
+AMF      ready=1/1 cpu=40.76m memory=22.15Mi restarts=0
+AUSF     ready=1/1 cpu=40.99m memory=17.36Mi restarts=0
+UDM      ready=1/1 cpu=40.07m memory=11.45Mi restarts=0
+UDR      ready=1/1 cpu=43.13m memory=10.55Mi restarts=0
+PCF      ready=1/1 cpu=40.61m memory=9.99Mi restarts=0
+MONGODB  ready=1/1 cpu=82.50m memory=303.77Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:15:09.631775+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:15:09.822007+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:15:06+08:00] Parallel cycle completed
+[2026-08-16T16:15:24+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:15:27.359092+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.74m memory=8.68Mi restarts=0
+AMF      ready=1/1 cpu=42.60m memory=22.15Mi restarts=0
+AUSF     ready=1/1 cpu=43.48m memory=17.36Mi restarts=0
+UDM      ready=1/1 cpu=42.16m memory=11.45Mi restarts=0
+UDR      ready=1/1 cpu=44.20m memory=12.57Mi restarts=0
+PCF      ready=1/1 cpu=42.10m memory=9.99Mi restarts=0
+MONGODB  ready=1/1 cpu=150.71m memory=303.77Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:15:27.359092+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:15:27.512846+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:15:24+08:00] Parallel cycle completed
+[2026-08-16T16:15:42+08:00] Starting parallel cycle
+DA-SACO Monitoring Adapter: READ-ONLY
+Press Ctrl+C after three snapshots.
+
+========================================================================
+DA-SACO READ-ONLY: 2026-08-16T08:15:44.894994+00:00
+Admission: OPEN
+------------------------------------------------------------------------
+OPEN5GLOS ready=1/1 cpu=0.87m memory=8.68Mi restarts=0
+AMF      ready=1/1 cpu=43.17m memory=22.14Mi restarts=0
+AUSF     ready=1/1 cpu=43.48m memory=17.36Mi restarts=0
+UDM      ready=1/1 cpu=40.68m memory=11.45Mi restarts=0
+UDR      ready=1/1 cpu=44.55m memory=10.55Mi restarts=0
+PCF      ready=1/1 cpu=46.46m memory=11.97Mi restarts=0
+MONGODB  ready=1/1 cpu=161.37m memory=303.77Mi restarts=1
+{
+  "timestamp": "2026-08-16T08:15:44.894994+00:00",
+  "mode": "READ_ONLY",
+  "evidence_window": 2,
+  "decision": {
+    "state": "NORMAL",
+    "pressure_functions": [],
+    "scale_candidates": [],
+    "protection_candidates": [],
+    "recommended_action": "HOLD",
+    "persistent": true
+  }
+}
+{
+  "timestamp": "2026-08-16T08:15:45.070908+00:00",
+  "mode": "ACTIVE",
+  "action": "HOLD",
+  "candidates": [],
+  "blocked": [],
+  "protection_candidates": [],
+  "executed": false
+}
+[2026-08-16T16:15:42+08:00] Parallel cycle completed
+[2026-08-16T16:16:00+08:00] Starting parallel cycle
+Fatal Python error: init_import_site: Failed to import the site module
+Python runtime state: initialized
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site.py", line 81, in <module>
+    import _sitebuiltins
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 945, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1439, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1411, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1577, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 161, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 153, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
+[2026-08-16T16:16:00+08:00] Monitoring failed

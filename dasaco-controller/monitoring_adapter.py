@@ -135,6 +135,7 @@ def read_function(name, settings, metrics):
     ready_pods = 0
     restarts = 0
     pod_names = []
+    pod_metrics = {}
 
     for pod in pods.get("items", []):
         pod_name = pod["metadata"]["name"]
@@ -157,8 +158,16 @@ def read_function(name, settings, metrics):
         )
 
         usage = metrics.get(pod_name, {})
-        cpu += usage.get("cpu_m", 0)
-        memory += usage.get("memory_mib", 0)
+        pod_cpu = usage.get("cpu_m", 0)
+        pod_memory = usage.get("memory_mib", 0)
+
+        cpu += pod_cpu
+        memory += pod_memory
+
+        pod_metrics[pod_name] = {
+            "cpu_m": round(pod_cpu, 2),
+            "memory_mib": round(pod_memory, 2),
+        }
 
     status = workload.get("status", {})
     spec = workload.get("spec", {})
@@ -173,8 +182,23 @@ def read_function(name, settings, metrics):
         ),
         "cpu_m": round(cpu, 2),
         "memory_mib": round(memory, 2),
+        "average_pod_cpu_m": round(
+            cpu / max(len(pod_metrics), 1),
+            2,
+        ),
+        "max_pod_cpu_m": round(
+            max(
+                (
+                    item["cpu_m"]
+                    for item in pod_metrics.values()
+                ),
+                default=0,
+            ),
+            2,
+        ),
         "restarts": restarts,
         "pods": pod_names,
+        "pod_metrics": pod_metrics,
     }
 
 
@@ -225,7 +249,9 @@ def display(snapshot):
         print(
             f"{name.upper():8} "
             f"ready={data['ready']}/{data['desired']} "
-            f"cpu={data['cpu_m']:.2f}m "
+            f"cpu_total={data['cpu_m']:.2f}m "
+            f"cpu_avg={data['average_pod_cpu_m']:.2f}m "
+            f"cpu_max={data['max_pod_cpu_m']:.2f}m "
             f"memory={data['memory_mib']:.2f}Mi "
             f"restarts={data['restarts']}"
         )
