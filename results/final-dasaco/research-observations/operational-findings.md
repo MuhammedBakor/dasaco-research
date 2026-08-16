@@ -204,3 +204,40 @@ Research implication:
 MongoDB is treated as a constrained stateful dependency in this
 testbed. DA-SACO protects it using temporary admission control rather
 than unsafe generic horizontal scaling.
+
+## Dependency-Ordered Recovery Validation
+
+After Open5GLoS completed guarded recovery from five replicas to one,
+a registration test initially experienced AUSF and PCF request
+timeouts despite all network functions being Kubernetes Ready and
+registered in NRF.
+
+Operational recovery was performed from the deepest registration-path
+dependency toward the ingress:
+
+1. UDR
+2. UDM
+3. AUSF
+4. PCF
+5. AMF
+6. Open5GLoS
+
+After dependency-ordered recovery:
+
+- Every required NF was Kubernetes Ready.
+- AMF, AUSF, UDM, UDR, and PCF were registered in NRF.
+- Open5GLoS discovered the new AMF identity.
+- One UE completed registration successfully.
+- A subsequent 10-UE wave achieved:
+  - Registration Accepts: 10
+  - Configuration Update Completes: 10
+  - Registration Rejects: 0
+- Open5GLoS returned to zero active gNB connections.
+
+Research implication:
+
+`Kubernetes Ready + NRF Registered != dependency-path responsiveness`
+
+Recovery ordering is therefore part of DA-SACO correctness. Admission
+must not return to OPEN until dependency-ordered recovery and an
+end-to-end registration probe both succeed.
