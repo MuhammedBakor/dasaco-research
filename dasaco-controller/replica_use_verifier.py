@@ -103,6 +103,24 @@ def traffic_evidence(name, pod, since="5m"):
     }
 
 
+def running_function_pods(name):
+    labels = {
+        "open5glos": "nf=open5glos",
+        "amf": "nf=amf",
+        "ausf": "nf=ausf",
+        "udm": "nf=udm",
+        "udr": "nf=udr",
+        "pcf": "nf=pcf",
+    }
+
+    if name not in labels:
+        raise RuntimeError(
+            f"Unsupported traffic-use function: {name}"
+        )
+
+    return base.running_pods(labels[name])
+
+
 def verify_new_pods(name, pods, since="5m"):
     evidence = [
         traffic_evidence(

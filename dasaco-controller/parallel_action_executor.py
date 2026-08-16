@@ -5,6 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 
 import action_executor as base
+import replica_use_verifier as replica_use
 
 MAX_PARALLEL_ACTIONS = 6
 
@@ -254,6 +255,9 @@ def build_parallel_plan(decision):
             "function": name,
             "original_replicas": current,
             "target_replicas": current + 1,
+            "original_pods": sorted(
+                replica_use.running_function_pods(name)
+            ),
         })
 
     return {
@@ -401,6 +405,78 @@ def execute_parallel_plan(plan):
             "functions": sorted(verified),
             "admission": admission,
         })
+
+        # Allow the active workload to reach the new replicas.
+        base.time.sleep(20)
+
+        traffic_use = {}
+
+        candidates_by_name = {
+            item["function"]: item
+            for item in candidates
+        }
+
+        for name in sorted(verified):
+            candidate = candidates_by_name[name]
+
+            current_pods = (
+                replica_use.running_function_pods(name)
+            )
+            original_pods = set(
+                candidate.get("original_pods", [])
+            )
+            new_pods = set(current_pods) - original_pods
+
+            evidence = replica_use.verify_new_pods(
+                name,
+                new_pods,
+                since="3m",
+            )
+
+            traffic_use[name] = evidence
+
+            use_phase = evidence["status"]
+
+            state["actions"][name][
+                "traffic_use_phase"
+            ] = use_phase
+            state["actions"][name][
+                "traffic_use"
+            ] = evidence
+
+            base.append_action_event({
+                "timestamp": timestamp(),
+                "phase": use_phase,
+                "target_function": name,
+                "new_pods": sorted(new_pods),
+                "traffic_use": evidence,
+            })
+
+        state["traffic_use"] = traffic_use
+        state["idle_capacity_functions"] = sorted([
+            name
+            for name, evidence in traffic_use.items()
+            if not evidence[
+                "all_new_replicas_used"
+            ]
+        ])
+        state["use_verified_functions"] = sorted([
+            name
+            for name, evidence in traffic_use.items()
+            if evidence[
+                "all_new_replicas_used"
+            ]
+        ])
+
+        base.write_state(state)
+
+        plan["traffic_use"] = traffic_use
+        plan["idle_capacity_functions"] = state[
+            "idle_capacity_functions"
+        ]
+        plan["use_verified_functions"] = state[
+            "use_verified_functions"
+        ]
 
     return plan
 
