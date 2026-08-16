@@ -396,3 +396,36 @@ for bottleneck diagnosis.
 Until CPU normalization and traffic-use verification are implemented,
 this run is classified as an exploratory automatic-control run rather
 than a final comparative result.
+
+## Automatic Parallel Run 2: Idle Capacity and In-Wave Recovery
+
+Run 2 produced:
+
+- UEs started: 100
+- Registration Accepts: 44
+- Configuration Update Completes: 12
+- Registration Rejects: 13
+- AMF Status Indications: 1
+
+AMF, UDM, and UDR scaled automatically from one to two replicas, but
+the newly created replicas received no observable traffic during the
+traffic-use verification window.
+
+The controller subsequently initiated recovery while the original gNB
+association and UE procedures were still active. AMF recovery produced
+an AMF Status Indication and registration disruption.
+
+Research implications:
+
+- Ready capacity created late in a short registration wave may remain
+  unused.
+- A new AMF replica requires a new gNB association or subsequent traffic
+  wave to demonstrate useful capacity.
+- Recovery must not remove AMF capacity while active UE procedures or
+  dependent gNB associations remain.
+- Traffic-use verification should use a post-readiness workload wave.
+- AMF Pod-count verification must wait for terminating Pods to disappear
+  before declaring recovery failure.
+
+Run 2 is classified as a diagnostic run and is excluded from final
+comparative statistics.

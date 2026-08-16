@@ -532,11 +532,25 @@ def recover_one(name, action):
                         "readiness timeout"
                     )
 
-                running = base.running_amf_pods()
+                deadline = (
+                    base.time.monotonic()
+                    + base.AMF_READY_TIMEOUT_SECONDS
+                )
+                running = set()
 
-                if len(running) != target:
+                while base.time.monotonic() < deadline:
+                    running = base.running_amf_pods()
+
+                    if len(running) == target:
+                        break
+
+                    base.time.sleep(
+                        base.POLL_INTERVAL_SECONDS
+                    )
+                else:
                     raise RuntimeError(
-                        "AMF running Pod count mismatch"
+                        "AMF running Pod count "
+                        "stabilization timeout"
                     )
 
                 if not (
