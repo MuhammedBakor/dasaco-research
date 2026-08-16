@@ -1,0 +1,41 @@
+DA-SACO Final Three-Repetition Summary
+
+Repetition 1: clean-dasaco-20260816-202519
+  Started: 100
+  Accept events: 100
+  Completed UEs: 100
+  Reject events: 0
+  Completion rate: 100.00%
+  AMF Status Indications: 0
+  Unknown RAN UE errors: 0
+
+Repetition 2: clean-dasaco-20260816-203351
+  Started: 100
+  Accept events: 100
+  Completed UEs: 99
+  Reject events: 2
+  Completion rate: 99.00%
+  AMF Status Indications: 0
+  Unknown RAN UE errors: 0
+
+Repetition 3: clean-dasaco-20260816-204156
+  Started: 100
+  Accept events: 102
+  Completed UEs: 98
+  Reject events: 4
+  Completion rate: 98.00%
+  AMF Status Indications: 0
+  Unknown RAN UE errors: 0
+
+Aggregate:
+  Total planned UEs: 300
+  Total completed UEs: 297
+  Mean completion rate: 99.00%
+  Sample standard deviation: 1.00 percentage points
+  Minimum completion rate: 98.00%
+  Maximum completion rate: 100.00%
+  Total reject events: 6
+  Total AMF Status Indications: 0
+  Total Unknown RAN UE errors: 0
+  Valid repetitions: 3
+  Infrastructure-invalid repetitions: 0

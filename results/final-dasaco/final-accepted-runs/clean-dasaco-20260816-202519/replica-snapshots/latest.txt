@@ -1,0 +1,6 @@
+amf         free5gc-free5gc-amf-amf-7c586cbf7f-nchmz     Running   true
+ausf        free5gc-free5gc-ausf-ausf-5f7657687b-g7d6n   Running   true
+pcf         free5gc-free5gc-pcf-pcf-6b6cbb7f8b-jjkch     Running   true
+udm         free5gc-free5gc-udm-udm-8665bdb57-sx6q4      Running   true
+udr         free5gc-free5gc-udr-udr-645b75cb55-jprxs     Running   true
+open5glos   open5glos-bcbdf44cc-6bwc5                    Running   true

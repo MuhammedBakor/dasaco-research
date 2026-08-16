@@ -1,0 +1,17 @@
+Run ID: clean-dasaco-20260816-202519
+Started=100
+Accepts=100
+Completes=100
+Rejects=0
+AMF_Status=0
+accept_events=100
+complete_events=100
+unknown_ran_ue_errors=0
+qualification=VALID_RUN
+qualification_reason=experiment-completed
+infrastructure_failure=false
+full_completion=true
+perfect_service=true
+final_repetition=1
+final_acceptance=true
+external_failure=false

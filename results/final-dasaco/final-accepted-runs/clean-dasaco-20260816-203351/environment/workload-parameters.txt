@@ -1,0 +1,7 @@
+workload_ues=100
+inter_arrival_ms=50
+pdu_sessions=0
+timeout_seconds=240
+subscriber_first=imsi-208930000018001
+subscriber_last=imsi-208930000018100
+namespace=free5gc

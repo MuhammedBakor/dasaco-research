@@ -1,0 +1,15 @@
+NAME                                                  READY   STATUS    RESTARTS       AGE    IP             NODE                   NOMINATED NODE   READINESS GATES
+dbpython-free5gc-dbpython-dbpython-7fb488c7fc-8vt7q   1/1     Running   1 (3d1h ago)   5d5h   10.244.0.13    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-amf-amf-56bf898b9d-7v52x              1/1     Running   0              69s    10.244.0.139   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-ausf-ausf-57f9c76db7-h6qfd            1/1     Running   0              68s    10.244.0.140   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-chf-chf-6f777c7ff8-8mxhq              1/1     Running   1 (3d1h ago)   5d6h   10.244.0.7     dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nef-nef-759f694c89-jh7pd              1/1     Running   1 (3d1h ago)   5d6h   10.244.0.10    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nrf-nrf-6c775d444-phh9f               1/1     Running   1 (8h ago)     32h    10.244.0.94    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-nssf-nssf-7f7767dd45-tvbcj            1/1     Running   1 (3d1h ago)   5d6h   10.244.0.11    dasaco-control-plane   <none>           <none>
+free5gc-free5gc-pcf-pcf-7f65b49fc-wgl7v               1/1     Running   0              68s    10.244.0.143   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-smf-smf-7d94c978bf-bzj5s              1/1     Running   1 (3d1h ago)   5d6h   10.244.0.6     dasaco-control-plane   <none>           <none>
+free5gc-free5gc-udm-udm-5fdd6cfb9-jm5bb               1/1     Running   0              68s    10.244.0.141   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-udr-udr-5f7bc847d7-mr42p              1/1     Running   0              68s    10.244.0.142   dasaco-control-plane   <none>           <none>
+free5gc-free5gc-webui-webui-6785478d49-lwtrb          1/1     Running   4 (8h ago)     5d6h   10.244.0.12    dasaco-control-plane   <none>           <none>
+mongodb-0                                             1/1     Running   1 (3d1h ago)   5d6h   10.244.0.4     dasaco-control-plane   <none>           <none>
+open5glos-84bcd97c98-dtc9l                            1/1     Running   0              69s    10.244.0.138   dasaco-control-plane   <none>           <none>

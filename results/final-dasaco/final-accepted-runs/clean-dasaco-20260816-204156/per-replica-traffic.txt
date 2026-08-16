@@ -1,0 +1,9 @@
+DA-SACO Per-Replica Traffic Summary
+
+amf | free5gc-free5gc-amf-amf-85d9ffb9c6-7h9rx | role=new | unique_ues=0 | admitted=0 | request_events=0 | used=false | source=controller-capacity-idle
+amf | free5gc-free5gc-amf-amf-85d9ffb9c6-qvgxs | role=original | unique_ues=98 | admitted=0 | request_events=901 | used=true | source=unique-identifiers-in-pod-log
+ausf | free5gc-free5gc-ausf-ausf-54c5798bd9-kjrdc | role=original | unique_ues=98 | admitted=0 | request_events=196 | used=true | source=unique-identifiers-in-pod-log
+open5glos | open5glos-b75498bb4-hkqrl | role=original | unique_ues=0 | admitted=100 | request_events=0 | used=true | source=runtime-admission-counter
+pcf | free5gc-free5gc-pcf-pcf-5699db94cc-vhxt6 | role=original | unique_ues=0 | admitted=0 | request_events=196 | used=true | source=request-events-in-pod-log
+udm | free5gc-free5gc-udm-udm-7fc7856685-qgwwg | role=original | unique_ues=98 | admitted=0 | request_events=882 | used=true | source=unique-identifiers-in-pod-log
+udr | free5gc-free5gc-udr-udr-58755768c-nfw5h | role=original | unique_ues=98 | admitted=0 | request_events=980 | used=true | source=unique-identifiers-in-pod-log

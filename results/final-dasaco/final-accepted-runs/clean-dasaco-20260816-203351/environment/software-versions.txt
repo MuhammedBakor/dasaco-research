@@ -1,0 +1,14 @@
+=== Python ===
+Python 3.10.12
+
+=== Python packages ===
+
+=== Git ===
+git version 2.34.1
+
+=== Helm ===
+version.BuildInfo{Version:"v3.21.3", GitCommit:"1ad6e68924fdf6fb0c7dcef8e9e1dfc0f36eaed6", GitTreeState:"clean", GoVersion:"go1.26.5"}
+
+=== Container runtime ===
+Docker version 29.7.2, build a7dcaa6
+containerd containerd v2.3.3 aad11006b869517fcd3009450b6f82da282e1a9b

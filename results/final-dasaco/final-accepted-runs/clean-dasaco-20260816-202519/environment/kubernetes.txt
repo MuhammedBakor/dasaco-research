@@ -1,0 +1,105 @@
+=== kubectl client ===
+Client Version: v1.36.0
+Kustomize Version: v5.8.1
+
+=== Kubernetes server ===
+Client Version: v1.36.0
+Kustomize Version: v5.8.1
+Server Version: v1.36.1
+
+=== Nodes ===
+NAME                   STATUS   ROLES           AGE    VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                       KERNEL-VERSION              CONTAINER-RUNTIME
+dasaco-control-plane   Ready    control-plane   5d6h   v1.36.1   172.18.0.2    <none>        Debian GNU/Linux 13 (trixie)   6.8.0-136-generic (amd64)   containerd://2.3.1
+
+=== Node details ===
+Name:               dasaco-control-plane
+Roles:              control-plane
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=dasaco-control-plane
+                    kubernetes.io/os=linux
+                    node-role.kubernetes.io/control-plane=
+Annotations:        node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Tue, 11 Aug 2026 14:13:22 +0800
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  dasaco-control-plane
+  AcquireTime:     <unset>
+  RenewTime:       Sun, 16 Aug 2026 20:26:22 +0800
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Sun, 16 Aug 2026 20:23:45 +0800   Tue, 11 Aug 2026 14:13:21 +0800   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Sun, 16 Aug 2026 20:23:45 +0800   Tue, 11 Aug 2026 14:13:21 +0800   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Sun, 16 Aug 2026 20:23:45 +0800   Tue, 11 Aug 2026 14:13:21 +0800   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Sun, 16 Aug 2026 20:23:45 +0800   Sat, 15 Aug 2026 11:25:18 +0800   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  172.18.0.2
+  Hostname:    dasaco-control-plane
+Capacity:
+  cpu:                6
+  ephemeral-storage:  102106072Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             10711528Ki
+  pods:               110
+Allocatable:
+  cpu:                6
+  ephemeral-storage:  102106072Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             10711528Ki
+  pods:               110
+System Info:
+  Machine ID:                 147287732bd44482b54527c4fdd632c8
+  System UUID:                ed7d3f73-8a94-4d28-9587-e552d453d17b
+  Boot ID:                    98555f49-0665-4e61-adcc-582cc83d249e
+  Kernel Version:             6.8.0-136-generic
+  OS Image:                   Debian GNU/Linux 13 (trixie)
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://2.3.1
+  Kubelet Version:            v1.36.1
+PodCIDR:                      10.244.0.0/24
+PodCIDRs:                     10.244.0.0/24
+ProviderID:                   kind://docker/dasaco/dasaco-control-plane
+Non-terminated Pods:          (24 in total)
+  Namespace                   Name                                                   CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                                   ------------  ----------  ---------------  -------------  ---
+  free5gc                     dbpython-free5gc-dbpython-dbpython-7fb488c7fc-8vt7q    100m (1%)     100m (1%)   128Mi (1%)       128Mi (1%)     5d5h
+  free5gc                     free5gc-free5gc-amf-amf-7c586cbf7f-nchmz               100m (1%)     500m (8%)   128Mi (1%)       512Mi (4%)     66s
+  free5gc                     free5gc-free5gc-ausf-ausf-5f7657687b-g7d6n             100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     66s
+  free5gc                     free5gc-free5gc-chf-chf-6f777c7ff8-8mxhq               100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     5d5h
+  free5gc                     free5gc-free5gc-nef-nef-759f694c89-jh7pd               100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     5d5h
+  free5gc                     free5gc-free5gc-nrf-nrf-6c775d444-phh9f                100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     31h
+  free5gc                     free5gc-free5gc-nssf-nssf-7f7767dd45-tvbcj             100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     5d5h
+  free5gc                     free5gc-free5gc-pcf-pcf-6b6cbb7f8b-jjkch               100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     65s
+  free5gc                     free5gc-free5gc-smf-smf-7d94c978bf-bzj5s               100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     5d5h
+  free5gc                     free5gc-free5gc-udm-udm-8665bdb57-sx6q4                100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     66s
+  free5gc                     free5gc-free5gc-udr-udr-645b75cb55-jprxs               100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     65s
+  free5gc                     free5gc-free5gc-webui-webui-6785478d49-lwtrb           100m (1%)     200m (3%)   128Mi (1%)       256Mi (2%)     5d5h
+  free5gc                     mongodb-0                                              500m (8%)     750m (12%)  512Mi (4%)       768Mi (7%)     5d5h
+  free5gc                     open5glos-bcbdf44cc-6bwc5                              100m (1%)     500m (8%)   128Mi (1%)       512Mi (4%)     67s
+  kube-system                 coredns-589f44dc88-8qnb2                               100m (1%)     0 (0%)      70Mi (0%)        170Mi (1%)     5d6h
+  kube-system                 coredns-589f44dc88-h42k2                               100m (1%)     0 (0%)      70Mi (0%)        170Mi (1%)     5d6h
+  kube-system                 etcd-dasaco-control-plane                              100m (1%)     0 (0%)      100Mi (0%)       0 (0%)         5d6h
+  kube-system                 kindnet-p9gcz                                          100m (1%)     100m (1%)   50Mi (0%)        50Mi (0%)      5d6h
+  kube-system                 kube-apiserver-dasaco-control-plane                    250m (4%)     0 (0%)      0 (0%)           0 (0%)         5d6h
+  kube-system                 kube-controller-manager-dasaco-control-plane           200m (3%)     0 (0%)      0 (0%)           0 (0%)         5d6h
+  kube-system                 kube-proxy-qb74h                                       0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d6h
+  kube-system                 kube-scheduler-dasaco-control-plane                    100m (1%)     0 (0%)      0 (0%)           0 (0%)         5d6h
+  kube-system                 metrics-server-5b58578978-hhlzd                        100m (1%)     0 (0%)      200Mi (1%)       0 (0%)         5d5h
+  local-path-storage          local-path-provisioner-855c7b7774-8d7zm                0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d6h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests      Limits
+  --------           --------      ------
+  cpu                2850m (47%)   3950m (65%)
+  memory             2666Mi (25%)  4870Mi (46%)
+  ephemeral-storage  50Mi (0%)     1Gi (1%)
+  hugepages-1Gi      0 (0%)        0 (0%)
+  hugepages-2Mi      0 (0%)        0 (0%)
+Events:              <none>

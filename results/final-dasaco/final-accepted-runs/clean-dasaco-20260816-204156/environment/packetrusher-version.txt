@@ -1,0 +1,65 @@
+=== PacketRusher executable information ===
+/home/moba/dasaco-research/packetrusher/repo/packetrusher: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=a26a8821a021c2e3cd362e6f3a2a177996ee71b8, with debug_info, not stripped
+3f5b7adbd9428d5882c45995c1644f0aa73d7489f40edaa6caa37b69289d421b  /home/moba/dasaco-research/packetrusher/repo/packetrusher
+Incorrect Usage: flag provided but not defined: -version
+
+NAME:
+   packetrusher - A new cli application
+
+USAGE:
+   packetrusher [global options] command [command options]
+
+COMMANDS:
+   ue                                          Launch a gNB and a UE with a PDU Session
+                                               For more complex scenario and features, use instead packetrusher multi-ue
+
+   gnb                                         Launch only a gNB
+   multi-ue-pdu, multi-ue                      
+                                               Load endurance stress tests.
+                                               Example for testing multiple UEs: multi-ue -n 5 
+                                               This test case will launch N UEs. See packetrusher multi-ue --help
+
+   custom-scenario, c                          
+   amf-load-loop                               
+                                               Test AMF responses in interval
+                                               Example for generating 20 requests to AMF per second in interval of 20 seconds: amf-load-loop -n 20 -t 20
+
+   Test availability of AMF, amf-availability  
+                                               Test availability of AMF in interval
+                                               Test availability of AMF in 20 seconds: amf-availability -t 20
+
+   help, h                                     Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --config value  Configuration file path. (Default: ./config/config.yml)
+   --help, -h      show help
+time="2026-08-16T20:43:03+08:00" level=fatal msg="flag provided but not defined: -version"
+
+=== PacketRusher repository ===
+194ae987ee2bacfae2cf57d435b475e54076679e
+?? config/b0-run1.yml
+?? config/b0-run2.yml
+?? config/b0-run3.yml
+?? config/b1-run1.yml
+?? config/b1-run2.yml
+?? config/b1-run3.yml
+?? config/b2-run1.yml
+?? config/b2-run2.yml
+?? config/b2-run3.yml
+?? config/b3-run1.yml
+?? config/b3-run2.yml
+?? config/b3-run3.yml
+?? config/config-b3-admission-100.yml
+?? config/config-open5glos-100.yml
+?? config/config-open5glos-fresh.yml
+?? config/config-open5glos-test.yml
+?? config/config-registration-100-fresh.yml
+?? config/config-registration-100-hpa.yml
+?? config/config-registration-75.yml
+?? config/config-registration.yml
+?? config/dasaco-p1.yml
+?? config/dasaco-p2.yml
+?? config/dasaco-p3.yml
+?? config/dasaco-p4.yml
+?? config/dasaco-p5.yml
+?? config/strong-run1.yml

@@ -1,0 +1,6 @@
+captured_at_utc=2026-08-16T12:26:25Z
+hostname=moba-vm
+kernel=Linux 6.8.0-136-generic x86_64 GNU/Linux
+architecture=x86_64
+cpu_count=6
+memory_bytes=1.09686e+10
