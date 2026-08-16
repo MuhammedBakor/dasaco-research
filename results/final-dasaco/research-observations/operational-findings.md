@@ -265,3 +265,32 @@ AUSF horizontal scaling requires request affinity or shared
 authentication-session state. DA-SACO must verify complete multi-step
 procedure continuity rather than treating successful single-request
 distribution as sufficient scaling eligibility.
+
+## Gradual Multi-Function Recovery Policy
+
+DA-SACO uses incremental recovery for every horizontally scalable
+function:
+
+5 → 4 → 3 → 2 → 1
+
+After each reduction, the controller verifies the remaining capacity
+before continuing.
+
+Verification policy:
+
+- Open5GLoS: mark one selected replica as draining, reject new gNB
+  associations on that replica, wait for active gNB connections to
+  reach zero, remove the drained replica, and verify AMF connectivity.
+- AMF: verify Kubernetes readiness, the expected running Pod count, and
+  discovery by Open5GLoS after every decrement.
+- AUSF, UDM, UDR, and PCF: verify Kubernetes readiness and the expected
+  NRF registration count after every decrement.
+- Admission returns to OPEN only after the complete dependency-ordered
+  recovery finishes successfully.
+
+Research implication:
+
+Gradual recovery avoids an abrupt capacity withdrawal while residual
+traffic from the previous registration wave may still be present. It
+also provides a verification boundary after every replica reduction,
+making recovery failures observable and limiting their scope.

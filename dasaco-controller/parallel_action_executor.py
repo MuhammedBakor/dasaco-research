@@ -408,6 +408,7 @@ def execute_parallel_plan(plan):
 
 def recover_one(name, action):
     original = action["original_replicas"]
+    transitions = []
 
     try:
         if name == "open5glos":
@@ -415,43 +416,111 @@ def recover_one(name, action):
                 base.current_open5glos_replicas()
                 > original
             ):
-                base.guarded_open5glos_scale_down()
-
-            if not base.wait_for_open5glos_ready(
-                original
-            ):
-                raise RuntimeError(
-                    "Open5GLoS recovery readiness timeout"
+                before = (
+                    base.current_open5glos_replicas()
                 )
+
+                result = (
+                    base.guarded_open5glos_scale_down()
+                )
+
+                transitions.append({
+                    "from": before,
+                    "to": result["replicas"],
+                    "removed_pod":
+                        result["removed_pod"],
+                    "verification":
+                        "DRAINED_RUNTIME_AND_AMF",
+                })
 
         elif name == "amf":
-            base.scale_amf(original)
-
-            if not base.wait_for_amf_ready(original):
-                raise RuntimeError(
-                    "AMF recovery readiness timeout"
+            while (
+                base.current_nf_replicas("amf")
+                > original
+            ):
+                before = base.current_nf_replicas(
+                    "amf"
                 )
+                target = before - 1
+
+                base.scale_amf(target)
+
+                if not base.wait_for_amf_ready(target):
+                    raise RuntimeError(
+                        "AMF gradual recovery "
+                        "readiness timeout"
+                    )
+
+                running = base.running_amf_pods()
+
+                if len(running) != target:
+                    raise RuntimeError(
+                        "AMF running Pod count mismatch"
+                    )
+
+                if not (
+                    base.wait_for_open5glos_discovery(
+                        running
+                    )
+                ):
+                    raise RuntimeError(
+                        "AMF gradual recovery "
+                        "Open5GLoS discovery timeout"
+                    )
+
+                transitions.append({
+                    "from": before,
+                    "to": target,
+                    "verification":
+                        "KUBERNETES_AND_OPEN5GLOS",
+                })
 
         else:
-            base.scale_nf(name, original)
-
-            if not base.wait_for_nf_ready(name, original):
-                raise RuntimeError(
-                    name.upper() + " recovery readiness timeout"
-                )
-
-            if not base.wait_for_nrf_registration(
-                name,
-                original,
+            while (
+                base.current_nf_replicas(name)
+                > original
             ):
-                raise RuntimeError(
-                    name.upper() + " recovery NRF timeout"
+                before = base.current_nf_replicas(
+                    name
                 )
+                target = before - 1
+
+                base.scale_nf(name, target)
+
+                if not base.wait_for_nf_ready(
+                    name,
+                    target,
+                ):
+                    raise RuntimeError(
+                        name.upper()
+                        + " gradual recovery "
+                        + "readiness timeout"
+                    )
+
+                if not (
+                    base.wait_for_nrf_registration(
+                        name,
+                        target,
+                    )
+                ):
+                    raise RuntimeError(
+                        name.upper()
+                        + " gradual recovery "
+                        + "NRF timeout"
+                    )
+
+                transitions.append({
+                    "from": before,
+                    "to": target,
+                    "verification":
+                        "KUBERNETES_AND_NRF",
+                })
 
         return {
             "function": name,
             "success": True,
             "replicas": original,
+            "transitions": transitions,
             "error": None,
         }
 
@@ -460,8 +529,10 @@ def recover_one(name, action):
             "function": name,
             "success": False,
             "replicas": original,
+            "transitions": transitions,
             "error": str(error),
         }
+
 
 
 def execute_parallel_recovery():
